@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eFootball League</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="brand"><span>eFOOTBALL LEAGUE</span></div>
+  <nav class="tabs">
+    <button data-view="table" class="active">Table</button>
+    <button data-view="fixtures">Fixtures</button>
+    <button data-view="supercup">Super Cup</button>
+    <button data-view="champions">Wall of Champions</button>
+  </nav>
+</header>
+
+<main>
+
+  <section id="view-table" class="view active">
+    <h2 class="section-title">League Table</h2>
+    <table class="standings">
+      <thead>
+        <tr>
+          <th class="pos">#</th>
+          <th class="team">Team</th>
+          <th class="num">P</th>
+          <th class="num">W</th>
+          <th class="num">D</th>
+          <th class="num">L</th>
+          <th class="num">GF</th>
+          <th class="num">GA</th>
+          <th class="num">GD</th>
+          <th class="num pts">PTS</th>
+        </tr>
+      </thead>
+      <tbody id="standings-body"></tbody>
+    </table>
+    <p style="color:var(--text-dim); font-size:13px; margin-top:10px;">Gold-highlighted rows qualify for the Super Cup.</p>
+  </section>
+
+  <section id="view-fixtures" class="view">
+    <h2 class="section-title">Fixtures &amp; Results</h2>
+    <div id="fixtures-list"></div>
+  </section>
+
+  <section id="view-supercup" class="view">
+    <h2 class="section-title">Super Cup</h2>
+    <div id="supercup-content"></div>
+  </section>
+
+  <section id="view-champions" class="view">
+    <h2 class="section-title">Wall of Champions</h2>
+    <div class="champ-columns">
+      <div>
+        <h3 style="color:var(--gold); text-transform:uppercase; font-size:16px;">League Winners</h3>
+        <ul class="champ-list" id="league-champs"></ul>
+      </div>
+      <div>
+        <h3 style="color:var(--gold); text-transform:uppercase; font-size:16px;">Super Cup Winners</h3>
+        <ul class="champ-list" id="supercup-champs"></ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="music-bar">
+  <button class="skip" id="prev-btn">⏮</button>
+  <button class="play-btn" id="play-btn">▶</button>
+  <button class="skip" id="next-btn">⏭</button>
+  <div class="track-info">
+    <div class="track-title" id="track-title">No tracks loaded</div>
+    <div class="track-artist" id="track-artist">Add mp3s to assets/audio and list them in data.js</div>
+  </div>
+  <input type="range" id="seek" value="0" min="0" max="100">
+  <audio id="audio-el"></audio>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/engine.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
