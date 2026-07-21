@@ -15,7 +15,7 @@ const TEAMS = [
 // home/away MUST match names in TEAMS exactly.
 const RESULTS = [
      { round: 1, home: "LVDXNO", away: "Notorious_bZ", homeScore: 1, awayScore: 9 },
-	 { round: 1, home: "StreetwiseFC", away: "W1ZZYUCHIHA", homeScore: 4, awayScore: 2 },
+	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
   // { round: 1, home: "Barcelona", away: "Liverpool", homeScore: null, awayScore: null },
 ];
 
