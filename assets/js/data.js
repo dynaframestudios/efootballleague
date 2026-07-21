@@ -14,7 +14,7 @@ const TEAMS = [
 // round = matchweek number (1, 2, 3...). Leave scores as null until played.
 // home/away MUST match names in TEAMS exactly.
 const RESULTS = [
-  // { round: 1, home: "Real Madrid", away: "Man City", homeScore: 2, awayScore: 1 },
+     { round: 1, home: "LVDXNO", away: "Notorious_bZ", homeScore: 9, awayScore: 1 },
   // { round: 1, home: "Barcelona", away: "Liverpool", homeScore: null, awayScore: null },
 ];
 
