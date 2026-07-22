@@ -16,7 +16,16 @@ const TEAMS = [
 const RESULTS = [
      { round: 1, home: "LVDXNO", away: "Notorious_bZ", homeScore: 1, awayScore: 9 },
 	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
-  // { round: 1, home: "Barcelona", away: "Liverpool", homeScore: null, awayScore: null },
+	 { round: 1, home: "khuseloBusquets", away: "Rommy", homeScore: 3, awayScore: 5 },
+	 { round: 1, home: "Manyora", away: "EmperorZoocci", homeScore: 3, awayScore: 5 },
+	 { round: 1, home: "carelessk3lvin", away: "swafiscents", homeScore: 3, awayScore: 0 },
+	 { round: 1, home: "Scully03", away: "Muntu19", homeScore: 3, awayScore: 0 },
+	 { round: 1, home: "Lueelo_lynx", away: "duke44", homeScore: 0, awayScore: 0 },
+	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
+	 { round: 2, home: "StreetwiseFC", away: "Scully03", homeScore: 6, awayScore: 1 },
+	 { round: 2, home: "Notorious_bZ", away: "IceyF", homeScore: 2, awayScore: 6 },
+  // { round: 2, home: "Barcelona", away: "Liverpool", homeScore: null, awayScore: null },
+  // { round: 2, home: "Barcelona", away: "Liverpool", homeScore: null, awayScore: null },
 ];
 
 // 3) SUPER CUP — filled in once top 2 from the league table are known.
