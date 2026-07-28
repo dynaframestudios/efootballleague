@@ -11,7 +11,6 @@ const TEAMS = [
 // If TEAMS.length is odd, a "BYE" is auto-added — don't add it yourself.
 
 // 2) RESULTS — add one line per match ONCE IT'S PLAYED.
-// round = matchweek number (1, 2, 3...). Leave scores as null until played.
 // home/away MUST match names in TEAMS exactly.
 const RESULTS = [
      { round: 1, home: "LVDXNO", away: "Notorious_bZ", homeScore: 1, awayScore: 9 },
@@ -38,8 +37,8 @@ const RESULTS = [
      { round: 3, home: "Scully03", away: "swafiscents", homeScore: 3, awayScore: 0 }, 
 	 { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: 3, awayScore: 2 },
 	 { round: 4, home: "StreetwiseFC", away: "Muntu19", homeScore: 4, awayScore: 3 }, 
-	// { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: 3, awayScore: 2 },
-	 //{ round: 4, home: "Lueelo_lynx", away: "W1ZZYUCHIHA", homeScore: 0, awayScore: 0 },
+	// { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: , awayScore:  },
+	 //{ round: 4, home: "Lueelo_lynx", away: "W1ZZYUCHIHA", homeScore: , awayScore:  },
      { round: 4, home: "Mapholoba", away: "LVDXNO", homeScore: 4, awayScore: 2 },
      //{ round: 4, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0 },
      { round: 4, home: "khuseloBusquets", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 2 }, 
