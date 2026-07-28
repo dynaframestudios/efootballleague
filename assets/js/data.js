@@ -13,6 +13,7 @@ const TEAMS = [
 // 2) RESULTS — add one line per match ONCE IT'S PLAYED.
 // home/away MUST match names in TEAMS exactly.
 const RESULTS = [
+     //Matchday 1
      { round: 1, home: "LVDXNO", away: "Notorious_bZ", homeScore: 1, awayScore: 9 },
 	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
 	 { round: 1, home: "khuseloBusquets", away: "Rommy", homeScore: 3, awayScore: 5 },
@@ -21,6 +22,7 @@ const RESULTS = [
 	 { round: 1, home: "Scully03", away: "Muntu19", homeScore: 3, awayScore: 0 },
 	 { round: 1, home: "Lueelo_lynx", away: "Mapholoba", homeScore: 0, awayScore: 0 },
 	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
+	 //Matchday 2
 	 { round: 2, home: "StreetwiseFC", away: "Scully03", homeScore: 6, awayScore: 1 },
 	 { round: 2, home: "Notorious_bZ", away: "IceyF", homeScore: 2, awayScore: 6 },
      { round: 2, home: "EmperorZoocci", away: "LVDXNO", homeScore: 3, awayScore: 2 },
@@ -28,22 +30,26 @@ const RESULTS = [
      { round: 2, home: "Lueelo_lynx", away: "carelessk3lvin", homeScore: 12, awayScore: 6 },
      { round: 2, home: "Mapholoba", away: "khuseloBusquets", homeScore: 0, awayScore: 3 },
      { round: 2, home: "swafiscents", away: "W1ZZYUCHIHA", homeScore: 0, awayScore: 3 },
+	 //Matchday 3
      { round: 3, home: "khuseloBusquets", away: "carelessk3lvin", homeScore: 8, awayScore: 3 },
 	 { round: 3, home: "IceyF", away: "Muntu19", homeScore: 3, awayScore: 0 },
      { round: 3, home: "Notorious_bZ", away: "EmperorZoocci", homeScore: 4, awayScore: 1 },
      { round: 3, home: "W1ZZYUCHIHA", away: "Lueelo_lynx", homeScore: 3, awayScore: 4 },
      { round: 3, home: "LVDXNO", away: "Rommy", homeScore: 0, awayScore: 0 },
      { round: 3, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0 },
-     { round: 3, home: "Scully03", away: "swafiscents", homeScore: 3, awayScore: 0 }, 
+     { round: 3, home: "Scully03", away: "swafiscents", homeScore: 3, awayScore: 0 },
+     //Matchday 3	 
 	 { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: 3, awayScore: 2 },
 	 { round: 4, home: "StreetwiseFC", away: "Muntu19", homeScore: 4, awayScore: 3 }, 
 	// { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: , awayScore:  },
 	 //{ round: 4, home: "Lueelo_lynx", away: "W1ZZYUCHIHA", homeScore: , awayScore:  },
      { round: 4, home: "Mapholoba", away: "LVDXNO", homeScore: 4, awayScore: 2 },
-     //{ round: 4, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0 },
+     //{ round: 4, home: "Manyora", away: "Mapholoba", homeScore: , awayScore:  },
      { round: 4, home: "khuseloBusquets", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 2 }, 
+	 //Matchday 5
 	 { round: 5, home: "Scully03", away: "khuseloBusquets", homeScore: 3, awayScore: 2 },
 	 { round: 5, home: "Notorious_bZ", away: "Mapholoba", homeScore: 1, awayScore: 2 }, 
+	 //Matchday 6
 	 { round: 6, home: "carelessk3lvin", away: "Notorious_bZ", homeScore: 1, awayScore: 6 }, 
 ];
 
