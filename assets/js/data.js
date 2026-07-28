@@ -31,7 +31,7 @@ const RESULTS = [
      { round: 3, home: "khuseloBusquets", away: "carelessk3lvin", homeScore: 8, awayScore: 3 },
 	 { round: 3, home: "IceyF", away: "Muntu19", homeScore: 3, awayScore: 0 },
      { round: 3, home: "Notorious_bZ", away: "EmperorZoocci", homeScore: 4, awayScore: 1 },
-     { round: 3, home: "W1ZZYUCHIHA", away: "Lueelo_lynx", homeScore: 4, awayScore: 3 },
+     { round: 3, home: "W1ZZYUCHIHA", away: "Lueelo_lynx", homeScore: 3, awayScore: 4 },
      { round: 3, home: "LVDXNO", away: "Rommy", homeScore: 0, awayScore: 0 },
      { round: 3, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0 },
      { round: 3, home: "Scully03", away: "swafiscents", homeScore: 3, awayScore: 0 }, 
