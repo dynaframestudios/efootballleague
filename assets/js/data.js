@@ -42,15 +42,19 @@ const RESULTS = [
 	 { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: 3, awayScore: 2 },
 	 { round: 4, home: "StreetwiseFC", away: "Muntu19", homeScore: 4, awayScore: 3 }, 
 	// { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: , awayScore:  },
-	 //{ round: 4, home: "Lueelo_lynx", away: "W1ZZYUCHIHA", homeScore: , awayScore:  },
+	 { round: 4, home: "EmperorZoocci", away: "IceyF", homeScore: 11, awayScore: 2 },
      { round: 4, home: "Mapholoba", away: "LVDXNO", homeScore: 4, awayScore: 2 },
-     //{ round: 4, home: "Manyora", away: "Mapholoba", homeScore: , awayScore:  },
+     { round: 4, home: "carelessk3lvin", away: "Manyora", homeScore: 2 , awayScore: 6 },
      { round: 4, home: "khuseloBusquets", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 2 }, 
 	 //Matchday 5
-	 { round: 5, home: "Scully03", away: "khuseloBusquets", homeScore: 3, awayScore: 2 },
-	 { round: 5, home: "Notorious_bZ", away: "Mapholoba", homeScore: 1, awayScore: 2 }, 
+	 { round: 5, home: "Scully03", away: "khuseloBusquets", homeScore: 2, awayScore: 5 },
+	 { round: 5, home: "Notorious_bZ", away: "Mapholoba", homeScore: 1, awayScore: 2 },
+	 { round: 5, home: "IceyF", away: "StreetwiseFC", homeScore: 3, awayScore: 10 },
 	 //Matchday 6
 	 { round: 6, home: "carelessk3lvin", away: "Notorious_bZ", homeScore: 1, awayScore: 6 }, 
+	 { round: 6, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 4, awayScore: 5 },
+	 { round: 6, home: "Mapholoba", away: "EmperorZoocci", homeScore: 3, awayScore: 2 },
+	 
 ];
 
 // 3) SUPER CUP — filled in once top 2 from the league table are known.
