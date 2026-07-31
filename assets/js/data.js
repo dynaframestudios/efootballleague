@@ -52,7 +52,7 @@ const RESULTS = [
 	 { round: 5, home: "IceyF", away: "StreetwiseFC", homeScore: 3, awayScore: 10 },
 	 //Matchday 6
 	 { round: 6, home: "carelessk3lvin", away: "Notorious_bZ", homeScore: 1, awayScore: 6 }, 
-	 { round: 6, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 4, awayScore: 5 },
+	 { round: 6, home: "W1ZZYUCHIHA", away: "LVDXNO", homeScore: 5, awayScore: 4 },
 	 { round: 6, home: "Mapholoba", away: "EmperorZoocci", homeScore: 3, awayScore: 2 },
 	 
 ];
