@@ -6,7 +6,7 @@
 const TEAMS = [
   "IceyF", "LVDXNO", "Scully03", "Manyora", "W1ZZYUCHIHA",
   "khuseloBusquets", "carelessk3lvin", "Lueelo_lynx", "Mapholoba","swafiscents",
-  "Rommy", "StreetwiseFC", "EmperorZoocci", "Muntu19", "Notorious_bZ"
+  "patient_zer0", "StreetwiseFC", "EmperorZoocci", "Muntu19", "Notorious_bZ"
 ];
 // If TEAMS.length is odd, a "BYE" is auto-added — don't add it yourself.
 
@@ -16,7 +16,7 @@ const RESULTS = [
      //Matchday 1
      { round: 1, home: "LVDXNO", away: "Notorious_bZ", homeScore: 1, awayScore: 9 },
 	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
-	 { round: 1, home: "khuseloBusquets", away: "Rommy", homeScore: 3, awayScore: 5 },
+	 { round: 1, home: "khuseloBusquets", away: "patient_zer0", homeScore: 3, awayScore: 5 },
 	 { round: 1, home: "Manyora", away: "EmperorZoocci", homeScore: 3, awayScore: 5 },
 	 { round: 1, home: "carelessk3lvin", away: "swafiscents", homeScore: 3, awayScore: 0 },
 	 { round: 1, home: "Scully03", away: "Muntu19", homeScore: 3, awayScore: 0 },
@@ -26,7 +26,7 @@ const RESULTS = [
 	 { round: 2, home: "StreetwiseFC", away: "Scully03", homeScore: 6, awayScore: 1 },
 	 { round: 2, home: "Notorious_bZ", away: "IceyF", homeScore: 2, awayScore: 6 },
      { round: 2, home: "EmperorZoocci", away: "LVDXNO", homeScore: 3, awayScore: 2 },
-     { round: 2, home: "Rommy", away: "Manyora", homeScore: 2, awayScore: 1 },
+     { round: 2, home: "patient_zer0", away: "Manyora", homeScore: 2, awayScore: 1 },
      { round: 2, home: "Lueelo_lynx", away: "carelessk3lvin", homeScore: 12, awayScore: 6 },
      { round: 2, home: "Mapholoba", away: "khuseloBusquets", homeScore: 0, awayScore: 3 },
      { round: 2, home: "swafiscents", away: "W1ZZYUCHIHA", homeScore: 0, awayScore: 3 },
@@ -35,10 +35,10 @@ const RESULTS = [
 	 { round: 3, home: "IceyF", away: "Muntu19", homeScore: 3, awayScore: 0 },
      { round: 3, home: "Notorious_bZ", away: "EmperorZoocci", homeScore: 4, awayScore: 1 },
      { round: 3, home: "W1ZZYUCHIHA", away: "Lueelo_lynx", homeScore: 3, awayScore: 4 },
-     { round: 3, home: "LVDXNO", away: "Rommy", homeScore: 0, awayScore: 0 },
+     { round: 3, home: "LVDXNO", away: "patient_zer0", homeScore: 0, awayScore: 0 },
      { round: 3, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0 },
      { round: 3, home: "Scully03", away: "swafiscents", homeScore: 3, awayScore: 0 },
-     //Matchday 3	 
+     //Matchday 4	 
 	 { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: 3, awayScore: 2 },
 	 { round: 4, home: "StreetwiseFC", away: "Muntu19", homeScore: 4, awayScore: 3 }, 
 	// { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: , awayScore:  },
@@ -54,6 +54,30 @@ const RESULTS = [
 	 { round: 6, home: "carelessk3lvin", away: "Notorious_bZ", homeScore: 1, awayScore: 6 }, 
 	 { round: 6, home: "W1ZZYUCHIHA", away: "LVDXNO", homeScore: 5, awayScore: 4 },
 	 { round: 6, home: "Mapholoba", away: "EmperorZoocci", homeScore: 3, awayScore: 2 },
+	 //Matchday 7
+	 //Matchday 8
+	 //Matchday 9
+	 //Matchday 10
+	 //Matchday 11
+	 //Matchday 12
+	 //Matchday 13
+	 //Matchday 14
+	 //Matchday 15
+	 //Matchday 16
+	 //Matchday 17
+	 //Matchday 18
+	 //Matchday 19
+	 //Matchday 20
+	 //Matchday 21
+	 //Matchday 22
+	 //Matchday 23
+	 //Matchday 24
+	 //Matchday 25
+	 //Matchday 26
+	 //Matchday 27
+	 //Matchday 28
+	 //Matchday 29
+	 //Matchday 30
 	 
 ];
 
