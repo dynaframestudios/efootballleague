@@ -66,7 +66,7 @@ if (fixturesWithResults.every(r => r.matches.length === 0)) {
 // ---------- RENDER SUPER CUP ----------
 const supercupContent = document.getElementById('supercup-content');
 if (!SUPER_CUP.active) {
-  supercupContent.innerHTML = `<div class="empty-state">The Super Cup kicks off once the top 2 finish the league season. Set SUPER_CUP.active = true in data.js when ready.</div>`;
+  supercupContent.innerHTML = `<div class="empty-state">The Super Cup kicks off once the top 2 finish the league season.</div>`;
 } else {
   let html = `
     <div class="supercup-banner">
