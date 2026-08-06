@@ -2,16 +2,20 @@
    EDIT THIS FILE EACH WEEK. That's it. Refresh index.html.
    ============================================================ */
 
-// 1) YOUR 15 TEAMS — edit names/managers as needed
+// 1) YOUR TEAMS (DIVISION 1) — edit names as needed
 const TEAMS = [
   "IceyF", "LVDXNO", "Scully03", "Manyora", "W1ZZYUCHIHA",
   "khuseloBusquets", "carelessk3lvin", "Lueelo_lynx", "Mapholoba","swafiscents",
   "Lambo", "StreetwiseFC", "EmperorZoocci", "Muntu19", "Notorious_bZ"
 ];
 // If TEAMS.length is odd, a "BYE" is auto-added — don't add it yourself.
+// Relegation zone size is calculated automatically:
+//   10-15 teams -> bottom 3 relegated
+//   16+ teams   -> bottom 4 relegated
 
 // 2) RESULTS — add one line per match ONCE IT'S PLAYED.
 // home/away MUST match names in TEAMS exactly.
+// Add "forfeit: true" on a result if the match was awarded on forfeit (no-show, disconnect, etc).
 const RESULTS = [
      //Matchday 1
      { round: 1, home: "LVDXNO", away: "Notorious_bZ", homeScore: 1, awayScore: 9 },
@@ -110,7 +114,18 @@ const RESULTS = [
 	 
 ];
 
-// 3) SUPER CUP — filled in once top 2 from the league table are known.
+// 2b) PREVIOUS STANDINGS ORDER — for the up/down/dash movement arrows.
+// Each week, BEFORE you add new results: copy the current table order (top to bottom,
+// team names only) from the site into this array. Then add the week's results above.
+// On refresh, the site compares the new table to this list to show movement.
+// Leave empty ([]) if you don't want arrows yet (they'll show "—" for everyone).
+const PREVIOUS_STANDINGS_ORDER = [
+  "Notorious_bZ","StreetwiseFC","khuseloBusquets","Manyora","Lueelo_lynx",
+  "EmperorZoocci","Mapholoba","LVDXNO","IceyF","Lambo",
+  "W1ZZYUCHIHA","carelessk3lvin","Scully03","swafiscents","Muntu19"
+];
+
+// 3) SUPER CUP — filled in once top 2 from the DIVISION 1 table are known.
 // leg: 1 or 2. Leave scores null until played.
 const SUPER_CUP = {
   active: false,           // set true once you're ready to kick off the Super Cup
@@ -129,10 +144,54 @@ const CHAMPIONS = {
   ],
   superCup: [
     // { edition: "Super Cup 1", team: "Lambo" },
+  ],
+  division2: [
+    // { season: "Div 2 Season 1", team: "SomeTeam" },
   ]
 };
 
-// 5) MUSIC PLAYER — drop mp3 files into assets/audio/ and list them here
+/* ============================================================
+   DIVISION 2
+   Same rules as Division 1: fill TEAMS2 with the new intake,
+   log results in RESULTS2 the same way as RESULTS above.
+
+   PROMOTION: #1 in Division 2 goes up automatically.
+   #2-#5 play a knockout playoff (set up in PROMOTION_PLAYOFFS
+   below) for the remaining 2 promotion spots.
+   ============================================================ */
+
+// Leave TEAMS2 empty ([]) until Division 2 is ready to launch.
+const TEAMS2 = [
+  // "NewPlayer1", "NewPlayer2", ...
+];
+
+const RESULTS2 = [
+  // { round: 1, home: "", away: "", homeScore: null, awayScore: null },
+];
+
+const PREVIOUS_STANDINGS_ORDER2 = [
+  // same idea as PREVIOUS_STANDINGS_ORDER, but for Division 2
+];
+
+// PROMOTION PLAYOFFS — once the Division 2 season ends, seed 2nd-5th place here.
+// #1 is promoted automatically and does NOT appear in this bracket.
+// Semis: seed2 vs seed5, seed3 vs seed4. Winners meet in the final for the last promotion spot.
+const PROMOTION_PLAYOFFS = {
+  active: false,
+  seed2: "",
+  seed3: "",
+  seed4: "",
+  seed5: "",
+  semis: [
+    // { leg: "SF1", home: "", away: "", homeScore: null, awayScore: null }, // seed2 vs seed5
+    // { leg: "SF2", home: "", away: "", homeScore: null, awayScore: null }, // seed3 vs seed4
+  ],
+  final: {
+    // home: "", away: "", homeScore: null, awayScore: null
+  }
+};
+
+// 5) MUSIC PLAYER — drop mp3 files into assets/audio and list them here
 const TRACKS = [
      { title: "Wash Away", artist: "Balming Tiger", src: "audio/washaway.mp3" },
      { title: "Real Love", artist: "Childish Gambino", src: "audio/reallove.mp3" },

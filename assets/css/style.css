@@ -132,6 +132,42 @@ table.standings tr.top2 td.pos { color: var(--gold); }
 table.standings tr.top2 { background: linear-gradient(90deg, rgba(212,175,55,0.06), transparent); }
 th.num, td.num { text-align: center; }
 
+/* relegation zone */
+table.standings tr.relegation-row td.pos { color: var(--loss); }
+table.standings tr.relegation-row { background: linear-gradient(90deg, rgba(227,82,79,0.08), transparent); border-left: 3px solid var(--loss); }
+
+/* division 2 promotion rows */
+table.standings tr.promo-auto td.pos { color: var(--gold); }
+table.standings tr.promo-auto { background: linear-gradient(90deg, rgba(212,175,55,0.1), transparent); }
+table.standings tr.promo-playoff td.pos { color: var(--cyan); }
+table.standings tr.promo-playoff { background: linear-gradient(90deg, rgba(41,224,224,0.06), transparent); }
+
+/* movement arrows */
+th.mv, td.mv { width: 30px; text-align: center; padding-left: 4px; padding-right: 0; }
+.mv-arrow { font-size: 11px; font-weight: 700; }
+.mv-up { color: var(--win); }
+.mv-down { color: var(--loss); }
+.mv-same { color: var(--text-dim); }
+.mv-new { color: var(--gold); font-size: 9px; letter-spacing: 0.04em; }
+
+/* table legend */
+.table-legend { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 12px; font-size: 13px; color: var(--text-dim); }
+.legend-item { display: inline-flex; align-items: center; gap: 6px; }
+.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; }
+.swatch.gold { background: var(--gold); }
+.swatch.red { background: var(--loss); }
+.swatch.cyan { background: var(--cyan); }
+
+.subsection-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: var(--cyan);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  margin: 0 0 14px;
+}
+
 /* ---------- MATCH CARDS (signature element) ---------- */
 .round-group { margin-bottom: 28px; }
 .round-label {
@@ -160,6 +196,20 @@ th.num, td.num { text-align: center; }
   gap: 10px;
 }
 .match-card.played { border-color: var(--cyan-dim); }
+.match-card.forfeit { border-color: var(--loss); }
+.forfeit-tag {
+  position: absolute;
+  top: -9px;
+  left: 14px;
+  background: var(--loss);
+  color: #1a0605;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+}
 .match-card .side { flex: 1; font-weight: 600; font-size: 14px; }
 .match-card .side.home { text-align: right; }
 .match-card .score {

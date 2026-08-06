@@ -55,6 +55,7 @@ function attachResults(fixtures, results) {
         away: m.away,
         homeScore: played ? played.homeScore : null,
         awayScore: played ? played.awayScore : null,
+        forfeit: !!(played && played.forfeit),
         played: !!(played && played.homeScore !== null && played.awayScore !== null)
       };
     })
@@ -90,4 +91,33 @@ function computeStandings(teams, fixturesWithResults) {
     y.points - x.points || y.gd - x.gd || y.gf - x.gf || x.team.localeCompare(y.team)
   );
   return arr;
+}
+
+// How many bottom-of-table spots are up for relegation.
+function getRelegationCount(teamCount) {
+  if (teamCount >= 16) return 4;
+  if (teamCount >= 10) return 3;
+  return 0;
+}
+
+// Standings + relegation flag + movement arrow ('up' | 'down' | 'same' | 'new')
+// vs. the previous week's order (an array of team names, top to bottom).
+function computeStandingsWithMeta(teams, fixturesWithResults, previousOrder) {
+  const arr = computeStandings(teams, fixturesWithResults);
+  const relCount = getRelegationCount(teams.length);
+  const hasPrev = Array.isArray(previousOrder) && previousOrder.length > 0;
+
+  return arr.map((t, i) => {
+    let movement = 'same';
+    if (hasPrev) {
+      const prevIndex = previousOrder.indexOf(t.team);
+      if (prevIndex === -1) movement = 'new';
+      else if (prevIndex > i) movement = 'up';
+      else if (prevIndex < i) movement = 'down';
+      else movement = 'same';
+    } else {
+      movement = 'none'; // no history yet, don't show an arrow
+    }
+    return { ...t, movement, relegation: relCount > 0 && i >= arr.length - relCount };
+  });
 }
