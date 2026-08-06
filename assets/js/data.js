@@ -125,10 +125,10 @@ const SUPER_CUP = {
 // 4) WALL OF CHAMPIONS — add a line every time a season/edition wraps up
 const CHAMPIONS = {
   league: [
-    // { season: "Season 1", team: "Real Madrid" },
+    // { season: "Season 1", team: "StreetwiseFC" },
   ],
   superCup: [
-    // { edition: "Super Cup 1", team: "Man City" },
+    // { edition: "Super Cup 1", team: "Lambo" },
   ]
 };
 
