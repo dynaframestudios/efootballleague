@@ -120,9 +120,9 @@ const RESULTS = [
 // On refresh, the site compares the new table to this list to show movement.
 // Leave empty ([]) if you don't want arrows yet (they'll show "—" for everyone).
 const PREVIOUS_STANDINGS_ORDER = [
-  "Notorious_bZ","StreetwiseFC","khuseloBusquets","Manyora","Lueelo_lynx",
-  "EmperorZoocci","Mapholoba","LVDXNO","IceyF","Lambo",
-  "W1ZZYUCHIHA","carelessk3lvin","Scully03","swafiscents","Muntu19"
+  "khuseloBusquets","StreetwiseFC","Mapholoba","Manyora","Lueelo_lynx", "Notorious_bZ",
+  "EmperorZoocci","W1ZZYUCHIHA","Lambo","Scully03","IceyF",
+  "LVDXNO","carelessk3lvin","swafiscents","Muntu19"
 ];
 
 // 3) SUPER CUP — filled in once top 2 from the DIVISION 1 table are known.
