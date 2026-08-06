@@ -41,7 +41,7 @@ const RESULTS = [
      //Matchday 4	 
 	 { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: 3, awayScore: 2 },
 	 { round: 4, home: "StreetwiseFC", away: "Muntu19", homeScore: 4, awayScore: 3 }, 
-	 { round: 4, home: "Lambo", away: "Notorious_bZ", homeScore: 0, awayScore: 0 },
+	 { round: 4, home: "Lambo", away: "Notorious_bZ", homeScore: 7, awayScore: 2 },
 	 { round: 4, home: "EmperorZoocci", away: "IceyF", homeScore: 11, awayScore: 2 },
      { round: 4, home: "Mapholoba", away: "LVDXNO", homeScore: 4, awayScore: 2 },
      { round: 4, home: "carelessk3lvin", away: "Manyora", homeScore: 2 , awayScore: 6 },
