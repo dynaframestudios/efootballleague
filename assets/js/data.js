@@ -105,8 +105,9 @@ const RESULTS = [
 	 //Matchday 21
 	 {round: 21, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 3 },
 	 //Matchday 22
-	 { round: 22, home: "Scully03", away: "LVDXNO", homeScore: 3, awayScore:1},
+	 { round: 22, home: "Scully03", away: "LVDXNO", homeScore: 3, awayScore:1 },
 	 //Matchday 23
+	 { round: 23, home: "IceyF", away: "Mapholoba", homeScore: 1, awayScore:7 },
 	 //Matchday 24
 	 //Matchday 25
 	 //Matchday 26
