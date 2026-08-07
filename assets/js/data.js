@@ -73,7 +73,7 @@ const RESULTS = [
 	 { round: 7, home: "EmperorZoocci", away: "carelessk3lvin", homeScore: 3, awayScore: 4 },
 	 { round: 7, home: "Lambo", away: "Mapholoba", homeScore: 0, awayScore: 13 },
 	 { round: 7, home: "StreetwiseFC", away: "Lueelo_lynx", homeScore: 4, awayScore: 1 },
-	 { round: 7, home: "", away: "", homeScore: null, awayScore: null },
+	 { round: 7, home: "LVDXNO", away: "Scully03", homeScore: 0, awayScore: 4 },
 	 { round: 7, home: "", away: "", homeScore: null, awayScore: null },
 	 //Matchday 8
 	 { round: 8, home: "Scully03", away: "Notorious_bZ", homeScore: 2, awayScore: 3 },
@@ -92,25 +92,30 @@ const RESULTS = [
 	 //Matchday 10
 	 //Matchday 11
 	 //Matchday 12
+	 { round: 12, home: "LVDXNO", away: "Lueelo_lynx", homeScore: 3, awayScore:2},
 	 //Matchday 13
 	 //Matchday 14
 	 //Matchday 15
+	 { round: 15, home: "IceyF", away: "LVDXNO", homeScore: 1, awayScore:2}, 
 	 //Matchday 16
 	 //Matchday 17
 	 //Matchday 18
 	 //Matchday 19
 	 //Matchday 20
 	 //Matchday 21
-	 {round: 21, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 1, awayScore: 0 },
+	 {round: 21, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 3 },
 	 //Matchday 22
+	 { round: 22, home: "Scully03", away: "LVDXNO", homeScore: 3, awayScore:1},
 	 //Matchday 23
 	 //Matchday 24
 	 //Matchday 25
 	 //Matchday 26
 	 //Matchday 27
+	 { round: 27, home: "Lueelo_lynx", away: "LVDXNO", homeScore: 3, awayScore:2},
 	 //Matchday 28
 	 //Matchday 29
 	 //Matchday 30
+	 { round: 30, home: "LVDXNO", away: "IceyF", homeScore: 2, awayScore:2},
 	 
 ];
 
@@ -120,9 +125,9 @@ const RESULTS = [
 // On refresh, the site compares the new table to this list to show movement.
 // Leave empty ([]) if you don't want arrows yet (they'll show "—" for everyone).
 const PREVIOUS_STANDINGS_ORDER = [
-  "khuseloBusquets","StreetwiseFC","Mapholoba","Manyora","Lueelo_lynx", "Notorious_bZ",
-  "EmperorZoocci","W1ZZYUCHIHA","Lambo","Scully03","IceyF",
-  "LVDXNO","carelessk3lvin","swafiscents","Muntu19"
+  "StreetwiseFC","khuseloBusquets","Mapholoba","Lueelo_lynx","EmperorZoocci", "Notorious_bZ",
+  "Manyora","Lambo","W1ZZYUCHIHA","IceyF","LVDXNO",
+  "Scully03","carelessk3lvin","swafiscents","Muntu19"
 ];
 
 // 3) SUPER CUP — filled in once top 2 from the DIVISION 1 table are known.
