@@ -22,9 +22,9 @@ const RESULTS = [
 	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
 	 { round: 1, home: "khuseloBusquets", away: "Lambo", homeScore: 3, awayScore: 5 },
 	 { round: 1, home: "Manyora", away: "EmperorZoocci", homeScore: 3, awayScore: 5 },
-	 { round: 1, home: "carelessk3lvin", away: "swafiscents", homeScore: 3, awayScore: 0 },
-	 { round: 1, home: "Scully03", away: "Muntu19", homeScore: 3, awayScore: 0 },
-	 { round: 1, home: "Lueelo_lynx", away: "Mapholoba", homeScore: 0, awayScore: 0 },
+	 { round: 1, home: "carelessk3lvin", away: "swafiscents", homeScore: 3, awayScore: 0, forfeit: true },
+	 { round: 1, home: "Scully03", away: "Muntu19", homeScore: 3, awayScore: 0 ,forfeit: true },
+	 { round: 1, home: "Lueelo_lynx", away: "Mapholoba", homeScore: 0, awayScore: 0, forfeit: true },
 	 { round: 1, home: "W1ZZYUCHIHA", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
 	 //Matchday 2
 	 { round: 2, home: "StreetwiseFC", away: "Scully03", homeScore: 6, awayScore: 1 },
@@ -32,16 +32,16 @@ const RESULTS = [
      { round: 2, home: "EmperorZoocci", away: "LVDXNO", homeScore: 3, awayScore: 2 },
      { round: 2, home: "Lambo", away: "Manyora", homeScore: 2, awayScore: 1 },
      { round: 2, home: "Lueelo_lynx", away: "carelessk3lvin", homeScore: 12, awayScore: 6 },
-     { round: 2, home: "Mapholoba", away: "khuseloBusquets", homeScore: 0, awayScore: 3 },
-     { round: 2, home: "swafiscents", away: "W1ZZYUCHIHA", homeScore: 0, awayScore: 3 },
+     { round: 2, home: "Mapholoba", away: "khuseloBusquets", homeScore: 0, awayScore: 3 ,forfeit: true },
+     { round: 2, home: "swafiscents", away: "W1ZZYUCHIHA", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 3
      { round: 3, home: "khuseloBusquets", away: "carelessk3lvin", homeScore: 8, awayScore: 3 },
-	 { round: 3, home: "IceyF", away: "Muntu19", homeScore: 3, awayScore: 0 },
+	 { round: 3, home: "IceyF", away: "Muntu19", homeScore: 3, awayScore: 0 ,forfeit: true },
      { round: 3, home: "Notorious_bZ", away: "EmperorZoocci", homeScore: 4, awayScore: 1 },
      { round: 3, home: "W1ZZYUCHIHA", away: "Lueelo_lynx", homeScore: 3, awayScore: 4 },
-     { round: 3, home: "LVDXNO", away: "Lambo", homeScore: 0, awayScore: 0 },
-     { round: 3, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0 },
-     { round: 3, home: "Scully03", away: "swafiscents", homeScore: 3, awayScore: 0 },
+     { round: 3, home: "LVDXNO", away: "Lambo", homeScore: 0, awayScore: 0, forfeit: true},
+     { round: 3, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0, forfeit: true },
+     { round: 3, home: "Scully03", away: "swafiscents", homeScore: 3, awayScore: 0, forfeit: true },
      //Matchday 4	 
 	 { round: 4, home: "Lueelo_lynx", away: "Scully03", homeScore: 3, awayScore: 2 },
 	 { round: 4, home: "StreetwiseFC", away: "Muntu19", homeScore: 4, awayScore: 3 }, 
@@ -56,7 +56,7 @@ const RESULTS = [
 	 { round: 5, home: "Notorious_bZ", away: "Mapholoba", homeScore: 1, awayScore: 2 },
 	 { round: 5, home: "Manyora", away: "W1ZZYUCHIHA", homeScore: 6, awayScore: 2 },
 	 { round: 5, home: "IceyF", away: "StreetwiseFC", homeScore: 3, awayScore: 10 },
-	 { round: 5, home: "Muntu19", away: "swafiscents", homeScore: 0, awayScore: 0 },
+	 { round: 5, home: "Muntu19", away: "swafiscents", homeScore: 0, awayScore: 0, forfeit: true },
 	 { round: 5, home: "EmperorZoocci", away: "Lambo", homeScore: 9, awayScore: 0 },
 	 //Matchday 6
 	 { round: 6, home: "carelessk3lvin", away: "Notorious_bZ", homeScore: 1, awayScore: 6 }, 
@@ -64,8 +64,8 @@ const RESULTS = [
 	 { round: 6, home: "Mapholoba", away: "EmperorZoocci", homeScore: 3, awayScore: 2 },
 	 { round: 6, home: "Manyora", away: "Scully03", homeScore: 5, awayScore: 2 },
 	 { round: 6, home: "Lueelo_lynx", away: "Muntu19", homeScore: 3, awayScore: 0 },
-	 { round: 6, home: "", away: "", homeScore: null, awayScore: null },
-	 { round: 6, home: "", away: "", homeScore: null, awayScore: null },
+	 { round: 6, home: "Lambo", away: "IceyF", homeScore: 0, awayScore: 0,forfeit: true  },
+	 { round: 6, home: "swafiscents", away: "StreetwiseFC", homeScore: 0, awayScore: 0, forfeit: true },
 	 
 	 //Matchday 7
 	 { round: 7, home: "Muntu19", away: "khuseloBusquets", homeScore: 1, awayScore: 5 },
@@ -168,8 +168,8 @@ const CHAMPIONS = {
 
 // Leave TEAMS2 empty ([]) until Division 2 is ready to launch.
 const TEAMS2 = [
-  "NewPlayer1", "NewPlayer2", "NewPlayer3",
-  "NewPlayer4", "NewPlayer5", "NewPlayer6", "NewPlayer7", "NewPlayer8", 
+  "Relegation1", "Relegation2", "Relegation3",
+  "Rommy", "Thee_H1MOTHY", "NewPlayer6", "NewPlayer7", "NewPlayer8", 
   "NewPlayer9", "NewPlayer10", "NewPlayer11", "NewPlayer12",
   "NewPlayer13", "NewPlayer14", "NewPlayer15"
 ];
