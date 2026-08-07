@@ -152,7 +152,7 @@ const CHAMPIONS = {
     // { edition: "Super Cup 1", team: "Lambo" },
   ],
   division2: [
-    // { season: "Div 2 Season 1", team: "SomeTeam" },
+    // { season: "Div 2 Season 1", team: "LVDXNO" },
   ]
 };
 
@@ -168,7 +168,10 @@ const CHAMPIONS = {
 
 // Leave TEAMS2 empty ([]) until Division 2 is ready to launch.
 const TEAMS2 = [
-  // "NewPlayer1", "NewPlayer2", ...
+  "NewPlayer1", "NewPlayer2", "NewPlayer3",
+  "NewPlayer4", "NewPlayer5", "NewPlayer6", "NewPlayer7", "NewPlayer8", 
+  "NewPlayer9", "NewPlayer10", "NewPlayer11", "NewPlayer12",
+  "NewPlayer13", "NewPlayer14", "NewPlayer15"
 ];
 
 const RESULTS2 = [
