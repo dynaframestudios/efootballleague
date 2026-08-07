@@ -65,7 +65,7 @@ const RESULTS = [
 	 { round: 6, home: "Manyora", away: "Scully03", homeScore: 5, awayScore: 2 },
 	 { round: 6, home: "Lueelo_lynx", away: "Muntu19", homeScore: 3, awayScore: 0 },
 	 { round: 6, home: "Lambo", away: "IceyF", homeScore: 0, awayScore: 0,forfeit: true  },
-	 { round: 6, home: "swafiscents", away: "StreetwiseFC", homeScore: 0, awayScore: 0, forfeit: true },
+	 { round: 6, home: "swafiscents", away: "StreetwiseFC", homeScore: 3, awayScore: 8, forfeit: true },
 	 
 	 //Matchday 7
 	 { round: 7, home: "Muntu19", away: "khuseloBusquets", homeScore: 1, awayScore: 5 },
