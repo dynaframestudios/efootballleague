@@ -65,7 +65,7 @@ const RESULTS = [
 	 { round: 6, home: "Manyora", away: "Scully03", homeScore: 5, awayScore: 2 },
 	 { round: 6, home: "Lueelo_lynx", away: "Muntu19", homeScore: 3, awayScore: 0 },
 	 { round: 6, home: "Lambo", away: "IceyF", homeScore: 0, awayScore: 0,forfeit: true  },
-	 { round: 6, home: "swafiscents", away: "StreetwiseFC", homeScore: 3, awayScore: 8, forfeit: true },
+	 { round: 6, home: "swafiscents", away: "StreetwiseFC", homeScore: 3, awayScore: 8},
 	 
 	 //Matchday 7
 	 { round: 7, home: "Muntu19", away: "khuseloBusquets", homeScore: 1, awayScore: 5 },
@@ -78,7 +78,7 @@ const RESULTS = [
 	 //Matchday 8
 	 { round: 8, home: "Scully03", away: "Notorious_bZ", homeScore: 2, awayScore: 3 },
 	 { round: 8, home: "Mapholoba", away: "IceyF", homeScore: 2, awayScore: 4 },
-	 { round: 8, home: "", away: "", homeScore: null, awayScore: null },
+	 { round: 8, home: "carelessk3lvin", away: "Lambo", homeScore: 1, awayScore: 9 },
 	 { round: 8, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 8, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 8, home: "", away: "", homeScore: null, awayScore: null },
@@ -94,6 +94,7 @@ const RESULTS = [
 	 //Matchday 12
 	 { round: 12, home: "LVDXNO", away: "Lueelo_lynx", homeScore: 3, awayScore:2},
 	 //Matchday 13
+	 { round: 13, home: "W1ZZYUCHIHA", away: "Scully03", homeScore: 6, awayScore: 3 },
 	 //Matchday 14
 	 //Matchday 15
 	 { round: 15, home: "IceyF", away: "LVDXNO", homeScore: 1, awayScore:2}, 
@@ -103,7 +104,8 @@ const RESULTS = [
 	 //Matchday 19
 	 //Matchday 20
 	 //Matchday 21
-	 {round: 21, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 3 },
+	 { round: 21, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 3 },
+	 { round: 21, home: "IceyF", away: "Lambo", homeScore: 1, awayScore: 2 }, 
 	 //Matchday 22
 	 { round: 22, home: "Scully03", away: "LVDXNO", homeScore: 3, awayScore:1 },
 	 //Matchday 23
@@ -114,6 +116,7 @@ const RESULTS = [
 	 //Matchday 27
 	 { round: 27, home: "Lueelo_lynx", away: "LVDXNO", homeScore: 3, awayScore:2},
 	 //Matchday 28
+	 { round: 28, home: "Scully03", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 4 },
 	 //Matchday 29
 	 //Matchday 30
 	 { round: 30, home: "LVDXNO", away: "IceyF", homeScore: 2, awayScore:2},
