@@ -85,14 +85,15 @@ const RESULTS = [
 	 { round: 8, home: "Manyora", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 //Matchday 9
 	 { round: 9, home: "IceyF", away: "Lueelo_lynx", homeScore: 5, awayScore: 2 },
-	 { round: 9, home: "", away: "", homeScore: null, awayScore: null },
-	 { round: 9, home: "", away: "", homeScore: null, awayScore: null },
+	 { round: 9, home: "Muntu19", away: "LVDXNO", homeScore: 0, awayScore: 3, forfeit: true },
+	 { round: 9, home: "Lambo", away: "W1ZZYUCHIHA", homeScore: 4, awayScore: 2 },
 	 { round: 9, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 9, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 9, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 9, home: "", away: "", homeScore: null, awayScore: null },
 	 //Matchday 10
 	 { round: 10, home: "khuseloBusquets", away: "Lueelo_lynx", homeScore: 7, awayScore: 5 },
+	 { round: 10, home: "Notorious_bZ", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
@@ -100,40 +101,63 @@ const RESULTS = [
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
 	 //Matchday 11
 	 { round: 11, home: "IceyF", away: "khuseloBusquets", homeScore: 2, awayScore: 6 },
+	 { round: 11, home: "EmperorZoocci", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 //Matchday 12
 	 { round: 12, home: "LVDXNO", away: "Lueelo_lynx", homeScore: 3, awayScore:2},
+	 { round: 12, home: "Muntu19", away: "Lambo", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 13
 	 { round: 13, home: "W1ZZYUCHIHA", away: "Scully03", homeScore: 6, awayScore: 3 },
 	 { round: 13, home: "khuseloBusquets", away: "LVDXNO", homeScore: 6, awayScore: 2 },
+	 { round: 13, home: "Mapholoba", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 //Matchday 14
+	 { round: 14, home: "Muntu19", away: "carelessk3lvin", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 15
 	 { round: 15, home: "IceyF", away: "LVDXNO", homeScore: 1, awayScore:2}, 
+	 { round: 15, home: "W1ZZYUCHIHA", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
+	 
+	 //=====Second Half of Season======
+	 
 	 //Matchday 16
+	 { round: 16, home: "Muntu19", away: "Scully03", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 17
 	 //Matchday 18
+	 { round: 18, home: "Muntu19", away: "IceyF", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 19
+	 { round: 19, home: "Muntu19", away: "StreetwiseFC", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 20
+	 { round: 20, home: "swafiscents", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 20, home: "carelessk3lvin", away: "LVDXNO", homeScore: 8, awayScore: 1 },
 	 //Matchday 21
 	 { round: 21, home: "LVDXNO", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 3 },
-	 { round: 21, home: "IceyF", away: "Lambo", homeScore: 1, awayScore: 2 }, 
+	 { round: 21, home: "IceyF", away: "Lambo", homeScore: 1, awayScore: 2 },
+	 { round: 21, home: "Muntu19", away: "Lueelo_lynx", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 22
 	 { round: 22, home: "Scully03", away: "LVDXNO", homeScore: 3, awayScore:1 },
+	 { round: 22, home: "khuseloBusquets", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 //Matchday 23
 	 { round: 23, home: "IceyF", away: "Mapholoba", homeScore: 1, awayScore:7 },
 	 { round: 23, home: "StreetwiseFC", away: "khuseloBusquets", homeScore: 5, awayScore:4 },
+	 { round: 23, home: "Muntu19", away: "Manyora", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 24
+	 { round: 24, home: "LVDXNO", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
+	 { round: 24, home: "W1ZZYUCHIHA", away: "Lambo", homeScore: 0, awayScore: 3 },
 	 //Matchday 25
+	 { round: 25, home: "Muntu19", away: "Notorious_bZ", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 25, home: "Lueelo_lynx", away: "khuseloBusquets", homeScore: 0, awayScore: 5 },
 	 //Matchday 26
+	 { round: 26, home: "Muntu19", away: "EmperorZoocci", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 26, home: "khuseloBusquets", away: "IceyF", homeScore: 9, awayScore: 1 },
 	 //Matchday 27
+	 { round: 27, home: "Lambo", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 27, home: "Lueelo_lynx", away: "LVDXNO", homeScore: 3, awayScore:2},
 	 //Matchday 28
+	 { round: 28, home: "Muntu19", away: "Mapholoba", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 28, home: "Scully03", away: "W1ZZYUCHIHA", homeScore: 3, awayScore: 4 },
 	 { round: 28, home: "LVDXNO", away: "khuseloBusquets", homeScore: 1, awayScore: 6 },
 	 //Matchday 29
+	 { round: 29, home: "carelessk3lvin", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 //Matchday 30
+	 { round: 30, home: "Muntu19", away: "W1ZZYUCHIHA", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 30, home: "LVDXNO", away: "IceyF", homeScore: 2, awayScore:2},
 	 
 ];
@@ -144,9 +168,9 @@ const RESULTS = [
 // On refresh, the site compares the new table to this list to show movement.
 // Leave empty ([]) if you don't want arrows yet (they'll show "—" for everyone).
 const PREVIOUS_STANDINGS_ORDER = [
-  "StreetwiseFC","khuseloBusquets","Mapholoba","Lueelo_lynx","EmperorZoocci", "Notorious_bZ",
-  "Manyora","Lambo","W1ZZYUCHIHA","IceyF","LVDXNO",
-  "Scully03","carelessk3lvin","swafiscents","Muntu19"
+  "khuseloBusquets","StreetwiseFC","Mapholoba","Lueelo_lynx","Lambo", "W1ZZYUCHIHA",
+  "IceyF","Manyora","EmperorZoocci","Notorious_bZ","Scully03",
+  "LVDXNO","carelessk3lvin","swafiscents","Muntu19"
 ];
 
 // 3) SUPER CUP — filled in once top 2 from the DIVISION 1 table are known.
