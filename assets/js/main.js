@@ -17,6 +17,47 @@ function movementArrow(movement) {
   return ''; // 'none' — no history yet
 }
 
+function teamInfoPanelHTML(teamName) {
+  const info = (typeof TEAM_INFO !== 'undefined') ? TEAM_INFO[teamName] : null;
+  if (!info) {
+    return `<div class="team-info-panel"><span class="none">No info on file for ${teamName} yet.</span></div>`;
+  }
+  const fields = [
+    ['Playstyle', info.playstyle],
+    ['Highest Division', info.highestDivision],
+    ['Manager', info.manager],
+    ['User', info.user],
+    ['Titles', info.titles]
+  ];
+  return `<div class="team-info-panel">${fields.map(([label, value]) => `
+    <div class="info-item">
+      <span class="label">${label}</span>
+      <span class="value">${value !== undefined && value !== '' ? value : '—'}</span>
+    </div>
+  `).join('')}</div>`;
+}
+
+// Makes team-name cells in a rendered standings table expandable to show TEAM_INFO.
+function enableTeamInfoDropdowns(tbodyEl) {
+  tbodyEl.querySelectorAll('td.team').forEach(cell => {
+    cell.addEventListener('click', () => {
+      const row = cell.closest('tr');
+      const existing = row.nextElementSibling;
+      if (existing && existing.classList.contains('team-info-row')) {
+        existing.remove();
+        return;
+      }
+      // close any other open panel in this table
+      tbodyEl.querySelectorAll('tr.team-info-row').forEach(r => r.remove());
+      const colSpan = row.children.length;
+      const infoRow = document.createElement('tr');
+      infoRow.className = 'team-info-row';
+      infoRow.innerHTML = `<td colspan="${colSpan}">${teamInfoPanelHTML(cell.textContent.trim())}</td>`;
+      row.after(infoRow);
+    });
+  });
+}
+
 function renderStandingsInto(tbodyEl, standingsMeta) {
   tbodyEl.innerHTML = '';
   standingsMeta.forEach((t, i) => {
@@ -26,7 +67,7 @@ function renderStandingsInto(tbodyEl, standingsMeta) {
     tr.innerHTML = `
       <td class="pos">${i + 1}</td>
       <td class="mv">${movementArrow(t.movement)}</td>
-      <td class="team">${t.team}</td>
+      <td class="team"><span class="team-name">${t.team}</span></td>
       <td class="num">${t.played}</td>
       <td class="num">${t.won}</td>
       <td class="num">${t.drawn}</td>
@@ -38,6 +79,7 @@ function renderStandingsInto(tbodyEl, standingsMeta) {
     `;
     tbodyEl.appendChild(tr);
   });
+  enableTeamInfoDropdowns(tbodyEl);
 }
 
 function renderFixturesInto(containerEl, fixturesWithResults, emptyMessage) {
@@ -158,7 +200,7 @@ if (!TEAMS2 || TEAMS2.length === 0) {
     tr.innerHTML = `
       <td class="pos">${i + 1}</td>
       <td class="mv">${movementArrow(t.movement)}</td>
-      <td class="team">${t.team}</td>
+      <td class="team"><span class="team-name">${t.team}</span></td>
       <td class="num">${t.played}</td>
       <td class="num">${t.won}</td>
       <td class="num">${t.drawn}</td>
@@ -170,12 +212,61 @@ if (!TEAMS2 || TEAMS2.length === 0) {
     `;
     standingsBody2.appendChild(tr);
   });
+  enableTeamInfoDropdowns(standingsBody2);
 
   renderFixturesInto(
     document.getElementById('fixtures-list-2'),
     fixturesWithResults2,
     'No Division 2 fixtures yet.'
   );
+}
+
+// ---------- CUPS (Domestic Cup + Top 4 Cup) ----------
+function renderCupRounds(containerEl, cup, emptyMessage) {
+  if (!cup || !cup.active || !cup.rounds || cup.rounds.length === 0) {
+    containerEl.innerHTML = `<div class="empty-state">${emptyMessage}</div>`;
+    return;
+  }
+  let html = cup.blurb ? `<p style="color:var(--text-dim); font-size:13px; margin-bottom:14px;">${cup.blurb}</p>` : '';
+  cup.rounds.forEach(round => {
+    html += `<div class="cup-round"><div class="cup-round-label">${round.label}</div><div class="fixture-grid">`;
+    round.matches.forEach(m => {
+      const played = m.homeScore !== null && m.homeScore !== undefined && m.awayScore !== null && m.awayScore !== undefined;
+      html += `
+        <div class="match-card${played ? ' played' : ''}">
+          <div class="side home">${m.home || 'TBD'}</div>
+          <div class="score">${played ? `${m.homeScore} - ${m.awayScore}` : 'vs'}</div>
+          <div class="side away">${m.away || 'TBD'}</div>
+        </div>
+      `;
+    });
+    html += `</div></div>`;
+  });
+  containerEl.innerHTML = html;
+}
+
+renderCupRounds(
+  document.getElementById('domesticcup-content'),
+  (typeof DOMESTIC_CUP !== 'undefined') ? DOMESTIC_CUP : null,
+  'The Domestic Cup hasn\'t kicked off yet.'
+);
+renderCupRounds(
+  document.getElementById('top4cup-content'),
+  (typeof TOP4_CUP !== 'undefined') ? TOP4_CUP : null,
+  'The Top 4 Cup kicks off once the Division 1 season ends.'
+);
+
+// ---------- REGULATIONS ----------
+const regulationsContent = document.getElementById('regulations-content');
+if (typeof REGULATIONS !== 'undefined' && REGULATIONS.length > 0) {
+  regulationsContent.innerHTML = REGULATIONS.map(sec => `
+    <div class="reg-section">
+      <h3>${sec.heading}</h3>
+      <p>${sec.body}</p>
+    </div>
+  `).join('');
+} else {
+  regulationsContent.innerHTML = `<div class="empty-state">Regulations coming soon.</div>`;
 }
 
 // ---------- PROMOTION PLAYOFFS ----------
@@ -222,6 +313,8 @@ if (!PROMOTION_PLAYOFFS.active) {
 
 // ---------- RENDER WALL OF CHAMPIONS ----------
 const leagueChampsEl = document.getElementById('league-champs');
+const domesticCupChampsEl = document.getElementById('domesticcup-champs');
+const top4CupChampsEl = document.getElementById('top4cup-champs');
 const supercupChampsEl = document.getElementById('supercup-champs');
 const division2ChampsEl = document.getElementById('division2-champs');
 
@@ -232,6 +325,26 @@ if (CHAMPIONS.league.length === 0) {
     const li = document.createElement('li');
     li.innerHTML = `<span>${c.team}</span><span class="season">${c.season}</span>`;
     leagueChampsEl.appendChild(li);
+  });
+}
+
+if (!CHAMPIONS.domesticCup || CHAMPIONS.domesticCup.length === 0) {
+  domesticCupChampsEl.innerHTML = `<div class="empty-state">No Domestic Cup winners yet.</div>`;
+} else {
+  CHAMPIONS.domesticCup.slice().reverse().forEach(c => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span>${c.team}</span><span class="season">${c.season}</span>`;
+    domesticCupChampsEl.appendChild(li);
+  });
+}
+
+if (!CHAMPIONS.top4Cup || CHAMPIONS.top4Cup.length === 0) {
+  top4CupChampsEl.innerHTML = `<div class="empty-state">No Top 4 Cup winners yet.</div>`;
+} else {
+  CHAMPIONS.top4Cup.slice().reverse().forEach(c => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span>${c.team}</span><span class="season">${c.season}</span>`;
+    top4CupChampsEl.appendChild(li);
   });
 }
 

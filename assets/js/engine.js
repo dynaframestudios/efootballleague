@@ -100,12 +100,45 @@ function getRelegationCount(teamCount) {
   return 0;
 }
 
+// ---------- AUTOMATIC MOVEMENT ARROWS ----------
+// Figures out the highest matchday number that has at least one played result.
+function getLatestPlayedRound(fixturesWithResults) {
+  let latest = 0;
+  fixturesWithResults.forEach(round => {
+    const hasPlayed = round.matches.some(m => m.played);
+    if (hasPlayed && round.round > latest) latest = round.round;
+  });
+  return latest;
+}
+
+// Derives "last week's" table order automatically: it recomputes standings
+// using only results from BEFORE the most recent matchday, so movement
+// arrows just work off whatever's in RESULTS — no manual copy/paste needed.
+function computeAutoPreviousOrder(teams, fixturesWithResults) {
+  const latestRound = getLatestPlayedRound(fixturesWithResults);
+  if (latestRound <= 0) return []; // nothing played yet -> no history
+  const priorFixtures = fixturesWithResults.map(round => ({
+    round: round.round,
+    matches: round.round < latestRound ? round.matches : round.matches.map(m => ({ ...m, played: false }))
+  }));
+  const hadAnyEarlierResult = priorFixtures.some(r => r.matches.some(m => m.played));
+  if (!hadAnyEarlierResult) return []; // this is matchday 1 -> no prior table to compare to
+  const priorStandings = computeStandings(teams, priorFixtures);
+  return priorStandings.map(t => t.team);
+}
+
 // Standings + relegation flag + movement arrow ('up' | 'down' | 'same' | 'new')
 // vs. the previous week's order (an array of team names, top to bottom).
+// Pass previousOrder = null/undefined to have it figured out automatically
+// from the results already in RESULTS (recommended — see computeAutoPreviousOrder).
 function computeStandingsWithMeta(teams, fixturesWithResults, previousOrder) {
   const arr = computeStandings(teams, fixturesWithResults);
   const relCount = getRelegationCount(teams.length);
-  const hasPrev = Array.isArray(previousOrder) && previousOrder.length > 0;
+  const order = (Array.isArray(previousOrder) && previousOrder.length > 0)
+    ? previousOrder
+    : computeAutoPreviousOrder(teams, fixturesWithResults);
+  const hasPrev = order.length > 0;
+  previousOrder = order;
 
   return arr.map((t, i) => {
     let movement = 'same';

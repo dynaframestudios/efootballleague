@@ -96,13 +96,14 @@ const RESULTS = [
 	 { round: 10, home: "Notorious_bZ", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 10, home: "LVDXNO", away: "StreetwiseFC", homeScore: 0, awayScore: 10 },
 	 { round: 10, home: "W1ZZYUCHIHA", away: "Mapholoba", homeScore: 3, awayScore: 3 },
-	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
+	 { round: 10, home: "Scully03", away: "Lambo", homeScore: 4, awayScore: 7 },
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
 	 //Matchday 11
 	 { round: 11, home: "IceyF", away: "khuseloBusquets", homeScore: 2, awayScore: 6 },
 	 { round: 11, home: "EmperorZoocci", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 11, home: "carelessk3lvin", away: "W1ZZYUCHIHA", homeScore: 0, awayScore: 7 },
+	 { round: 11, home: "Scully03", away: "Mapholoba", homeScore: 2, awayScore: 6 },
 	 //Matchday 12
 	 { round: 12, home: "LVDXNO", away: "Lueelo_lynx", homeScore: 3, awayScore:2},
 	 { round: 12, home: "Muntu19", away: "Lambo", homeScore: 0, awayScore: 3, forfeit: true },
@@ -126,9 +127,12 @@ const RESULTS = [
 	 { round: 16, home: "StreetwiseFC", away: "W1ZZYUCHIHA", homeScore: 4, awayScore: 4 },
 	 //Matchday 17
 	 { round: 17, home: "LVDXNO", away: "EmperorZoocci", homeScore: 1, awayScore: 5 },
+	 { round: 17, home: "W1ZZYUCHIHA", away: "swafiscents", homeScore: 7, awayScore: 2 },
 	 //Matchday 18
 	 { round: 18, home: "Muntu19", away: "IceyF", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 18, home: "Lueelo_lynx", away: "W1ZZYUCHIHA", homeScore: 8, awayScore: 1 },
+	 { round: 18, home: "Lambo", away: "LVDXNO", homeScore: 10, awayScore: 2 },
+	 { round: 18, home: "carelessk3lvin", away: "khuseloBusquets", homeScore: 5, awayScore: 6 },
 	 //Matchday 19
 	 { round: 19, home: "Muntu19", away: "StreetwiseFC", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 20
@@ -143,6 +147,7 @@ const RESULTS = [
 	 { round: 22, home: "Scully03", away: "LVDXNO", homeScore: 3, awayScore:1 },
 	 { round: 22, home: "Mapholoba", away: "Lambo", homeScore: 7, awayScore:3 },
 	 { round: 22, home: "khuseloBusquets", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
+	 { round: 25, home: "carelessk3lvin", away: "EmperorZoocci", homeScore: 4, awayScore: 6 },
 	 //Matchday 23
 	 { round: 23, home: "IceyF", away: "Mapholoba", homeScore: 1, awayScore:7 },
 	 { round: 23, home: "StreetwiseFC", away: "khuseloBusquets", homeScore: 5, awayScore:4 },
@@ -158,10 +163,12 @@ const RESULTS = [
 	 { round: 25, home: "Lueelo_lynx", away: "khuseloBusquets", homeScore: 0, awayScore: 5 },
 	 { round: 25, home: "Mapholoba", away: "W1ZZYUCHIHA", homeScore: 7, awayScore: 6 },
 	 { round: 25, home: "StreetwiseFC", away: "LVDXNO", homeScore: 8, awayScore: 1 },
+	 { round: 25, home: "Lambo", away: "Scully03", homeScore: 2, awayScore: 3 },
 	 //Matchday 26
 	 { round: 26, home: "Muntu19", away: "EmperorZoocci", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 26, home: "khuseloBusquets", away: "IceyF", homeScore: 9, awayScore: 1 },
 	 { round: 26, home: "W1ZZYUCHIHA", away: "carelessk3lvin", homeScore: 8, awayScore: 4 },
+	 { round: 26, home: "Mapholoba", away: "Scully03", homeScore: 5, awayScore: 2 },
 	 //Matchday 27
 	 { round: 27, home: "Lambo", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 27, home: "Lueelo_lynx", away: "LVDXNO", homeScore: 3, awayScore:2},
@@ -178,16 +185,13 @@ const RESULTS = [
 	 
 ];
 
-// 2b) PREVIOUS STANDINGS ORDER — for the up/down/dash movement arrows.
-// Each week, BEFORE you add new results: copy the current table order (top to bottom,
-// team names only) from the site into this array. Then add the week's results above.
-// On refresh, the site compares the new table to this list to show movement.
-// Leave empty ([]) if you don't want arrows yet (they'll show "—" for everyone).
-const PREVIOUS_STANDINGS_ORDER = [
-  "khuseloBusquets","Lambo","StreetwiseFC","Mapholoba","W1ZZYUCHIHA", "Lueelo_lynx",
-  "EmperorZoocci","Notorious_bZ","IceyF","LVDXNO","Manyora",
-  "Scully03","carelessk3lvin","swafiscents","Muntu19"
-];
+// 2b) PREVIOUS STANDINGS ORDER — LEGACY / OPTIONAL.
+// Movement arrows are now AUTOMATIC: the engine works out last matchday's
+// table on its own from whatever's in RESULTS. You do NOT need to touch
+// this array anymore — just leave it as [] and add results as normal.
+// (It's only kept around in case you ever want to force a specific
+// baseline — if you fill it in, it overrides the automatic calculation.)
+const PREVIOUS_STANDINGS_ORDER = [];
 
 // 3) SUPER CUP — filled in once top 2 from the DIVISION 1 table are known.
 // leg: 1 or 2. Leave scores null until played.
@@ -201,10 +205,18 @@ const SUPER_CUP = {
   ]
 };
 
-// 4) WALL OF CHAMPIONS — add a line every time a season/edition wraps up
+// 4) WALL OF CHAMPIONS — add a line every time a season/edition wraps up.
+// NOTE on Super Cup: Season 1 it's contested by the top 2 of Division 1.
+// From Season 2 onward it's the #1 of Division 1 vs the #1 of Division 2.
 const CHAMPIONS = {
   league: [
     // { season: "Season 1", team: "StreetwiseFC" },
+  ],
+  domesticCup: [
+    // { season: "Season 1", team: "Lambo" },
+  ],
+  top4Cup: [
+    // { season: "Season 1", team: "Lambo" },
   ],
   superCup: [
     // { edition: "Super Cup 1", team: "Lambo" },
@@ -213,6 +225,224 @@ const CHAMPIONS = {
     // { season: "Div 2 Season 1", team: "LVDXNO" },
   ]
 };
+
+/* ============================================================
+   CUPS — Domestic Cup (open knockout) and Top 4 Cup (finishers
+   1st-4th in Division 1 at end of season). Same bracket shape as
+   PROMOTION_PLAYOFFS: fill in rounds as they're drawn/played.
+   Add/remove rounds freely — the rounds array just renders in order.
+   ============================================================ */
+
+const DOMESTIC_CUP = {
+  active: false,
+  name: "Domestic Cup",
+  rounds: [
+    // {
+    //   label: "Round of 16",
+    //   matches: [
+    //     { home: "", away: "", homeScore: null, awayScore: null },
+    //   ]
+    // },
+  ]
+};
+
+const TOP4_CUP = {
+  active: false,
+  name: "Top 4 Cup",
+  blurb: "Contested by the top 4 finishers in the Division 1 table at the end of the season.",
+  rounds: [
+    // {
+    //   label: "Semi-Finals",
+    //   matches: [
+    //     { home: "", away: "", homeScore: null, awayScore: null }, // 1st vs 4th
+    //     { home: "", away: "", homeScore: null, awayScore: null }, // 2nd vs 3rd
+    //   ]
+    // },
+    // {
+    //   label: "Final",
+    //   matches: [
+    //     { home: "", away: "", homeScore: null, awayScore: null },
+    //   ]
+    // },
+  ]
+};
+
+/* ============================================================
+   TEAM INFO — powers the tap-to-expand info dropdown on team
+   names in the standings tables. Key MUST match the team name
+   exactly as used in TEAMS / TEAMS2. Any team without an entry
+   here just won't expand (safe to add these gradually).
+   ============================================================ */
+
+const TEAM_INFO = {
+  // "IceyF": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "StreetwiseFC": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "khuseloBusquets": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+  // "Lambo": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+     "LVDXNO": {
+      playstyle: "Possession / Tiki-Taka",
+      highestDivision: "Division 1",
+      manager: "Frank Lampard/Cesc Fasegas/ P Kliuvert",
+      user: "Don Ladino",
+      titles: 0
+     },
+   // "Lueelo_lynx": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+  // "Scully03": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "carelessk3lvin": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "Manyora": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+  // "Mapholoba": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "Notorious_bZ": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "W1ZZYUCHIHA": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+  // "swafiscents": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "Rommy": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+  // "": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+   // "IceyF": {
+  //   playstyle: "Possession / Tiki-Taka",
+  //   highestDivision: "Division 1",
+  //   manager: "IceyF",
+  //   user: "IceyF",
+  //   titles: 0
+  // },
+};
+
+/* ============================================================
+   REGULATIONS — plain text/HTML content for the Regulations tab.
+   Each entry is a section with a heading and body. Body supports
+   basic HTML (use <br> for line breaks, <ul><li> for lists).
+   ============================================================ */
+
+const REGULATIONS = [
+  {
+    heading: "League Format",
+    body: "These are the rules and regulations set by Don Infantino: Smart Assist: OFF.    Match settings: Both teams set to Excellent Conditions before match. IF NOT, match will be restarted set to correct conditions. Max Subs and Intervals.   Match Duration:10 minutes, Match Times: Matchdays will have dates from the second season above fixtures with the time limit as to allow for the table updates to occur during downtime.   Friendlies are allowed after league matches period or before."
+  },
+  {
+    heading: "Qualification — League Title",
+    body: "Top of the Division 1 table at the end of the season."
+  },
+  {
+    heading: "Qualification — Domestic Cup",
+    body: "Open knockout cup — No fancy jargon, all participants can join this cup."
+  },
+  {
+    heading: "Qualification — CHAMPIONS Cup",
+    body: "Contested by the teams that finish 1st-4th in Division 1 at the end of the season."
+  },
+  {
+    heading: "Qualification — Super Cup",
+    body: "Season 1: contested by the top 2 in the Division 1 table.<br>From Season 2: contested by the Division 1 champion vs the Division 2 champion."
+  },
+  {
+    heading: "Qualification — Division 2 Title & Promotion",
+    body: "1st place in Division 2 is promoted automatically. 2nd-5th play a knockout playoff for the remaining 2 promotion spots."
+  },
+  {
+    heading: "Relegation",
+    body: "10-15 teams in a division: bottom 3 are relegated. 16+ teams: bottom 4 are relegated."
+  },
+  {
+    heading: "Match Scheduling & Forfeits",
+    body: "After those times, match is a draw on both competing teams on both home and away legs given both did not reach out, however if you reach out and your opponent does not respond, then its a 3-0 win for you in both home and away legs.  If a player has an emergency(family, work, school, network) they should communicate prior to the close of the matchday to avoid unfair forfeits (Grace Period is 3 matches max(3 days), if you exceed the 3 match reschedule you will draw 0-0 all those the matches and you will count as a non- responding player and will be subject to the Forfeit clause)  If a player is suspected of using SMART ASSIST, they will be subject to a 10 point deduction at the end of the season if multiple offences ensure then immediate relegation or explusion from the league will be put to a vote. "
+  }
+];
 
 /* ============================================================
    DIVISION 2
@@ -237,7 +467,7 @@ const RESULTS2 = [
 ];
 
 const PREVIOUS_STANDINGS_ORDER2 = [
-  // same idea as PREVIOUS_STANDINGS_ORDER, but for Division 2
+  // legacy/optional, same as PREVIOUS_STANDINGS_ORDER above — arrows are automatic now.
 ];
 
 // PROMOTION PLAYOFFS — once the Division 2 season ends, seed 2nd-5th place here.
@@ -260,13 +490,12 @@ const PROMOTION_PLAYOFFS = {
 
 // 5) MUSIC PLAYER — drop mp3 files into assets/audio and list them here
 const TRACKS = [
-     { title: "Wash Away", artist: "Balming Tiger", src: "audio/washaway.mp3" },
-     { title: "Real Love", artist: "Childish Gambino", src: "audio/reallove.mp3" },
-	 { title: "Energy", artist: "Charlie Bereal", src: "audio/energy.mp3" },
-     { title: "We Made It", artist: "Circa Waves", src: "audio/wemadeit.mp3" },
-	 { title: "Feeling Alive", artist: "Jayda G", src: "audio/feelingalive.mp3" },
-     { title: "No Bad Energy", artist: "Miraa May", src: "audio/nobadenergy.mp3" },
-	 { title: "Build It Up", artist: "Franz Fedinhand", src: "audio/builditup.mp3" },
-     { title: "Never Walk Alone", artist: "Choplife SoundSystem", src: "audio/neverwalkalone.mp3" }
+     { title: "Many People", artist: "Adekunle Gold", src: "audio/manypeople.mp3" },
+     { title: "Lalala", artist: "Young John & Rema", src: "audio/lalala.mp3" },
+	 { title: "404 (New Era)", artist: "KiiKii", src: "audio/404.mp3" },
+     { title: "Walk Walk Walk", artist: "Good Neighbours", src: "audio/walkwalkwalk.mp3" },
+	 { title: "Euphoria", artist: "Talia Ray", src: "audio/euphoria.mp3" },
+     { title: "Dopamine", artist: "Robyn", src: "audio/dopamine.mp3" }
+	 
 	 
 ];

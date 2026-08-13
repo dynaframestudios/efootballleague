@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Smooch+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  --bg: #0a0e17;
-  --bg-panel: #10151f;
-  --bg-panel-2: #161d2b;
-  --line: #232b3d;
-  --cyan: #29e0e0;
-  --cyan-dim: #167a7a;
+  --bg: #0c0620;
+  --bg-panel: #170f33;
+  --bg-panel-2: #1d1442;
+  --line: #3a2a70;
+  --cyan: #6ee7ff;        /* light blue accent */
+  --cyan-dim: #2f7f99;
+  --purple: #b565ff;      /* neon purple accent */
+  --purple-dim: #6a2fa3;
   --gold: #d4af37;
-  --text: #eef1f6;
-  --text-dim: #8b93a7;
-  --win: #2fbf71;
-  --draw: #8b93a7;
-  --loss: #e3524f;
+  --text: #f1eefc;
+  --text-dim: #a99bd6;
+  --win: #3ee08c;
+  --draw: #a99bd6;
+  --loss: #ff5d8f;
 }
 
 * { box-sizing: border-box; }
@@ -21,15 +23,24 @@ body {
   margin: 0;
   background: var(--bg);
   background-image:
-    radial-gradient(circle at 15% 0%, rgba(41,224,224,0.07), transparent 40%),
-    radial-gradient(circle at 100% 30%, rgba(212,175,55,0.05), transparent 45%);
+    linear-gradient(160deg, #0c0620 0%, #170a3d 45%, #1e0a4a 75%, #10052e 100%),
+    radial-gradient(circle at 10% 0%, rgba(181,101,255,0.18), transparent 45%),
+    radial-gradient(circle at 100% 20%, rgba(110,231,255,0.12), transparent 50%),
+    radial-gradient(circle at 50% 100%, rgba(181,101,255,0.10), transparent 55%);
+  background-attachment: fixed;
   color: var(--text);
   font-family: 'Inter', sans-serif;
   padding-bottom: 90px; /* space for music bar */
 }
 
-h1, h2, h3, .num, .score {
-  font-family: 'Barlow Condensed', sans-serif;
+h1, h2, h3, .section-title, .subsection-title, .brand, nav.tabs button, .supercup-banner h2 {
+  font-family: 'Black Ops One', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.num, .score, .pos, table.standings th, table.standings td, .match-card .side,
+.round-label, .track-title, .track-artist, .cup-round-label {
+  font-family: 'Smooch Sans', sans-serif;
   letter-spacing: 0.02em;
 }
 
@@ -47,13 +58,17 @@ header.site-head {
 }
 
 .brand {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 800;
-  font-size: clamp(28px, 4vw, 42px);
+  font-size: clamp(20px, 3.2vw, 32px);
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 1.2;
+  text-shadow: 0 0 18px rgba(181,101,255,0.45);
 }
-.brand span { color: var(--cyan); }
+.brand span {
+  background: linear-gradient(90deg, var(--purple), var(--cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
 nav.tabs {
   display: flex;
@@ -62,25 +77,24 @@ nav.tabs {
   border: 1px solid var(--line);
   padding: 4px;
   clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+  flex-wrap: wrap;
 }
 nav.tabs button {
   background: transparent;
   border: none;
   color: var(--text-dim);
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 600;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 10px 18px;
+  letter-spacing: 0.04em;
+  padding: 10px 16px;
   cursor: pointer;
   transition: all .15s ease;
 }
 nav.tabs button.active {
-  background: var(--cyan);
-  color: #05181a;
+  background: linear-gradient(90deg, var(--purple), var(--cyan));
+  color: #0c0620;
 }
-nav.tabs button:not(.active):hover { color: var(--text); }
+nav.tabs button:not(.active):hover { color: var(--cyan); }
 
 main { padding: 32px 5vw 40px; max-width: 1200px; margin: 0 auto; }
 section.view { display: none; }
@@ -98,7 +112,7 @@ section.view.active { display: block; }
 .section-title::before {
   content: "";
   width: 5px; height: 24px;
-  background: var(--cyan);
+  background: linear-gradient(180deg, var(--purple), var(--cyan));
 }
 
 /* ---------- STANDINGS TABLE ---------- */
@@ -237,10 +251,16 @@ th.mv, td.mv { width: 30px; text-align: center; padding-left: 4px; padding-right
 /* ---------- WALL OF CHAMPIONS ---------- */
 .champ-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
 @media (max-width: 700px) { .champ-columns { grid-template-columns: 1fr; } }
+.champ-col-title {
+  color: var(--gold);
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 0 0 10px;
+}
 .champ-list { list-style: none; padding: 0; margin: 0; }
 .champ-list li {
   display: flex; justify-content: space-between; align-items: center;
@@ -258,6 +278,67 @@ th.mv, td.mv { width: 30px; text-align: center; padding-left: 4px; padding-right
   padding: 20px;
   text-align: center;
   border: 1px dashed var(--line);
+}
+
+/* ---------- TEAM NAME (clickable, expands info) ---------- */
+table.standings td.team { cursor: pointer; }
+table.standings td.team .team-name:hover { color: var(--cyan); }
+tr.team-info-row td {
+  background: var(--bg-panel-2);
+  border-bottom: 1px solid var(--line);
+  padding: 0;
+}
+.team-info-panel {
+  padding: 14px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  border-left: 3px solid var(--purple);
+}
+.team-info-panel .info-item .label {
+  display: block;
+  color: var(--text-dim);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 3px;
+}
+.team-info-panel .info-item .value { font-weight: 600; color: var(--cyan); }
+.team-info-panel .none { color: var(--text-dim); font-style: italic; grid-column: 1 / -1; }
+
+/* ---------- CUPS ---------- */
+.cup-round { margin-bottom: 26px; }
+.cup-round-label {
+  color: var(--purple);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+
+/* ---------- REGULATIONS ---------- */
+.reg-section {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--purple);
+  padding: 16px 20px;
+  margin-bottom: 12px;
+}
+.reg-section h3 {
+  margin: 0 0 8px;
+  color: var(--cyan);
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.reg-section p {
+  margin: 0;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 /* ---------- MUSIC PLAYER ---------- */
@@ -278,7 +359,7 @@ th.mv, td.mv { width: 30px; text-align: center; padding-left: 4px; padding-right
 .music-bar button.play-btn {
   background: var(--cyan);
   border: none;
-  color: #05181a;
+  color: #0c0620;
   width: 38px; height: 38px;
   border-radius: 50%;
   font-size: 16px;

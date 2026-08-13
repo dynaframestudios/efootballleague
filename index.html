@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>eFootball League</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Smooch+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -13,9 +15,11 @@
   <nav class="tabs">
     <button data-view="table" class="active">Table</button>
     <button data-view="fixtures">Fixtures</button>
+    <button data-view="cups">Cups</button>
     <button data-view="supercup">Super Cup</button>
     <button data-view="division2">Division 2</button>
     <button data-view="champions">Wall of Champions</button>
+    <button data-view="regulations">Regulations</button>
   </nav>
 </header>
 
@@ -52,6 +56,14 @@
     <div id="fixtures-list"></div>
   </section>
 
+  <section id="view-cups" class="view">
+    <h2 class="section-title">Domestic Cup</h2>
+    <div id="domesticcup-content"></div>
+
+    <h2 class="section-title" style="margin-top:36px;">Top 4 Cup</h2>
+    <div id="top4cup-content"></div>
+  </section>
+
   <section id="view-supercup" class="view">
     <h2 class="section-title">Super Cup</h2>
     <div id="supercup-content"></div>
@@ -72,18 +84,31 @@
     <h2 class="section-title">Wall of Champions</h2>
     <div class="champ-columns">
       <div>
-        <h3 style="color:var(--gold); text-transform:uppercase; font-size:16px;">League Title Winners</h3>
+        <h3 class="champ-col-title">League Title Winners</h3>
         <ul class="champ-list" id="league-champs"></ul>
       </div>
       <div>
-        <h3 style="color:var(--gold); text-transform:uppercase; font-size:16px;">Super Cup Winners</h3>
+        <h3 class="champ-col-title">Domestic Cup Winners</h3>
+        <ul class="champ-list" id="domesticcup-champs"></ul>
+      </div>
+      <div>
+        <h3 class="champ-col-title">Top 4 Cup Winners</h3>
+        <ul class="champ-list" id="top4cup-champs"></ul>
+      </div>
+      <div>
+        <h3 class="champ-col-title">Super Cup Winners</h3>
         <ul class="champ-list" id="supercup-champs"></ul>
       </div>
       <div>
-        <h3 style="color:var(--gold); text-transform:uppercase; font-size:16px;">Division 2 Champions</h3>
+        <h3 class="champ-col-title">Division 2 Champions</h3>
         <ul class="champ-list" id="division2-champs"></ul>
       </div>
     </div>
+  </section>
+
+  <section id="view-regulations" class="view">
+    <h2 class="section-title">Regulations</h2>
+    <div id="regulations-content"></div>
   </section>
 
 </main>
