@@ -279,7 +279,7 @@ const TEAM_INFO = {
     "IceyF": {
       playstyle: "",
       highestDivision: "Division 1",
-      manager: "IceyF",
+      manager: "",
       user: "IceyF",
       titles: 0
    },
@@ -328,7 +328,7 @@ const TEAM_INFO = {
      "Spartanburg FC": {
       playstyle: "",
       highestDivision: "Division 1",
-      manager: "IceyF",
+      manager: "",
       user: "carelessk3lvin",
       titles: 0
     },
@@ -354,16 +354,16 @@ const TEAM_INFO = {
   //   titles: 0
   // },
       "Busby Babes": {
-       playstyle: "Possession / Tiki-Taka",
+       playstyle: "Long Ball",
        highestDivision: "Division 1",
-       manager: "IceyF",
+       manager: "",
        user: "W1ZZYUCHIHA",
        titles: 0
     },
       "Sabah FC ": {
-       playstyle: "Possession / Tiki-Taka",
+       playstyle: "",
        highestDivision: "Division 1",
-       manager: "IceyF",
+       manager: "",
        user: "swafiscents",
        titles: 0
      },
@@ -375,7 +375,7 @@ const TEAM_INFO = {
   //   titles: 0
   // },
      "Arsenal FC": {
-      playstyle: "Possession / Tiki-Taka",
+      playstyle: "",
       highestDivision: "Division 1",
       manager: "IceyF",
       user: "EmperorZoocci",
@@ -413,7 +413,7 @@ const TEAM_INFO = {
 const REGULATIONS = [
   {
     heading: "League Format",
-    body: "These are the rules and regulations set by Don Infantino: Smart Assist: OFF.    Match settings: Both teams set to Excellent Conditions before match. IF NOT, match will be restarted set to correct conditions. Max Subs and Intervals.   Match Duration:10 minutes, Match Times: Matchdays will have dates from the second season above fixtures with the time limit as to allow for the table updates to occur during downtime.   Friendlies are allowed after league matches period or before."
+    body: "These are the rules and regulations set by Don Infantino: Smart Assist: OFF.  Both home and away legs to be played back 2 back.   Match settings: Both teams set to Excellent Conditions before match. IF NOT, match will be restarted set to correct conditions. Max Subs and Intervals.   Match Duration:10 minutes, Match Times: Matchdays will have dates from the second season above fixtures with the time limit as to allow for the table updates to occur during downtime.   Friendlies are allowed after league matches period or before."
   },
   {
     heading: "Qualification — League Title",
