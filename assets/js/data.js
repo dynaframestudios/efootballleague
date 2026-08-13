@@ -303,7 +303,7 @@ const TEAM_INFO = {
       manager: "",
      user: "Lambo",
      titles: 0
-  // },
+    },
      "Heathens United": {
       playstyle: "Possession / Outwide/ Overload",
       highestDivision: "Division 1",
@@ -331,7 +331,7 @@ const TEAM_INFO = {
       manager: "IceyF",
       user: "carelessk3lvin",
       titles: 0
-  // },
+    },
    // "Manyora": {
   //   playstyle: "Possession / Tiki-Taka",
   //   highestDivision: "Division 1",
