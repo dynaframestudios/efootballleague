@@ -4,9 +4,9 @@
 
 // 1) YOUR TEAMS (DIVISION 1) — edit names as needed
 const TEAMS = [
-  "IceyF", "Heathens United", "Intra FC", "Manyora", "Busby Babes",
-  "ATTACKERS", "Spartanburg FC", "Lueelo_lynx", "Mapholoba","Sabah FC ",
-  "Danger FC", "StreetwiseFC", "Arsenal FC", "Muntu19", "Notorious_bZ"
+  "Dont Worry", "Heathens United", "Intra FC", "Manyora", "Busby Babes",
+  "ATTACKERS", "Spartanburg FC", "STRZ", "sfundo FC","Sabah FC ",
+  "Danger FC", "StreetwiseFC", "Madoda FC", "Muntu19", "Notorious_bZ"
 ];
 // If TEAMS.length is odd, a "BYE" is auto-added — don't add it yourself.
 // Relegation zone size is calculated automatically:
@@ -21,168 +21,185 @@ const RESULTS = [
      { round: 1, home: "Heathens United", away: "Notorious_bZ", homeScore: 1, awayScore: 9 },
 	 { round: 1, home: "Busby Babes", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
 	 { round: 1, home: "ATTACKERS", away: "Danger FC", homeScore: 3, awayScore: 5 },
-	 { round: 1, home: "Manyora", away: "Arsenal FC", homeScore: 3, awayScore: 5 },
+	 { round: 1, home: "Manyora", away: "Madoda FC", homeScore: 3, awayScore: 5 },
 	 { round: 1, home: "Spartanburg FC", away: "Sabah FC ", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 1, home: "Intra FC", away: "Muntu19", homeScore: 3, awayScore: 0 ,forfeit: true },
-	 { round: 1, home: "Lueelo_lynx", away: "Mapholoba", homeScore: 0, awayScore: 0, forfeit: true },
+	 { round: 1, home: "STRZ", away: "sfundo FC", homeScore: 0, awayScore: 0, forfeit: true },
 	 { round: 1, home: "Busby Babes", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
 	 //Matchday 2
 	 { round: 2, home: "StreetwiseFC", away: "Intra FC", homeScore: 6, awayScore: 1 },
-	 { round: 2, home: "Notorious_bZ", away: "IceyF", homeScore: 2, awayScore: 6 },
-     { round: 2, home: "Arsenal FC", away: "Heathens United", homeScore: 3, awayScore: 2 },
+	 { round: 2, home: "Notorious_bZ", away: "Dont Worry", homeScore: 2, awayScore: 6 },
+     { round: 2, home: "Madoda FC", away: "Heathens United", homeScore: 3, awayScore: 2 },
      { round: 2, home: "Danger FC", away: "Manyora", homeScore: 2, awayScore: 1 },
-     { round: 2, home: "Lueelo_lynx", away: "Spartanburg FC", homeScore: 12, awayScore: 6 },
-     { round: 2, home: "Mapholoba", away: "ATTACKERS", homeScore: 0, awayScore: 3 ,forfeit: true },
+     { round: 2, home: "STRZ", away: "Spartanburg FC", homeScore: 12, awayScore: 6 },
+     { round: 2, home: "sfundo FC", away: "ATTACKERS", homeScore: 0, awayScore: 3 ,forfeit: true },
      { round: 2, home: "Sabah FC ", away: "Busby Babes", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 3
      { round: 3, home: "ATTACKERS", away: "Spartanburg FC", homeScore: 8, awayScore: 3 },
-	 { round: 3, home: "IceyF", away: "Muntu19", homeScore: 3, awayScore: 0 ,forfeit: true },
-     { round: 3, home: "Notorious_bZ", away: "Arsenal FC", homeScore: 4, awayScore: 1 },
-     { round: 3, home: "Busby Babes", away: "Lueelo_lynx", homeScore: 3, awayScore: 4 },
+	 { round: 3, home: "Dont Worry", away: "Muntu19", homeScore: 3, awayScore: 0 ,forfeit: true },
+     { round: 3, home: "Notorious_bZ", away: "Madoda FC", homeScore: 4, awayScore: 1 },
+     { round: 3, home: "Busby Babes", away: "STRZ", homeScore: 3, awayScore: 4 },
      { round: 3, home: "Heathens United", away: "Danger FC", homeScore: 0, awayScore: 0, forfeit: true},
-     { round: 3, home: "Manyora", away: "Mapholoba", homeScore: 0, awayScore: 0, forfeit: true },
+     { round: 3, home: "Manyora", away: "sfundo FC", homeScore: 0, awayScore: 0, forfeit: true },
      { round: 3, home: "Intra FC", away: "Sabah FC ", homeScore: 3, awayScore: 0, forfeit: true },
      //Matchday 4	 
-	 { round: 4, home: "Lueelo_lynx", away: "Intra FC", homeScore: 3, awayScore: 2 },
+	 { round: 4, home: "STRZ", away: "Intra FC", homeScore: 3, awayScore: 2 },
 	 { round: 4, home: "StreetwiseFC", away: "Muntu19", homeScore: 4, awayScore: 3 }, 
 	 { round: 4, home: "Danger FC", away: "Notorious_bZ", homeScore: 7, awayScore: 2 },
-	 { round: 4, home: "Arsenal FC", away: "IceyF", homeScore: 11, awayScore: 2 },
-     { round: 4, home: "Mapholoba", away: "Heathens United", homeScore: 4, awayScore: 2 },
+	 { round: 4, home: "Madoda FC", away: "Dont Worry", homeScore: 11, awayScore: 2 },
+     { round: 4, home: "sfundo FC", away: "Heathens United", homeScore: 4, awayScore: 2 },
      { round: 4, home: "Spartanburg FC", away: "Manyora", homeScore: 2 , awayScore: 6 },
      { round: 4, home: "ATTACKERS", away: "Busby Babes", homeScore: 3, awayScore: 2 }, 
 	 //Matchday 5
 	 { round: 5, home: "Intra FC", away: "ATTACKERS", homeScore: 2, awayScore: 5 },
 	 { round: 5, home: "Heathens United", away: "Spartanburg FC", homeScore: 4, awayScore: 2 },
-	 { round: 5, home: "Notorious_bZ", away: "Mapholoba", homeScore: 1, awayScore: 2 },
+	 { round: 5, home: "Notorious_bZ", away: "sfundo FC", homeScore: 1, awayScore: 2 },
 	 { round: 5, home: "Manyora", away: "Busby Babes", homeScore: 6, awayScore: 2 },
-	 { round: 5, home: "IceyF", away: "StreetwiseFC", homeScore: 3, awayScore: 10 },
+	 { round: 5, home: "Dont Worry", away: "StreetwiseFC", homeScore: 3, awayScore: 10 },
 	 { round: 5, home: "Muntu19", away: "Sabah FC ", homeScore: 0, awayScore: 0, forfeit: true },
-	 { round: 5, home: "Arsenal FC", away: "Danger FC", homeScore: 9, awayScore: 0 },
+	 { round: 5, home: "Madoda FC", away: "Danger FC", homeScore: 9, awayScore: 0 },
 	 //Matchday 6
 	 { round: 6, home: "Spartanburg FC", away: "Notorious_bZ", homeScore: 1, awayScore: 6 }, 
 	 { round: 6, home: "Busby Babes", away: "Heathens United", homeScore: 5, awayScore: 4 },
-	 { round: 6, home: "Mapholoba", away: "Arsenal FC", homeScore: 3, awayScore: 2 },
+	 { round: 6, home: "sfundo FC", away: "Madoda FC", homeScore: 3, awayScore: 2 },
 	 { round: 6, home: "Manyora", away: "Intra FC", homeScore: 5, awayScore: 2 },
-	 { round: 6, home: "Lueelo_lynx", away: "Muntu19", homeScore: 3, awayScore: 0 },
-	 { round: 6, home: "Danger FC", away: "IceyF", homeScore: 0, awayScore: 0,forfeit: true  },
+	 { round: 6, home: "STRZ", away: "Muntu19", homeScore: 3, awayScore: 0 },
+	 { round: 6, home: "Danger FC", away: "Dont Worry", homeScore: 0, awayScore: 0,forfeit: true  },
 	 { round: 6, home: "Sabah FC ", away: "StreetwiseFC", homeScore: 3, awayScore: 8},
 	 
 	 //Matchday 7
 	 { round: 7, home: "Muntu19", away: "ATTACKERS", homeScore: 1, awayScore: 5 },
 	 { round: 7, home: "Notorious_bZ", away: "Busby Babes", homeScore: 4, awayScore: 6 },
-	 { round: 7, home: "Arsenal FC", away: "Spartanburg FC", homeScore: 3, awayScore: 4 },
-	 { round: 7, home: "Danger FC", away: "Mapholoba", homeScore: 0, awayScore: 13 },
-	 { round: 7, home: "StreetwiseFC", away: "Lueelo_lynx", homeScore: 4, awayScore: 1 },
+	 { round: 7, home: "Madoda FC", away: "Spartanburg FC", homeScore: 3, awayScore: 4 },
+	 { round: 7, home: "Danger FC", away: "sfundo FC", homeScore: 0, awayScore: 13 },
+	 { round: 7, home: "StreetwiseFC", away: "STRZ", homeScore: 4, awayScore: 1 },
 	 { round: 7, home: "Heathens United", away: "Intra FC", homeScore: 0, awayScore: 4 },
-	 { round: 7, home: "IceyF", away: "Sabah FC ", homeScore: 0, awayScore: 0, forfeit: true },
+	 { round: 7, home: "Dont Worry", away: "Sabah FC ", homeScore: 0, awayScore: 0, forfeit: true },
 	 //Matchday 8
 	 { round: 8, home: "Intra FC", away: "Notorious_bZ", homeScore: 2, awayScore: 3 },
-	 { round: 8, home: "Mapholoba", away: "IceyF", homeScore: 2, awayScore: 4 },
+	 { round: 8, home: "sfundo FC", away: "Dont Worry", homeScore: 2, awayScore: 4 },
 	 { round: 8, home: "Spartanburg FC", away: "Danger FC", homeScore: 1, awayScore: 9 },
 	 { round: 8, home: "ATTACKERS", away: "StreetwiseFC", homeScore: 2, awayScore: 4 },
-	 { round: 8, home: "Busby Babes", away: "Arsenal FC", homeScore: 3, awayScore: 4 },
-	 { round: 8, home: "Lueelo_lynx", away: "Sabah FC ", homeScore: 0, awayScore: 0, forfeit: true  },
+	 { round: 8, home: "Busby Babes", away: "Madoda FC", homeScore: 3, awayScore: 4 },
+	 { round: 8, home: "STRZ", away: "Sabah FC ", homeScore: 0, awayScore: 0, forfeit: true  },
 	 { round: 8, home: "Manyora", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 //Matchday 9
-	 { round: 9, home: "IceyF", away: "Lueelo_lynx", homeScore: 5, awayScore: 2 },
+	 { round: 9, home: "Dont Worry", away: "STRZ", homeScore: 5, awayScore: 2 },
 	 { round: 9, home: "Muntu19", away: "Heathens United", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 9, home: "Danger FC", away: "Busby Babes", homeScore: 4, awayScore: 2 },
 	 { round: 9, home: "Sabah FC ", away: "ATTACKERS", homeScore: 2, awayScore: 1 },
-	 { round: 9, home: "Arsenal FC", away: "Intra FC", homeScore: 1, awayScore: 0 },
-	 { round: 9, home: "Mapholoba", away: "Spartanburg FC", homeScore: 9, awayScore: 4 },
-	 { round: 9, home: "", away: "", homeScore: null, awayScore: null },
+	 { round: 9, home: "Madoda FC", away: "Intra FC", homeScore: 1, awayScore: 0 },
+	 { round: 9, home: "sfundo FC", away: "Spartanburg FC", homeScore: 9, awayScore: 4 },
+	 { round: 9, home: "StreetwiseFC", away: "Manyora", homeScore: 0, awayScore: 0, forfeit: true },
 	 //Matchday 10
-	 { round: 10, home: "ATTACKERS", away: "Lueelo_lynx", homeScore: 7, awayScore: 5 },
+	 { round: 10, home: "ATTACKERS", away: "STRZ", homeScore: 7, awayScore: 5 },
 	 { round: 10, home: "Notorious_bZ", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 10, home: "Heathens United", away: "StreetwiseFC", homeScore: 0, awayScore: 10 },
-	 { round: 10, home: "Busby Babes", away: "Mapholoba", homeScore: 3, awayScore: 3 },
+	 { round: 10, home: "Busby Babes", away: "sfundo FC", homeScore: 3, awayScore: 3 },
 	 { round: 10, home: "Intra FC", away: "Danger FC", homeScore: 4, awayScore: 7 },
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
 	 { round: 10, home: "", away: "", homeScore: null, awayScore: null },
 	 //Matchday 11
-	 { round: 11, home: "IceyF", away: "ATTACKERS", homeScore: 2, awayScore: 6 },
-	 { round: 11, home: "Arsenal FC", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
+	 { round: 11, home: "Dont Worry", away: "ATTACKERS", homeScore: 2, awayScore: 6 },
+	 { round: 11, home: "Madoda FC", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 11, home: "Spartanburg FC", away: "Busby Babes", homeScore: 0, awayScore: 7 },
-	 { round: 11, home: "Mapholoba", away: "Intra FC", homeScore: 6, awayScore: 2 },
+	 { round: 11, home: "sfundo FC", away: "Intra FC", homeScore: 6, awayScore: 2 },
+	 { round: 11, home: "StreetwiseFC", away: "Notorious_bZ", homeScore: 3 , awayScore: 0,forfeit: true },
 	 //Matchday 12
-	 { round: 12, home: "Heathens United", away: "Lueelo_lynx", homeScore: 3, awayScore:2},
+	 { round: 12, home: "Heathens United", away: "STRZ", homeScore: 3, awayScore:2},
 	 { round: 12, home: "Muntu19", away: "Danger FC", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 12, home: "Manyora", away: "ATTACKERS", homeScore: 3, awayScore: 0 },
+	 { round: 12, home: "Madoda FC", away: "StreetwiseFC", homeScore: 0, awayScore: 4 },
+	 { round: 12, home: "Notorious_bZ", away: "Sabah FC", homeScore: 0, awayScore: 3,forfeit: true },
 	 //Matchday 13
 	 { round: 13, home: "Busby Babes", away: "Intra FC", homeScore: 6, awayScore: 3 },
 	 { round: 13, home: "ATTACKERS", away: "Heathens United", homeScore: 6, awayScore: 2 },
-	 { round: 13, home: "Mapholoba", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
+	 { round: 13, home: "sfundo FC", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
+	 { round: 13, home: "Danger FC", away: "StreetwiseFC", homeScore: 2, awayScore: 3 },
+	 { round: 13, home: "STRZ", away: "Notorious_bZ", homeScore: 3, awayScore: 0,forfeit: true },
 	 //Matchday 14
 	 { round: 14, home: "Muntu19", away: "Spartanburg FC", homeScore: 0, awayScore: 3, forfeit: true },
-	 { round: 14, home: "StreetwiseFC", away: "Mapholoba", homeScore: 4, awayScore: 4 },
+	 { round: 14, home: "StreetwiseFC", away: "sfundo FC", homeScore: 4, awayScore: 4 },
 	 { round: 14, home: "Notorious_bZ", away: "ATTACKERS", homeScore: 2, awayScore: 3 },
+	 { round: 14, home: "Madoda FC", away: "STRZ", homeScore: 3, awayScore: 1 },
+	 { round: 14, home: "Notorious_bZ", away: "ATTACKERS", homeScore: 0, awayScore: 3,forfeit: true },
+	 { round: 14, home: "Danger FC", away: "Sabah FC", homeScore: 4, awayScore: 2,forfeit: false },
 	 //Matchday 15
-	 { round: 15, home: "IceyF", away: "Heathens United", homeScore: 1, awayScore:2}, 
+	 { round: 15, home: "Dont Worry", away: "Heathens United", homeScore: 1, awayScore:2}, 
 	 { round: 15, home: "Busby Babes", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
+	 { round: 15, home: "ATTACKERS", away: "Madoda FC", homeScore: 4, awayScore: 1 },
+	 { round: 15, home: "Manyora", away: "Notorious_bZ", homeScore: 3, awayScore: 0,forfeit: true },
 	 
 	 //=====Second Half of Season======
 	 
 	 //Matchday 16
 	 { round: 16, home: "Muntu19", away: "Intra FC", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 16, home: "StreetwiseFC", away: "Busby Babes", homeScore: 4, awayScore: 4 },
+	 { round: 16, home: "Danger FC", away: "ATTACKERS", homeScore: 3, awayScore: 2 },
 	 //Matchday 17
-	 { round: 17, home: "Heathens United", away: "Arsenal FC", homeScore: 1, awayScore: 5 },
+	 { round: 17, home: "Heathens United", away: "Madoda FC", homeScore: 1, awayScore: 5 },
 	 { round: 17, home: "Busby Babes", away: "Sabah FC ", homeScore: 7, awayScore: 2 },
+	 { round: 17, home: "Manyora", away: "Danger FC", homeScore: 7, awayScore: 3 },
 	 //Matchday 18
-	 { round: 18, home: "Muntu19", away: "IceyF", homeScore: 0, awayScore: 3, forfeit: true },
-	 { round: 18, home: "Lueelo_lynx", away: "Busby Babes", homeScore: 8, awayScore: 1 },
+	 { round: 18, home: "Muntu19", away: "Dont Worry", homeScore: 0, awayScore: 3, forfeit: true },
+	 { round: 18, home: "STRZ", away: "Busby Babes", homeScore: 8, awayScore: 1 },
 	 { round: 18, home: "Danger FC", away: "Heathens United", homeScore: 10, awayScore: 2 },
 	 { round: 18, home: "Spartanburg FC", away: "ATTACKERS", homeScore: 5, awayScore: 6 },
 	 //Matchday 19
 	 { round: 19, home: "Muntu19", away: "StreetwiseFC", homeScore: 0, awayScore: 3, forfeit: true },
+	 { round: 19, home: "Busby Babes", away: "ATTACKERS", homeScore: 5, awayScore: 3 },
 	 //Matchday 20
 	 { round: 20, home: "Sabah FC ", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 20, home: "Spartanburg FC", away: "Heathens United", homeScore: 8, awayScore: 1 },
 	 { round: 20, home: "Busby Babes", away: "Manyora", homeScore: 4, awayScore: 4 },
-	 { round: 20, home: "Danger FC", away: "Arsenal FC", homeScore: 1, awayScore: 2 },
+	 { round: 20, home: "Danger FC", away: "Madoda FC", homeScore: 1, awayScore: 2 },
 	 //Matchday 21
 	 { round: 21, home: "Heathens United", away: "Busby Babes", homeScore: 3, awayScore: 3 },
-	 { round: 21, home: "IceyF", away: "Danger FC", homeScore: 1, awayScore: 2 },
-	 { round: 21, home: "Muntu19", away: "Lueelo_lynx", homeScore: 0, awayScore: 3, forfeit: true },
+	 { round: 21, home: "Dont Worry", away: "Danger FC", homeScore: 1, awayScore: 2 },
+	 { round: 21, home: "Muntu19", away: "STRZ", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 22
 	 { round: 22, home: "Intra FC", away: "Heathens United", homeScore: 3, awayScore:1 },
-	 { round: 22, home: "Mapholoba", away: "Danger FC", homeScore: 7, awayScore:3 },
+	 { round: 22, home: "sfundo FC", away: "Danger FC", homeScore: 7, awayScore:3 },
 	 { round: 22, home: "ATTACKERS", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
-	 { round: 22, home: "Spartanburg FC", away: "Arsenal FC", homeScore: 4, awayScore: 6 },
+	 { round: 22, home: "Spartanburg FC", away: "Madoda FC", homeScore: 4, awayScore: 6 },
 	 //Matchday 23
-	 { round: 23, home: "IceyF", away: "Mapholoba", homeScore: 1, awayScore:7 },
+	 { round: 23, home: "Dont Worry", away: "sfundo FC", homeScore: 1, awayScore:7 },
 	 { round: 23, home: "StreetwiseFC", away: "ATTACKERS", homeScore: 5, awayScore:4 },
 	 { round: 23, home: "Muntu19", away: "Manyora", homeScore: 0, awayScore: 3, forfeit: true },
 	 //Matchday 24
 	 { round: 24, home: "Heathens United", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
 	 { round: 24, home: "Busby Babes", away: "Danger FC", homeScore: 3, awayScore: 4 },
 	 { round: 24, home: "ATTACKERS", away: "Sabah FC ", homeScore: 5, awayScore: 2 },
-	 { round: 24, home: "Lueelo_lynx", away: "IceyF", homeScore: 0, awayScore: 3 },
-	 { round: 24, home: "Spartanburg FC", away: "Mapholoba", homeScore: 1, awayScore: 11 },
+	 { round: 24, home: "STRZ", away: "Dont Worry", homeScore: 0, awayScore: 3 },
+	 { round: 24, home: "Spartanburg FC", away: "sfundo FC", homeScore: 1, awayScore: 11 },
 	 //Matchday 25
 	 { round: 25, home: "Muntu19", away: "Notorious_bZ", homeScore: 0, awayScore: 3, forfeit: true },
-	 { round: 25, home: "Lueelo_lynx", away: "ATTACKERS", homeScore: 0, awayScore: 5 },
-	 { round: 25, home: "Mapholoba", away: "Busby Babes", homeScore: 7, awayScore: 6 },
+	 { round: 25, home: "STRZ", away: "ATTACKERS", homeScore: 0, awayScore: 5 },
+	 { round: 25, home: "sfundo FC", away: "Busby Babes", homeScore: 7, awayScore: 6 },
 	 { round: 25, home: "StreetwiseFC", away: "Heathens United", homeScore: 8, awayScore: 1 },
 	 { round: 25, home: "Danger FC", away: "Intra FC", homeScore: 2, awayScore: 3 },
+	 { round: 25, home: "Intra FC", away: "Madoda FC", homeScore: 0, awayScore: 4 },
 	 //Matchday 26
-	 { round: 26, home: "Muntu19", away: "Arsenal FC", homeScore: 0, awayScore: 3, forfeit: true },
-	 { round: 26, home: "ATTACKERS", away: "IceyF", homeScore: 9, awayScore: 1 },
+	 { round: 26, home: "Muntu19", away: "Madoda FC", homeScore: 0, awayScore: 3, forfeit: true },
+	 { round: 26, home: "ATTACKERS", away: "Dont Worry", homeScore: 9, awayScore: 1 },
 	 { round: 26, home: "Busby Babes", away: "Spartanburg FC", homeScore: 8, awayScore: 4 },
-	 { round: 26, home: "Intra FC", away: "Mapholoba", homeScore: 2, awayScore: 5 },
+	 { round: 26, home: "Intra FC", away: "sfundo FC", homeScore: 2, awayScore: 5 },
 	 //Matchday 27
 	 { round: 27, home: "Danger FC", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
-	 { round: 27, home: "Lueelo_lynx", away: "Heathens United", homeScore: 3, awayScore:2},
+	 { round: 27, home: "STRZ", away: "Heathens United", homeScore: 3, awayScore:2},
+	 { round: 27, home: "StreetwiseFC", away: "Madoda FC", homeScore: 6, awayScore: 2 },
 	 //Matchday 28
-	 { round: 28, home: "Muntu19", away: "Mapholoba", homeScore: 0, awayScore: 3, forfeit: true },
+	 { round: 28, home: "Muntu19", away: "sfundo FC", homeScore: 0, awayScore: 3, forfeit: true },
 	 { round: 28, home: "Intra FC", away: "Busby Babes", homeScore: 3, awayScore: 4 },
+	 { round: 28, home: "StreetwiseFC", away: "Danger FC", homeScore: 5, awayScore: 3 },
 	 { round: 28, home: "Heathens United", away: "ATTACKERS", homeScore: 1, awayScore: 6 },
 	 //Matchday 29
 	 { round: 29, home: "Spartanburg FC", away: "Muntu19", homeScore: 3, awayScore: 0, forfeit: true },
-	 { round: 29, home: "Mapholoba", away: "StreetwiseFC", homeScore: 4, awayScore: 3 },
+	 { round: 29, home: "sfundo FC", away: "StreetwiseFC", homeScore: 4, awayScore: 3 },
 	 //Matchday 30
 	 { round: 30, home: "Muntu19", away: "Busby Babes", homeScore: 0, awayScore: 3, forfeit: true },
-	 { round: 30, home: "Heathens United", away: "IceyF", homeScore: 2, awayScore:2},
+	 { round: 30, home: "Heathens United", away: "Dont Worry", homeScore: 2, awayScore:2},
+	 { round: 30, home: "ATTACKERS", away: "Madoda FC", homeScore: 8, awayScore: 0 },
 	 
 ];
 
@@ -276,48 +293,48 @@ const TOP4_CUP = {
    ============================================================ */
 
 const TEAM_INFO = {
-    "IceyF": {
-      playstyle: "",
+    "Dont Worry": {
+      playstyle: "Quick Counter/ Out Wide",
       highestDivision: "Division 1",
-      manager: "",
+      manager: "Xabi Alonso",
       user: "IceyF",
       titles: 0
    },
      "StreetwiseFC": {
-     playstyle: "",
+     playstyle: "Quick Counter",
      highestDivision: "",
-     manager: "",
+     manager: "Roberto Martinez",
      user: "StreetwiseFC",
      titles: 0
    },
      "ATTACKERS": {
-      playstyle: "",
+      playstyle: "Possession",
       highestDivision: "Division 1",
-      manager: "",
+      manager: "Thomas Tuchel",
       user: "khuseloBusquets",
       titles: 0
      },
     "Danger FC": {
-     playstyle: "",
+     playstyle: "Long Ball Counter",
      highestDivision: "Division 1",
-      manager: "",
+      manager: "Frank Beckenbauer",
      user: "Lambo",
      titles: 0
     },
      "Heathens United": {
-      playstyle: "Possession / Outwide/ Overload",
+      playstyle: "Possession / Overload",
       highestDivision: "Division 1",
-      manager: "Frank Lampard/Cesc Fasegas/ P Kliuvert",
+      manager: "Frank Lampard/Cesc Fasegas",
       user: "Don Ladino",
       titles: 0
      },
-   // "Lueelo_lynx": {
-  //   playstyle: "Possession / Tiki-Taka",
-  //   highestDivision: "Division 1",
-  //   manager: "IceyF",
-  //   user: "IceyF",
-  //   titles: 0
-  // },
+     "STRZ": {
+       playstyle: "Outwide",
+       highestDivision: "Division 1",
+       manager: "Ruben Amorim",
+       user: "Lueelo_lynx",
+      titles: 0
+     },
      "Intra FC": {
        playstyle: "",
        highestDivision: "Division 1",
@@ -326,9 +343,9 @@ const TEAM_INFO = {
        titles: 0
     },
      "Spartanburg FC": {
-      playstyle: "",
+      playstyle: "Quick Counter",
       highestDivision: "Division 1",
-      manager: "",
+      manager: "Jurgen Klopp",
       user: "carelessk3lvin",
       titles: 0
     },
@@ -354,9 +371,9 @@ const TEAM_INFO = {
   //   titles: 0
   // },
       "Busby Babes": {
-       playstyle: "Long Ball",
+       playstyle: "Quick Counter",
        highestDivision: "Division 1",
-       manager: "",
+       manager: "Antonio Conte",
        user: "W1ZZYUCHIHA",
        titles: 0
     },
@@ -367,17 +384,17 @@ const TEAM_INFO = {
        user: "swafiscents",
        titles: 0
      },
-   // "Rommy": {
-  //   playstyle: "Possession / Tiki-Taka",
-  //   highestDivision: "Division 1",
-  //   manager: "IceyF",
-  //   user: "IceyF",
-  //   titles: 0
-  // },
-     "Arsenal FC": {
-      playstyle: "",
+      "sfundoFC": {
+       playstyle: "Quick Counter",
+       highestDivision: "Division 1",
+       manager: "Jose Mourinho",
+       user: "Mapholoba",
+       titles: 0
+     },
+     "Madoda FC": {
+      playstyle: "Long Ball",
       highestDivision: "Division 1",
-      manager: "IceyF",
+      manager: "Didler Deschamps",
       user: "EmperorZoocci",
       titles: 0
      },
@@ -458,8 +475,8 @@ const REGULATIONS = [
 // Leave TEAMS2 empty ([]) until Division 2 is ready to launch.
 const TEAMS2 = [
   "Relegation1", "Relegation2", "Relegation3",
-  "Rommy", "Thee_H1MOTHY", "Madiba Fc", "Paris Saint Germain", "NewPlayer8", 
-  "NewPlayer9", "NewPlayer10", "NewPlayer11", "NewPlayer12",
+  "Rommy", "Thee_H1MOTHY", "Madiba Fc", "Destroy.a", "Silent Killers FC", 
+  "Kaizer Chiefs XI", "NewPlayer10", "NewPlayer11", "NewPlayer12",
   "NewPlayer13", "NewPlayer14", "NewPlayer15"
 ];
 
