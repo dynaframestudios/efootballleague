@@ -227,7 +227,7 @@ const RESULTS = [
      { round: 26, home: "Muntu19", away: "Madoda FC", homeScore: 0, awayScore: 3, forfeit: true },
      //Matchday 27
      { round: 27, home: "Dont Worry", away: "Busby Babes", homeScore: 3, awayScore: 0,forfeit: true },
-     { round: 27, home: "ATTACKERS", away: "Manyora", homeScore: 0, awayScore: 0,forfeit: true },
+     { round: 27, home: "ATTACKERS", away: "Manyora", homeScore: 7, awayScore: 0,forfeit: true },
      { round: 27, home: "Spartanburg FC", away: "Intra FC", homeScore: 0, awayScore: 0,forfeit: true },
      { round: 27, home: "STRZ", away: "Heathens United", homeScore: 3, awayScore: 2 },
      { round: 27, home: "Sabah FC ", away: "Notorious_bZ", homeScore: 3, awayScore: 0, forfeit: true  },
@@ -253,7 +253,7 @@ const RESULTS = [
      { round: 30, home: "Heathens United", away: "Dont Worry", homeScore: 2, awayScore: 2 },
      { round: 30, home: "Notorious_bZ", away: "Manyora", homeScore: 0, awayScore: 3,forfeit: true  },
      { round: 30, home: "Muntu19", away: "Busby Babes", homeScore: 0, awayScore: 3, forfeit: true },
-     { round: 30, home: "Madoda FC", away: "ATTACKERS", homeScore: 3, awayScore: 0,forfeit: true },
+     { round: 30, home: "Madoda FC", away: "ATTACKERS", homeScore: 0, awayScore: 8 },
      { round: 30, home: "StreetwiseFC", away: "Spartanburg FC", homeScore: 0, awayScore: 0 ,forfeit: true},
      { round: 30, home: "Danger FC", away: "STRZ", homeScore: 3, awayScore: 0 },
      { round: 30, home: "Sabah FC ", away: "sfundo FC", homeScore: 4, awayScore: 6 },
