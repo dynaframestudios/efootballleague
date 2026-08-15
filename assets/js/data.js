@@ -271,11 +271,11 @@ const PREVIOUS_STANDINGS_ORDER = [];
 // leg: 1 or 2. Leave scores null until played.
 const SUPER_CUP = {
   active: true,           // set true once you're ready to kick off the Super Cup
-  teamA: "StreetwiseFC",               // top of the table
+  teamA: "ATTACKERS",               // top of the table
   teamB: "",               // runner-up
   legs: [
-     { leg: 1, home: "StreetwiseFC", away: "", homeScore: null, awayScore: null },
-     { leg: 2, home: "", away: "StreetwiseFC", homeScore: null, awayScore: null },
+     { leg: 1, home: "ATTACKERS", away: "", homeScore: null, awayScore: null },
+     { leg: 2, home: "", away: "ATTACKERS", homeScore: null, awayScore: null },
   ]
 };
 
@@ -284,7 +284,7 @@ const SUPER_CUP = {
 // From Season 2 onward it's the #1 of Division 1 vs the #1 of Division 2.
 const CHAMPIONS = {
   league: [
-      { season: "Season 1: Aug 2026", team: "StreetwiseFC" },
+      { season: "Season 1: Aug 2026", team: "ATTACKERS" },
   ],
   domesticCup: [
     // { season: "Season 1", team: "Danger FC" },
@@ -325,9 +325,9 @@ const TOP4_CUP = {
     {
         label: "Quarter-Finals",
          matches: [
-          { home: "StreetwiseFC", away: "DontWorry", homeScore: null, awayScore: null }, // 1st vs 6th
+          { home: "ATTACKERS", away: "DontWorry", homeScore: null, awayScore: null }, // 1st vs 6th
           { home: "sfundo FC", away: "Danger FC", homeScore: null, awayScore: null }, // 2nd vs 5th
-	       { home: "STRZ", away: "ATTACKERS", homeScore: null, awayScore: null }, // 8th vs 3rd
+	       { home: "STRZ", away: "StreetwiseFC", homeScore: null, awayScore: null }, // 8th vs 3rd
          { home: "Madoda FC", away: "Manyora", homeScore: null, awayScore: null }, // 4th vs 7th
         ]
        },
