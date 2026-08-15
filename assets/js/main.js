@@ -62,8 +62,8 @@ function renderStandingsInto(tbodyEl, standingsMeta) {
   tbodyEl.innerHTML = '';
   standingsMeta.forEach((t, i) => {
     const tr = document.createElement('tr');
-    if (i < 2) tr.classList.add('top2');
-    if (t.relegation) tr.classList.add('relegation-row');
+    if (i === 0) tr.classList.add('top2');
+    if (i >= 1 && i < 8) tr.classList.add('champs-cup-row');
     tr.innerHTML = `
       <td class="pos">${i + 1}</td>
       <td class="mv">${movementArrow(t.movement)}</td>
@@ -155,72 +155,6 @@ if (!SUPER_CUP.active) {
   supercupContent.innerHTML = html;
 }
 
-// ---------- DIVISION 2 ----------
-const division2Content = document.getElementById('division2-content');
-if (!TEAMS2 || TEAMS2.length === 0) {
-  division2Content.innerHTML = `<div class="empty-state">Division 2 hasn't launched yet — add teams to TEAMS2 in data.js to kick it off.</div>`;
-} else {
-  const fixtures2 = generateFixtures(TEAMS2);
-  const fixturesWithResults2 = attachResults(fixtures2, RESULTS2);
-  const standings2 = computeStandingsWithMeta(TEAMS2, fixturesWithResults2, PREVIOUS_STANDINGS_ORDER2);
-
-  division2Content.innerHTML = `
-    <h3 class="subsection-title">Division 2 Table</h3>
-    <table class="standings">
-      <thead>
-        <tr>
-          <th class="pos">#</th>
-          <th class="mv"></th>
-          <th class="team">Team</th>
-          <th class="num">P</th>
-          <th class="num">W</th>
-          <th class="num">D</th>
-          <th class="num">L</th>
-          <th class="num">GF</th>
-          <th class="num">GA</th>
-          <th class="num">GD</th>
-          <th class="num pts">PTS</th>
-        </tr>
-      </thead>
-      <tbody id="standings-body-2"></tbody>
-    </table>
-    <p class="table-legend">
-      <span class="legend-item"><span class="swatch gold"></span> Automatic promotion (1st)</span>
-      <span class="legend-item"><span class="swatch cyan"></span> Promotion playoff spot (2nd-5th)</span>
-    </p>
-    <h3 class="subsection-title" style="margin-top:30px;">Division 2 Fixtures &amp; Results</h3>
-    <div id="fixtures-list-2"></div>
-  `;
-
-  const standingsBody2 = document.getElementById('standings-body-2');
-  standings2.forEach((t, i) => {
-    const tr = document.createElement('tr');
-    if (i === 0) tr.classList.add('promo-auto');
-    else if (i >= 1 && i <= 4) tr.classList.add('promo-playoff');
-    tr.innerHTML = `
-      <td class="pos">${i + 1}</td>
-      <td class="mv">${movementArrow(t.movement)}</td>
-      <td class="team"><span class="team-name">${t.team}</span></td>
-      <td class="num">${t.played}</td>
-      <td class="num">${t.won}</td>
-      <td class="num">${t.drawn}</td>
-      <td class="num">${t.lost}</td>
-      <td class="num">${t.gf}</td>
-      <td class="num">${t.ga}</td>
-      <td class="num">${t.gd > 0 ? '+' + t.gd : t.gd}</td>
-      <td class="num pts">${t.points}</td>
-    `;
-    standingsBody2.appendChild(tr);
-  });
-  enableTeamInfoDropdowns(standingsBody2);
-
-  renderFixturesInto(
-    document.getElementById('fixtures-list-2'),
-    fixturesWithResults2,
-    'No Division 2 fixtures yet.'
-  );
-}
-
 // ---------- CUPS (Domestic Cup + Top 4 Cup) ----------
 function renderCupRounds(containerEl, cup, emptyMessage) {
   if (!cup || !cup.active || !cup.rounds || cup.rounds.length === 0) {
@@ -269,54 +203,11 @@ if (typeof REGULATIONS !== 'undefined' && REGULATIONS.length > 0) {
   regulationsContent.innerHTML = `<div class="empty-state">Regulations coming soon.</div>`;
 }
 
-// ---------- PROMOTION PLAYOFFS ----------
-const promotionContent = document.getElementById('promotion-content');
-if (!PROMOTION_PLAYOFFS.active) {
-  promotionContent.innerHTML = `<div class="empty-state">Promotion playoffs kick off once the Division 2 season ends.</div>`;
-} else {
-  const p = PROMOTION_PLAYOFFS;
-  let html = `
-    <p style="color:var(--text-dim); font-size:13px; margin-bottom:14px;">
-      SF1: ${p.seed2} (2nd) vs ${p.seed5} (5th) &nbsp;|&nbsp; SF2: ${p.seed3} (3rd) vs ${p.seed4} (4th)
-    </p>
-    <div class="fixture-grid">
-  `;
-  p.semis.forEach(leg => {
-    const played = leg.homeScore !== null && leg.awayScore !== null;
-    html += `
-      <div class="match-card${played ? ' played' : ''}">
-        <div class="side home">${leg.home}</div>
-        <div class="score">${played ? `${leg.homeScore} - ${leg.awayScore}` : 'vs'}</div>
-        <div class="side away">${leg.away}</div>
-      </div>
-    `;
-  });
-  html += `</div>`;
-
-  if (p.final && (p.final.home || p.final.away)) {
-    const finalPlayed = p.final.homeScore !== null && p.final.homeScore !== undefined
-      && p.final.awayScore !== null && p.final.awayScore !== undefined;
-    html += `
-      <h3 class="subsection-title" style="margin-top:24px;">Final</h3>
-      <div class="fixture-grid">
-        <div class="match-card${finalPlayed ? ' played' : ''}">
-          <div class="side home">${p.final.home}</div>
-          <div class="score">${finalPlayed ? `${p.final.homeScore} - ${p.final.awayScore}` : 'vs'}</div>
-          <div class="side away">${p.final.away}</div>
-        </div>
-      </div>
-    `;
-  }
-
-  promotionContent.innerHTML = html;
-}
-
 // ---------- RENDER WALL OF CHAMPIONS ----------
 const leagueChampsEl = document.getElementById('league-champs');
 const domesticCupChampsEl = document.getElementById('domesticcup-champs');
 const top4CupChampsEl = document.getElementById('top4cup-champs');
 const supercupChampsEl = document.getElementById('supercup-champs');
-const division2ChampsEl = document.getElementById('division2-champs');
 
 if (CHAMPIONS.league.length === 0) {
   leagueChampsEl.innerHTML = `<div class="empty-state">No champions crowned yet.</div>`;
@@ -358,15 +249,6 @@ if (CHAMPIONS.superCup.length === 0) {
   });
 }
 
-if (!CHAMPIONS.division2 || CHAMPIONS.division2.length === 0) {
-  division2ChampsEl.innerHTML = `<div class="empty-state">No Division 2 champions yet.</div>`;
-} else {
-  CHAMPIONS.division2.slice().reverse().forEach(c => {
-    const li = document.createElement('li');
-    li.innerHTML = `<span>${c.team}</span><span class="season">${c.season}</span>`;
-    division2ChampsEl.appendChild(li);
-  });
-}
 
 // ---------- MUSIC PLAYER ----------
 const audioEl = document.getElementById('audio-el');

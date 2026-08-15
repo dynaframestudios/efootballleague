@@ -146,15 +146,9 @@ table.standings tr.top2 td.pos { color: var(--gold); }
 table.standings tr.top2 { background: linear-gradient(90deg, rgba(212,175,55,0.06), transparent); }
 th.num, td.num { text-align: center; }
 
-/* relegation zone */
-table.standings tr.relegation-row td.pos { color: var(--loss); }
-table.standings tr.relegation-row { background: linear-gradient(90deg, rgba(227,82,79,0.08), transparent); border-left: 3px solid var(--loss); }
-
-/* division 2 promotion rows */
-table.standings tr.promo-auto td.pos { color: var(--gold); }
-table.standings tr.promo-auto { background: linear-gradient(90deg, rgba(212,175,55,0.1), transparent); }
-table.standings tr.promo-playoff td.pos { color: var(--cyan); }
-table.standings tr.promo-playoff { background: linear-gradient(90deg, rgba(41,224,224,0.06), transparent); }
+/* champions cup qualification zone */
+table.standings tr.champs-cup-row td.pos { color: var(--cyan); }
+table.standings tr.champs-cup-row { background: linear-gradient(90deg, rgba(110,231,255,0.08), transparent); border-left: 3px solid var(--cyan); }
 
 /* movement arrows */
 th.mv, td.mv { width: 30px; text-align: center; padding-left: 4px; padding-right: 0; }
@@ -169,8 +163,7 @@ th.mv, td.mv { width: 30px; text-align: center; padding-left: 4px; padding-right
 .legend-item { display: inline-flex; align-items: center; gap: 6px; }
 .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; }
 .swatch.gold { background: var(--gold); }
-.swatch.red { background: var(--loss); }
-.swatch.cyan { background: var(--cyan); }
+.swatch.blue { background: var(--cyan); }
 
 .subsection-title {
   font-family: 'Barlow Condensed', sans-serif;

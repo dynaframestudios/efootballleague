@@ -93,13 +93,6 @@ function computeStandings(teams, fixturesWithResults) {
   return arr;
 }
 
-// How many bottom-of-table spots are up for relegation.
-function getRelegationCount(teamCount) {
-  if (teamCount >= 16) return 4;
-  if (teamCount >= 10) return 3;
-  return 0;
-}
-
 // ---------- AUTOMATIC MOVEMENT ARROWS ----------
 // Figures out the highest matchday number that has at least one played result.
 function getLatestPlayedRound(fixturesWithResults) {
@@ -127,13 +120,12 @@ function computeAutoPreviousOrder(teams, fixturesWithResults) {
   return priorStandings.map(t => t.team);
 }
 
-// Standings + relegation flag + movement arrow ('up' | 'down' | 'same' | 'new')
+// Standings + movement arrow ('up' | 'down' | 'same' | 'new')
 // vs. the previous week's order (an array of team names, top to bottom).
 // Pass previousOrder = null/undefined to have it figured out automatically
 // from the results already in RESULTS (recommended — see computeAutoPreviousOrder).
 function computeStandingsWithMeta(teams, fixturesWithResults, previousOrder) {
   const arr = computeStandings(teams, fixturesWithResults);
-  const relCount = getRelegationCount(teams.length);
   const order = (Array.isArray(previousOrder) && previousOrder.length > 0)
     ? previousOrder
     : computeAutoPreviousOrder(teams, fixturesWithResults);
@@ -151,6 +143,6 @@ function computeStandingsWithMeta(teams, fixturesWithResults, previousOrder) {
     } else {
       movement = 'none'; // no history yet, don't show an arrow
     }
-    return { ...t, movement, relegation: relCount > 0 && i >= arr.length - relCount };
+    return { ...t, movement };
   });
 }
