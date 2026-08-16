@@ -6506,7 +6506,7 @@ const CHAMPIONS_CUP = {
   blurb: "Contested by the top 8 finishers in the eFootball League table at the end of the season.",
   rounds: [
 	 {
-        label: "Quarter-Finals", date: "2026-08-18", matches: [
+        label: "Quarter-Finals", date: "2026-08-17", matches: [
           { home: "ATTACKERS", away: "DontWorry", homeScore: null, awayScore: null }, // 1st vs 6th
           { home: "sfundo FC", away: "Danger FC", homeScore: null, awayScore: null }, // 2nd vs 5th
 	       { home: "STRZ", away: "StreetwiseFC", homeScore: null, awayScore: null }, // 8th vs 3rd
