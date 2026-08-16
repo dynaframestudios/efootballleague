@@ -29,7 +29,7 @@ const SEASON_INFO = {
    list sized to the real roster before the season starts.
    ------------------------------------------------------------ */
 const TEAMS = [
-  "DontWorry", "Heathens United", "Intra FC", "Manyora", "Busby Babes",
+  "Dont Worry", "Heathens United", "Intra FC", "Manyora", "Busby Babes",
   "ATTACKERS", "Spartanburg FC", "STRZ", "sfundo FC", "Sabah FC ",
   "Danger FC", "StreetwiseFC", "Madoda FC", "Muntu19", "Notorious_bZ",
   "Relegation1", "Relegation2", "Relegation3",
@@ -56,7 +56,7 @@ const FIXTURES = [
     "matchday": 1,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "NewPlayer15",
         "homeScore": null,
         "awayScore": null,
@@ -167,7 +167,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "NewPlayer15",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -277,7 +277,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "NewPlayer14",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -386,7 +386,7 @@ const FIXTURES = [
     "matchday": 4,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "NewPlayer14",
         "homeScore": null,
         "awayScore": null,
@@ -496,7 +496,7 @@ const FIXTURES = [
     "matchday": 5,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "NewPlayer13",
         "homeScore": null,
         "awayScore": null,
@@ -607,7 +607,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "NewPlayer13",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -717,7 +717,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "NewPlayer12",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -826,7 +826,7 @@ const FIXTURES = [
     "matchday": 8,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "NewPlayer12",
         "homeScore": null,
         "awayScore": null,
@@ -936,7 +936,7 @@ const FIXTURES = [
     "matchday": 9,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "NewPlayer11",
         "homeScore": null,
         "awayScore": null,
@@ -1047,7 +1047,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "NewPlayer11",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1157,7 +1157,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "NewPlayer10",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1266,7 +1266,7 @@ const FIXTURES = [
     "matchday": 12,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "NewPlayer10",
         "homeScore": null,
         "awayScore": null,
@@ -1376,7 +1376,7 @@ const FIXTURES = [
     "matchday": 13,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
@@ -1487,7 +1487,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Kaizer Chiefs XI",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1597,7 +1597,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Silent Killers FC",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1706,7 +1706,7 @@ const FIXTURES = [
     "matchday": 16,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
@@ -1816,7 +1816,7 @@ const FIXTURES = [
     "matchday": 17,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
@@ -1927,7 +1927,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Destroy.a",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2037,7 +2037,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Madiba Fc",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2146,7 +2146,7 @@ const FIXTURES = [
     "matchday": 20,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
@@ -2256,7 +2256,7 @@ const FIXTURES = [
     "matchday": 21,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Thee_H1MOTHY",
         "homeScore": null,
         "awayScore": null,
@@ -2367,7 +2367,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Thee_H1MOTHY",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2477,7 +2477,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Rommy",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2586,7 +2586,7 @@ const FIXTURES = [
     "matchday": 24,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
@@ -2696,7 +2696,7 @@ const FIXTURES = [
     "matchday": 25,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Relegation3",
         "homeScore": null,
         "awayScore": null,
@@ -2807,7 +2807,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Relegation3",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2917,7 +2917,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Relegation2",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3026,7 +3026,7 @@ const FIXTURES = [
     "matchday": 28,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Relegation2",
         "homeScore": null,
         "awayScore": null,
@@ -3136,7 +3136,7 @@ const FIXTURES = [
     "matchday": 29,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Relegation1",
         "homeScore": null,
         "awayScore": null,
@@ -3247,7 +3247,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Relegation1",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3357,7 +3357,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Notorious_bZ",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3466,7 +3466,7 @@ const FIXTURES = [
     "matchday": 32,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
@@ -3576,7 +3576,7 @@ const FIXTURES = [
     "matchday": 33,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Muntu19",
         "homeScore": null,
         "awayScore": null,
@@ -3687,7 +3687,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Muntu19",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3797,7 +3797,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Madoda FC",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3906,7 +3906,7 @@ const FIXTURES = [
     "matchday": 36,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
@@ -4016,7 +4016,7 @@ const FIXTURES = [
     "matchday": 37,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
@@ -4127,7 +4127,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "StreetwiseFC",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4237,7 +4237,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Danger FC",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4346,7 +4346,7 @@ const FIXTURES = [
     "matchday": 40,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
@@ -4456,7 +4456,7 @@ const FIXTURES = [
     "matchday": 41,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
@@ -4567,7 +4567,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Sabah FC ",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4677,7 +4677,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "sfundo FC",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4786,7 +4786,7 @@ const FIXTURES = [
     "matchday": 44,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
@@ -4896,7 +4896,7 @@ const FIXTURES = [
     "matchday": 45,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
@@ -5007,7 +5007,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "STRZ",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5117,7 +5117,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Spartanburg FC",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5226,7 +5226,7 @@ const FIXTURES = [
     "matchday": 48,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
@@ -5336,7 +5336,7 @@ const FIXTURES = [
     "matchday": 49,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
@@ -5447,7 +5447,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "ATTACKERS",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5557,7 +5557,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Busby Babes",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5666,7 +5666,7 @@ const FIXTURES = [
     "matchday": 52,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
@@ -5776,7 +5776,7 @@ const FIXTURES = [
     "matchday": 53,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
@@ -5887,7 +5887,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Manyora",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5997,7 +5997,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Intra FC",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -6106,7 +6106,7 @@ const FIXTURES = [
     "matchday": 56,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
@@ -6216,7 +6216,7 @@ const FIXTURES = [
     "matchday": 57,
     "matches": [
       {
-        "home": "DontWorry",
+        "home": "Dont Worry",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
@@ -6327,7 +6327,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Heathens United",
-        "away": "DontWorry",
+        "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -6470,7 +6470,7 @@ const CHAMPIONS_SUPER_CUP = {
    ------------------------------------------------------------ */
 const CHAMPIONS = {
   league: [
-    { season: "Season 1: Aug 26", team: "ATTACKERS" },
+    { season: "Season 1: Aug 2026", team: "ATTACKERS" },
   ],
   domesticCup: [],
   championsCup: [],
@@ -6501,34 +6501,15 @@ const DOMESTIC_CUP = {
 };
 
 const CHAMPIONS_CUP = {
-  active: true,
+  active: false,
   name: "Champions Cup",
   blurb: "Contested by the top 8 finishers in the eFootball League table at the end of the season.",
   rounds: [
-	 {
-        label: "Quarter-Finals", date: "2026-08-17", matches: [
-          { home: "ATTACKERS", away: "DontWorry", homeScore: null, awayScore: null }, // 1st vs 6th
-          { home: "sfundo FC", away: "Danger FC", homeScore: null, awayScore: null }, // 2nd vs 5th
-	       { home: "STRZ", away: "StreetwiseFC", homeScore: null, awayScore: null }, // 8th vs 3rd
-         { home: "Madoda FC", away: "Manyora", homeScore: null, awayScore: null }, // 4th vs 7th
-        ]
-       },
-     {
-       label: "Semi-Finals", date: "2026-08-18", 
-       matches: [
-    //     { home: "", away: "", homeScore: null, awayScore: null }, // 1st vs 4th
-    //     { home: "", away: "", homeScore: null, awayScore: null }, // 2nd vs 3rd
-       ]
-     },
-     {
-      label: "Final", date: "2026-08-18", 
-       matches: [
-      //   { home: "", away: "", homeScore: null, awayScore: null },
-       ]
-     },
+    // { label: "Quarter-Finals", date: null, matches: [
+    //   { home: "", away: "", homeScore: null, awayScore: null }, // 1st vs 8th
+    // ] },
   ]
 };
-
 
 const CONFERENCE_CUP = {
   active: false,
@@ -6549,21 +6530,21 @@ const CONFERENCE_CUP = {
    ============================================================ */
 
 const TEAM_INFO = {
-  "DontWorry": { playstyle: "Quick Counter/ Out Wide", highestPosition: "6", manager: "Xabi Alonso", user: "IceyF", titles: 0 },
-  "StreetwiseFC": { playstyle: "Quick Counter", highestPosition: "2", manager: "Roberto Martinez", user: "StreetwiseFC", titles: 0 },
-  "ATTACKERS": { playstyle: "Possession", highestPosition: "1 (Current League Champion)", manager: "Thomas Tuchel", user: "khuseloBusquets", titles: 1 },
-  "Danger FC": { playstyle: "Long Ball Counter", highestPosition: "5", manager: "Frank Beckenbauer", user: "Lambo", titles: 0 },
-  "Heathens United": { playstyle: "Possession / Overload", highestPosition: "12", manager: "Frank Lampard/Cesc Fasegas", user: "Don Ladino", titles: 0 },
-  "STRZ": { playstyle: "Outwide", highestPosition: "8", manager: "Ruben Amorim", user: "Lueelo_lynx", titles: 0 },
-  "Intra FC": { playstyle: "", highestPosition: "Division 1", manager: "10", user: "Scully03", titles: 0 },
-  "Spartanburg FC": { playstyle: "Quick Counter", highestPosition: "13", manager: "Jurgen Klopp", user: "carelessk3lvin", titles: 0 },
-  "Busby Babes": { playstyle: "Quick Counter", highestPosition: "9", manager: "Antonio Conte", user: "W1ZZYUCHIHA", titles: 0 },
-  "Sabah FC ": { playstyle: "", highestPosition: "11", manager: "", user: "swafiscents", titles: 0 },
+  "Dont Worry": { playstyle: "Quick Counter/ Out Wide", highestPosition: "Division 1", manager: "Xabi Alonso", user: "IceyF", titles: 0 },
+  "StreetwiseFC": { playstyle: "Quick Counter", highestPosition: "1st (Champion)", manager: "Roberto Martinez", user: "StreetwiseFC", titles: 1 },
+  "ATTACKERS": { playstyle: "Possession", highestPosition: "Division 1", manager: "Thomas Tuchel", user: "khuseloBusquets", titles: 0 },
+  "Danger FC": { playstyle: "Long Ball Counter", highestPosition: "Division 1", manager: "Frank Beckenbauer", user: "Lambo", titles: 0 },
+  "Heathens United": { playstyle: "Possession / Overload", highestPosition: "Division 1", manager: "Frank Lampard/Cesc Fasegas", user: "Don Ladino", titles: 0 },
+  "STRZ": { playstyle: "Outwide", highestPosition: "Division 1", manager: "Ruben Amorim", user: "Lueelo_lynx", titles: 0 },
+  "Intra FC": { playstyle: "", highestPosition: "Division 1", manager: "", user: "Scully03", titles: 0 },
+  "Spartanburg FC": { playstyle: "Quick Counter", highestPosition: "Division 1", manager: "Jurgen Klopp", user: "carelessk3lvin", titles: 0 },
+  "Busby Babes": { playstyle: "Quick Counter", highestPosition: "Division 1", manager: "Antonio Conte", user: "W1ZZYUCHIHA", titles: 0 },
+  "Sabah FC ": { playstyle: "", highestPosition: "Division 1", manager: "", user: "swafiscents", titles: 0 },
   // FIXED: this used to be keyed "sfundoFC" (no space), which didn't match
   // the "sfundo FC" (with space) used in TEAMS -- the info panel was
   // silently failing for this team. Key now matches exactly.
-  "sfundo FC": { playstyle: "Quick Counter", highestPosition: "", manager: "Jose Mourinho", user: "Mapholoba", titles: 0 },
-  "Madoda FC": { playstyle: "Long Ball", highestPosition: "", manager: "Didler Deschamps", user: "EmperorZoocci", titles: 0 },
+  "sfundo FC": { playstyle: "Quick Counter", highestPosition: "Division 1", manager: "Jose Mourinho", user: "Mapholoba", titles: 0 },
+  "Madoda FC": { playstyle: "Long Ball", highestPosition: "Division 1", manager: "Didler Deschamps", user: "EmperorZoocci", titles: 0 },
   // Add the rest of your roster here as you get their info --
   // any team without an entry just won't expand, that's safe.
 };
@@ -6595,7 +6576,7 @@ const REGULATIONS = [
   },
   {
     heading: "Qualification — Super Cup",
-    body: "Contested by the League Champion vs the Champions Cup winner. <br>If the same team wins both, 2nd place in the League steps in instead.<br> Cup is contested in one match set to extra time and penalties."
+    body: "Contested by the League Champion vs the Champions Cup winner. If the same team wins both, 2nd place in the League steps in instead.<br> Cup is contested in one match set to extra time and penalties."
   },
   {
     heading: "Qualification — Champions Super Cup",
@@ -6603,7 +6584,7 @@ const REGULATIONS = [
   },
   {
     heading: "Match Scheduling & Forfeits",
-    body: "After those times, match is a draw on both competing teams on both home and away legs given both did not reach out, however if you reach out and your opponent does not respond, then its a 3-0 win for you in both home and away legs.  <br>If a player has an emergency(family, work, school, network) they should communicate prior to the close of the matchday to avoid unfair forfeits (Grace Period is 3 matches max(3 days), if you exceed the 3 match reschedule you will draw 0-0 all those the matches and you will count as a non-responding player and will be subject to the Forfeit clause)  <br>If a player is suspected of using SMART ASSIST, they will be subject to a 10 point deduction at the end of the season if multiple offences ensue then immediate relegation or expulsion from the league will be put to a vote."
+    body: "After those times, match is a draw on both competing teams on both home and away legs given both did not reach out, however if you reach out and your opponent does not respond, then its a 3-0 win for you in both home and away legs.  If a player has an emergency(family, work, school, network) they should communicate prior to the close of the matchday to avoid unfair forfeits (Grace Period is 3 matches max(3 days), if you exceed the 3 match reschedule you will draw 0-0 all those the matches and you will count as a non-responding player and will be subject to the Forfeit clause)  If a player is suspected of using SMART ASSIST, they will be subject to a 10 point deduction at the end of the season if multiple offences ensue then immediate relegation or expulsion from the league will be put to a vote."
   }
 ];
 
