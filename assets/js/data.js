@@ -34,7 +34,7 @@ const TEAMS = [
   "Danger FC", "StreetwiseFC", "Madoda FC", "Belgium", "Notorious_bZ",
   "THE NAPOLIANS", "Cardo", "Galatasaray",
   "Rommy", "Invisible United", "Madiba Fc", "Destroy.a", "Silent Killers FC",
-  "Kaizer Chiefs XI","player1","player2"
+  "Kaizer Chiefs XI","Saints FC","player2"
 ];
 // If TEAMS.length is odd, a "BYE" is auto-added -- don't add it yourself.
 
@@ -56,105 +56,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "NewPlayer15",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "NewPlayer14",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Busby Babes",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Sabah FC ",
+        "home": "ATTACKERS",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Danger FC",
+        "home": "Spartanburg FC",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "StreetwiseFC",
+        "home": "STRZ",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madoda FC",
+        "home": "sfundo FC",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Belgium",
+        "home": "Sabah FC ",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Notorious_bZ",
+        "home": "Danger FC",
         "away": "THE NAPOLIANS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "Notorious_bZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madoda FC",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -165,106 +151,92 @@ const FIXTURES = [
     "matchday": 2,
     "matches": [
       {
-        "home": "NewPlayer15",
+        "home": "player2",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Saints FC",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Kaizer Chiefs XI",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Silent Killers FC",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Destroy.a",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Madiba Fc",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "Invisible United",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
+        "home": "Rommy",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Galatasaray",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "Cardo",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "THE NAPOLIANS",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
+        "home": "Notorious_bZ",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
+        "home": "Belgium",
         "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -275,106 +247,92 @@ const FIXTURES = [
     "matchday": 3,
     "matches": [
       {
-        "home": "NewPlayer14",
+        "home": "Saints FC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Intra FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Manyora",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Kaizer Chiefs XI",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Silent Killers FC",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Destroy.a",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madiba Fc",
-        "away": "STRZ",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Invisible United",
-        "away": "sfundo FC",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Rommy",
-        "away": "Sabah FC ",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Galatasaray",
-        "away": "Danger FC",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Cardo",
-        "away": "StreetwiseFC",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "Madoda FC",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "Belgium",
+        "away": "Sabah FC ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Belgium",
+        "away": "Danger FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madoda FC",
+        "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -386,105 +344,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "NewPlayer14",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Heathens United",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Intra FC",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Sabah FC ",
+        "home": "ATTACKERS",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Danger FC",
+        "home": "Spartanburg FC",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "StreetwiseFC",
+        "home": "STRZ",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madoda FC",
+        "home": "sfundo FC",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Belgium",
+        "home": "Sabah FC ",
         "away": "Notorious_bZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Danger FC",
+        "away": "Belgium",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -496,105 +440,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Heathens United",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Intra FC",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Sabah FC ",
+        "home": "ATTACKERS",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Danger FC",
+        "home": "Spartanburg FC",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "StreetwiseFC",
+        "home": "STRZ",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madoda FC",
+        "home": "sfundo FC",
         "away": "Belgium",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Sabah FC ",
+        "away": "Madoda FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Danger FC",
+        "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -605,106 +535,92 @@ const FIXTURES = [
     "matchday": 6,
     "matches": [
       {
-        "home": "NewPlayer13",
+        "home": "Kaizer Chiefs XI",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Intra FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Silent Killers FC",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Destroy.a",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madiba Fc",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Invisible United",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Rommy",
-        "away": "STRZ",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Galatasaray",
-        "away": "sfundo FC",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Cardo",
-        "away": "Sabah FC ",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "Danger FC",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "StreetwiseFC",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "Madoda FC",
+        "away": "sfundo FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madoda FC",
+        "away": "Sabah FC ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -715,106 +631,92 @@ const FIXTURES = [
     "matchday": 7,
     "matches": [
       {
-        "home": "NewPlayer12",
+        "home": "Silent Killers FC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Destroy.a",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madiba Fc",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Invisible United",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Rommy",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Galatasaray",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Cardo",
-        "away": "STRZ",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "sfundo FC",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "Sabah FC ",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "Danger FC",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "StreetwiseFC",
+        "away": "STRZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "sfundo FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Danger FC",
+        "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -826,105 +728,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Heathens United",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Sabah FC ",
+        "home": "ATTACKERS",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Danger FC",
+        "home": "Spartanburg FC",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "StreetwiseFC",
+        "home": "STRZ",
         "away": "Madoda FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "sfundo FC",
+        "away": "StreetwiseFC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Sabah FC ",
+        "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -936,105 +824,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Sabah FC ",
+        "home": "ATTACKERS",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Danger FC",
+        "home": "Spartanburg FC",
         "away": "StreetwiseFC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "STRZ",
+        "away": "Danger FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "sfundo FC",
+        "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1045,106 +919,92 @@ const FIXTURES = [
     "matchday": 10,
     "matches": [
       {
-        "home": "NewPlayer11",
+        "home": "Destroy.a",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Madiba Fc",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Invisible United",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Rommy",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Galatasaray",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Cardo",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "STRZ",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "sfundo FC",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "Sabah FC ",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "Danger FC",
+        "away": "Spartanburg FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Danger FC",
+        "away": "STRZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Sabah FC ",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1155,106 +1015,92 @@ const FIXTURES = [
     "matchday": 11,
     "matches": [
       {
-        "home": "NewPlayer10",
+        "home": "Madiba Fc",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Invisible United",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Rommy",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Galatasaray",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Cardo",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "STRZ",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "sfundo FC",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "Sabah FC ",
+        "away": "ATTACKERS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Sabah FC ",
+        "away": "Spartanburg FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "sfundo FC",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1266,105 +1112,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Sabah FC ",
+        "home": "ATTACKERS",
         "away": "Danger FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Spartanburg FC",
+        "away": "Sabah FC ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "STRZ",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1376,105 +1208,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "Sabah FC ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "ATTACKERS",
+        "away": "sfundo FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Spartanburg FC",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1485,106 +1303,92 @@ const FIXTURES = [
     "matchday": 14,
     "matches": [
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "Invisible United",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Rommy",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Galatasaray",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Cardo",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "STRZ",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "sfundo FC",
+        "away": "Busby Babes",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "sfundo FC",
+        "away": "ATTACKERS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "STRZ",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1595,106 +1399,92 @@ const FIXTURES = [
     "matchday": 15,
     "matches": [
       {
-        "home": "Silent Killers FC",
+        "home": "Rommy",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Galatasaray",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Cardo",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "STRZ",
+        "away": "Manyora",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "STRZ",
+        "away": "Busby Babes",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Spartanburg FC",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1706,105 +1496,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "sfundo FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Busby Babes",
+        "away": "STRZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "ATTACKERS",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1816,105 +1592,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "STRZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Manyora",
+        "away": "Spartanburg FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Busby Babes",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1925,106 +1687,92 @@ const FIXTURES = [
     "matchday": 18,
     "matches": [
       {
-        "home": "Destroy.a",
+        "home": "Galatasaray",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Cardo",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Spartanburg FC",
+        "away": "Intra FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Spartanburg FC",
+        "away": "Manyora",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "ATTACKERS",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2035,106 +1783,92 @@ const FIXTURES = [
     "matchday": 19,
     "matches": [
       {
-        "home": "Madiba Fc",
+        "home": "Cardo",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "THE NAPOLIANS",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "ATTACKERS",
+        "away": "Heathens United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "ATTACKERS",
+        "away": "Intra FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Busby Babes",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2146,105 +1880,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
         "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Spartanburg FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Intra FC",
+        "away": "ATTACKERS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Manyora",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2256,105 +1976,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Cardo",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
+        "home": "player2",
         "away": "ATTACKERS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Heathens United",
+        "away": "Busby Babes",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Intra FC",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2365,106 +2071,92 @@ const FIXTURES = [
     "matchday": 22,
     "matches": [
       {
-        "home": "Invisible United",
+        "home": "THE NAPOLIANS",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Notorious_bZ",
-        "away": "NewPlayer10",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Belgium",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Busby Babes",
+        "away": "player2",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Busby Babes",
+        "away": "Heathens United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Manyora",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2475,106 +2167,92 @@ const FIXTURES = [
     "matchday": 23,
     "matches": [
       {
-        "home": "Rommy",
+        "home": "Notorious_bZ",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Belgium",
-        "away": "Kaizer Chiefs XI",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "NewPlayer10",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Manyora",
+        "away": "Saints FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Manyora",
+        "away": "player2",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Intra FC",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2586,105 +2264,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "THE NAPOLIANS",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Cardo",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Manyora",
+        "home": "Saints FC",
         "away": "Busby Babes",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "player2",
+        "away": "Manyora",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Heathens United",
+        "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2696,105 +2360,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
+        "home": "Notorious_bZ",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "THE NAPOLIANS",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Cardo",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "Manyora",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Saints FC",
+        "away": "Intra FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "player2",
+        "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2805,106 +2455,92 @@ const FIXTURES = [
     "matchday": 26,
     "matches": [
       {
-        "home": "Galatasaray",
+        "home": "Belgium",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Cardo",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Madoda FC",
-        "away": "Silent Killers FC",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "Kaizer Chiefs XI",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "NewPlayer10",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "Intra FC",
+        "away": "Kaizer Chiefs XI",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Intra FC",
+        "away": "Saints FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Heathens United",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2915,106 +2551,92 @@ const FIXTURES = [
     "matchday": 27,
     "matches": [
       {
-        "home": "Cardo",
+        "home": "Madoda FC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "THE NAPOLIANS",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "StreetwiseFC",
-        "away": "Destroy.a",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "Silent Killers FC",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "Kaizer Chiefs XI",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "NewPlayer10",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Heathens United",
+        "away": "Silent Killers FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Heathens United",
+        "away": "Kaizer Chiefs XI",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "player2",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3026,105 +2648,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Belgium",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
+        "home": "Notorious_bZ",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "THE NAPOLIANS",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Cardo",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "Intra FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Kaizer Chiefs XI",
+        "away": "Heathens United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Saints FC",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3136,105 +2744,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "Madoda FC",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Belgium",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
+        "home": "Notorious_bZ",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "THE NAPOLIANS",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Cardo",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "Heathens United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Silent Killers FC",
+        "away": "player2",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Kaizer Chiefs XI",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3245,106 +2839,92 @@ const FIXTURES = [
     "matchday": 30,
     "matches": [
       {
-        "home": "THE NAPOLIANS",
+        "home": "StreetwiseFC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Notorious_bZ",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Danger FC",
-        "away": "Madiba Fc",
+        "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "Destroy.a",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "Silent Killers FC",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Kaizer Chiefs XI",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "NewPlayer10",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "NewPlayer14",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "NewPlayer15",
+        "away": "Destroy.a",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "player2",
+        "away": "Silent Killers FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Saints FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3355,106 +2935,92 @@ const FIXTURES = [
     "matchday": 31,
     "matches": [
       {
-        "home": "Notorious_bZ",
+        "home": "Danger FC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Belgium",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Sabah FC ",
-        "away": "Invisible United",
+        "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "Madiba Fc",
+        "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Destroy.a",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "Silent Killers FC",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Kaizer Chiefs XI",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "NewPlayer10",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "NewPlayer12",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "NewPlayer13",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "NewPlayer14",
+        "home": "player2",
+        "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Saints FC",
+        "away": "Destroy.a",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Kaizer Chiefs XI",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3466,105 +3032,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "StreetwiseFC",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "Madoda FC",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Belgium",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
+        "home": "Notorious_bZ",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "THE NAPOLIANS",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Cardo",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
+        "home": "Rommy",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "NewPlayer15",
+        "home": "Madiba Fc",
+        "away": "player2",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Destroy.a",
+        "away": "Saints FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Silent Killers FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3576,105 +3128,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
+        "home": "Danger FC",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "StreetwiseFC",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "Madoda FC",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Belgium",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
+        "home": "Notorious_bZ",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "THE NAPOLIANS",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
+        "home": "Cardo",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
+        "home": "Galatasaray",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
-        "away": "NewPlayer15",
+        "home": "Rommy",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
-        "away": "NewPlayer14",
+        "home": "Invisible United",
+        "away": "Saints FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "Kaizer Chiefs XI",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Destroy.a",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3685,106 +3223,92 @@ const FIXTURES = [
     "matchday": 34,
     "matches": [
       {
-        "home": "Belgium",
+        "home": "Sabah FC ",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madoda FC",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "sfundo FC",
-        "away": "Rommy",
+        "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Invisible United",
+        "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "Madiba Fc",
+        "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Destroy.a",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Silent Killers FC",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "Kaizer Chiefs XI",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "NewPlayer10",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "NewPlayer11",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "NewPlayer12",
+        "home": "player2",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "NewPlayer13",
+        "home": "Saints FC",
+        "away": "Invisible United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Kaizer Chiefs XI",
+        "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Silent Killers FC",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3795,106 +3319,92 @@ const FIXTURES = [
     "matchday": 35,
     "matches": [
       {
-        "home": "Madoda FC",
+        "home": "sfundo FC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "StreetwiseFC",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "STRZ",
-        "away": "Galatasaray",
+        "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "Rommy",
+        "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Invisible United",
+        "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Madiba Fc",
+        "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "Destroy.a",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Silent Killers FC",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "Kaizer Chiefs XI",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "NewPlayer10",
+        "home": "player2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "NewPlayer11",
+        "home": "Saints FC",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
-        "away": "NewPlayer12",
+        "home": "Kaizer Chiefs XI",
+        "away": "Rommy",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Silent Killers FC",
+        "away": "Invisible United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Destroy.a",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3906,105 +3416,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
+        "home": "Sabah FC ",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
+        "home": "Danger FC",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "StreetwiseFC",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "Madoda FC",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Belgium",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
+        "home": "Notorious_bZ",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
+        "home": "THE NAPOLIANS",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
-        "away": "NewPlayer15",
+        "home": "Cardo",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
-        "away": "NewPlayer14",
+        "home": "Galatasaray",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
-        "away": "NewPlayer13",
+        "home": "Rommy",
+        "away": "Kaizer Chiefs XI",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Invisible United",
+        "away": "Silent Killers FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4016,105 +3512,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "sfundo FC",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
+        "home": "Sabah FC ",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
+        "home": "Danger FC",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "StreetwiseFC",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "Madoda FC",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Belgium",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
-        "away": "NewPlayer15",
+        "home": "Notorious_bZ",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
-        "away": "NewPlayer14",
+        "home": "THE NAPOLIANS",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
-        "away": "NewPlayer13",
+        "home": "Cardo",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
-        "away": "NewPlayer12",
+        "home": "Galatasaray",
+        "away": "Silent Killers FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Rommy",
+        "away": "Destroy.a",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Invisible United",
+        "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4125,106 +3607,92 @@ const FIXTURES = [
     "matchday": 38,
     "matches": [
       {
-        "home": "StreetwiseFC",
+        "home": "STRZ",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Danger FC",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Spartanburg FC",
-        "away": "Cardo",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Galatasaray",
+        "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Rommy",
+        "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "Invisible United",
+        "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Madiba Fc",
+        "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "Destroy.a",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "Silent Killers FC",
+        "home": "player2",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "Kaizer Chiefs XI",
+        "home": "Saints FC",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
-        "away": "NewPlayer10",
+        "home": "Kaizer Chiefs XI",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
-        "away": "NewPlayer11",
+        "home": "Silent Killers FC",
+        "away": "Galatasaray",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Destroy.a",
+        "away": "Rommy",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4235,106 +3703,92 @@ const FIXTURES = [
     "matchday": 39,
     "matches": [
       {
-        "home": "Danger FC",
+        "home": "Spartanburg FC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Sabah FC ",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "ATTACKERS",
-        "away": "THE NAPOLIANS",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Cardo",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "Galatasaray",
+        "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Rommy",
+        "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "Invisible United",
+        "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "Madiba Fc",
+        "home": "player2",
+        "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "Destroy.a",
+        "home": "Saints FC",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
-        "away": "Silent Killers FC",
+        "home": "Kaizer Chiefs XI",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
-        "away": "Kaizer Chiefs XI",
+        "home": "Silent Killers FC",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer11",
-        "away": "NewPlayer10",
+        "home": "Destroy.a",
+        "away": "Cardo",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "Galatasaray",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Invisible United",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4346,105 +3800,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "THE NAPOLIANS",
+        "home": "STRZ",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "sfundo FC",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
+        "home": "Sabah FC ",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
+        "home": "Danger FC",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "StreetwiseFC",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
-        "away": "NewPlayer15",
+        "home": "Madoda FC",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
-        "away": "NewPlayer14",
+        "home": "Belgium",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
-        "away": "NewPlayer13",
+        "home": "Notorious_bZ",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
-        "away": "NewPlayer12",
+        "home": "THE NAPOLIANS",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer10",
-        "away": "NewPlayer11",
+        "home": "Cardo",
+        "away": "Destroy.a",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Galatasaray",
+        "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Rommy",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4456,105 +3896,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Notorious_bZ",
+        "home": "Spartanburg FC",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "THE NAPOLIANS",
+        "home": "STRZ",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "sfundo FC",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
+        "home": "Sabah FC ",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
-        "away": "NewPlayer15",
+        "home": "Danger FC",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
-        "away": "NewPlayer14",
+        "home": "StreetwiseFC",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
-        "away": "NewPlayer13",
+        "home": "Madoda FC",
+        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
-        "away": "NewPlayer12",
+        "home": "Belgium",
+        "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Silent Killers FC",
-        "away": "NewPlayer11",
+        "home": "Notorious_bZ",
+        "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Kaizer Chiefs XI",
-        "away": "NewPlayer10",
+        "home": "THE NAPOLIANS",
+        "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Cardo",
+        "away": "Invisible United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Galatasaray",
+        "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4565,106 +3991,92 @@ const FIXTURES = [
     "matchday": 42,
     "matches": [
       {
-        "home": "Sabah FC ",
+        "home": "ATTACKERS",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "sfundo FC",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Busby Babes",
-        "away": "Notorious_bZ",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "THE NAPOLIANS",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Cardo",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
+        "away": "Sabah FC ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "player2",
+        "away": "Danger FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Saints FC",
+        "away": "StreetwiseFC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Kaizer Chiefs XI",
+        "away": "Madoda FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Silent Killers FC",
+        "away": "Belgium",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Destroy.a",
+        "away": "Notorious_bZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "THE NAPOLIANS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Invisible United",
+        "away": "Cardo",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Rommy",
         "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4675,106 +4087,92 @@ const FIXTURES = [
     "matchday": 43,
     "matches": [
       {
-        "home": "sfundo FC",
+        "home": "Busby Babes",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Busby Babes",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Manyora",
-        "away": "Belgium",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Notorious_bZ",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "THE NAPOLIANS",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "Cardo",
+        "home": "player2",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Destroy.a",
+        "home": "Saints FC",
+        "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Silent Killers FC",
+        "away": "Danger FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Silent Killers FC",
+        "away": "StreetwiseFC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Destroy.a",
+        "away": "Madoda FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "Belgium",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Invisible United",
+        "away": "Notorious_bZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Rommy",
+        "away": "THE NAPOLIANS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Galatasaray",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4786,105 +4184,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Belgium",
+        "home": "ATTACKERS",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Notorious_bZ",
+        "home": "Spartanburg FC",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "THE NAPOLIANS",
+        "home": "STRZ",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Cardo",
-        "away": "NewPlayer15",
+        "home": "sfundo FC",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
-        "away": "NewPlayer14",
+        "home": "Sabah FC ",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
+        "home": "Danger FC",
         "away": "Kaizer Chiefs XI",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "Silent Killers FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madoda FC",
+        "away": "Destroy.a",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Belgium",
+        "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Notorious_bZ",
+        "away": "Invisible United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "THE NAPOLIANS",
+        "away": "Rommy",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Cardo",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4896,105 +4280,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "Busby Babes",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madoda FC",
+        "home": "Busby Babes",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Belgium",
+        "home": "ATTACKERS",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Notorious_bZ",
-        "away": "NewPlayer15",
+        "home": "Spartanburg FC",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "THE NAPOLIANS",
-        "away": "NewPlayer14",
+        "home": "STRZ",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Cardo",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
+        "home": "sfundo FC",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Destroy.a",
+        "home": "Sabah FC ",
         "away": "Silent Killers FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Danger FC",
+        "away": "Destroy.a",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madoda FC",
+        "away": "Invisible United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Belgium",
+        "away": "Rommy",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Notorious_bZ",
+        "away": "Galatasaray",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "THE NAPOLIANS",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5005,106 +4375,92 @@ const FIXTURES = [
     "matchday": 46,
     "matches": [
       {
-        "home": "STRZ",
+        "home": "Manyora",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Spartanburg FC",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Busby Babes",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Intra FC",
-        "away": "Madoda FC",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "Belgium",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "Notorious_bZ",
+        "home": "player2",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Invisible United",
+        "home": "Saints FC",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Madiba Fc",
+        "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Silent Killers FC",
-        "away": "Destroy.a",
+        "away": "Sabah FC ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Destroy.a",
+        "away": "Danger FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "StreetwiseFC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Invisible United",
+        "away": "Madoda FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Rommy",
+        "away": "Belgium",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Galatasaray",
+        "away": "Notorious_bZ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Cardo",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5115,106 +4471,92 @@ const FIXTURES = [
     "matchday": 47,
     "matches": [
       {
-        "home": "Spartanburg FC",
+        "home": "Intra FC",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "ATTACKERS",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Busby Babes",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Intra FC",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Heathens United",
-        "away": "StreetwiseFC",
+        "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
-        "away": "Madoda FC",
+        "home": "player2",
+        "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Galatasaray",
+        "home": "Saints FC",
+        "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Rommy",
+        "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Silent Killers FC",
-        "away": "Invisible United",
+        "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Destroy.a",
-        "away": "Madiba Fc",
+        "away": "sfundo FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madiba Fc",
+        "away": "Sabah FC ",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Invisible United",
+        "away": "Danger FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Rommy",
+        "away": "StreetwiseFC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Galatasaray",
+        "away": "Madoda FC",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Cardo",
+        "away": "Belgium",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "THE NAPOLIANS",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5226,105 +4568,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "Busby Babes",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "Manyora",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "StreetwiseFC",
+        "home": "Manyora",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madoda FC",
-        "away": "NewPlayer15",
+        "home": "Busby Babes",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Belgium",
-        "away": "NewPlayer14",
+        "home": "ATTACKERS",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Notorious_bZ",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
+        "home": "Spartanburg FC",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "STRZ",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "sfundo FC",
         "away": "Destroy.a",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Sabah FC ",
+        "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Danger FC",
+        "away": "Invisible United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "Rommy",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madoda FC",
+        "away": "Galatasaray",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Belgium",
+        "away": "Cardo",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Notorious_bZ",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5336,105 +4664,91 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
-        "away": "Busby Babes",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "Manyora",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "Intra FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Danger FC",
-        "away": "NewPlayer15",
+        "home": "Intra FC",
+        "away": "player2",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "StreetwiseFC",
-        "away": "NewPlayer14",
+        "home": "Manyora",
+        "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madoda FC",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
+        "home": "Busby Babes",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Galatasaray",
+        "home": "ATTACKERS",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
+        "home": "Spartanburg FC",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "STRZ",
         "away": "Madiba Fc",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "sfundo FC",
+        "away": "Invisible United",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Sabah FC ",
+        "away": "Rommy",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Danger FC",
+        "away": "Galatasaray",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "StreetwiseFC",
+        "away": "Cardo",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Madoda FC",
+        "away": "THE NAPOLIANS",
+        "homeScore": null,
+        "awayScore": null,
+        "forfeit": false
+      },
+      {
+        "home": "Belgium",
+        "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5445,986 +4759,92 @@ const FIXTURES = [
     "matchday": 50,
     "matches": [
       {
-        "home": "ATTACKERS",
+        "home": "Heathens United",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Intra FC",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Heathens United",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 51,
-    "matches": [
-      {
-        "home": "Busby Babes",
-        "away": "Dont Worry",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Intra FC",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Heathens United",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 52,
-    "matches": [
-      {
-        "home": "Dont Worry",
-        "away": "Busby Babes",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "Manyora",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
+        "home": "player2",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "STRZ",
-        "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 53,
-    "matches": [
-      {
-        "home": "Dont Worry",
+        "home": "Saints FC",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Busby Babes",
-        "away": "Intra FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 54,
-    "matches": [
-      {
-        "home": "Manyora",
-        "away": "Dont Worry",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Intra FC",
+        "home": "Kaizer Chiefs XI",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Heathens United",
+        "home": "Silent Killers FC",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer15",
+        "home": "Destroy.a",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer14",
+        "home": "Madiba Fc",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer13",
+        "home": "Invisible United",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "NewPlayer12",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "THE NAPOLIANS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
         "home": "Rommy",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 55,
-    "matches": [
-      {
-        "home": "Intra FC",
-        "away": "Dont Worry",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Heathens United",
-        "away": "Manyora",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
-        "away": "Busby Babes",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
         "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "Danger FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
-        "away": "Madoda FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madiba Fc",
-        "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Invisible United",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Rommy",
-        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Galatasaray",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 56,
-    "matches": [
-      {
-        "home": "Dont Worry",
-        "away": "Intra FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Busby Babes",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 57,
-    "matches": [
-      {
-        "home": "Dont Worry",
-        "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Intra FC",
-        "away": "NewPlayer15",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Manyora",
-        "away": "NewPlayer14",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Busby Babes",
-        "away": "NewPlayer13",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "ATTACKERS",
-        "away": "NewPlayer12",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Spartanburg FC",
-        "away": "NewPlayer11",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "STRZ",
-        "away": "NewPlayer10",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "sfundo FC",
-        "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Sabah FC ",
-        "away": "Silent Killers FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Danger FC",
-        "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "StreetwiseFC",
-        "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Madoda FC",
-        "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Belgium",
-        "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Notorious_bZ",
-        "away": "Galatasaray",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "THE NAPOLIANS",
-        "away": "Cardo",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      }
-    ]
-  },
-  {
-    "matchday": 58,
-    "matches": [
-      {
-        "home": "Heathens United",
-        "away": "Dont Worry",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer15",
-        "away": "Intra FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer14",
-        "away": "Manyora",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer13",
-        "away": "Busby Babes",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer12",
-        "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer11",
-        "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "NewPlayer10",
-        "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Kaizer Chiefs XI",
-        "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Silent Killers FC",
-        "away": "Sabah FC ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Destroy.a",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Madiba Fc",
+        "home": "Cardo",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Invisible United",
+        "home": "THE NAPOLIANS",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Rommy",
+        "home": "Notorious_bZ",
         "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Galatasaray",
-        "away": "Notorious_bZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
-      },
-      {
-        "home": "Cardo",
-        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
