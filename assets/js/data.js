@@ -6469,19 +6469,19 @@ const CHAMPIONS_SUPER_CUP = {
    ------------------------------------------------------------ */
 const CHAMPIONS = {
   league: [
-    { season: "Season 1: Aug 2026", team: "ATTACKERS" },
+    { season: "Season 1: Aug '26", team: "ATTACKERS" },
   ],
   domesticCup: [
     
   ],
   championsCup: [
-  { season: "Season 1: Aug 2026", team: "ATTACKERS" },
+  { season: "Season 1: Aug '26", team: "ATTACKERS" },
   ],
   conferenceCup: [
   
   ],
   superCup: [
-      { season: "Season 1: Aug 2026", team: "StreetwiseFC" },
+   { season: "Season 1: Aug '26", team: "StreetwiseFC" },
   ],
   championsSuperCup: [],
 };
