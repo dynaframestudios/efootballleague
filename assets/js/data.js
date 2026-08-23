@@ -14,7 +14,7 @@
    ------------------------------------------------------------ */
 const SEASON_INFO = {
   number: 2,
-  startDate: "2026-08-23",
+  startDate: "2026-08-24",
   leagueWindowDays: 15,
   cupWindowDays: 10
 };
@@ -31,11 +31,10 @@ const SEASON_INFO = {
 const TEAMS = [
   "Dont Worry", "Heathens United", "Intra FC", "Manyora", "Busby Babes",
   "ATTACKERS", "Spartanburg FC", "STRZ", "sfundo FC", "Sabah FC ",
-  "Danger FC", "StreetwiseFC", "Madoda FC", "Muntu19", "Notorious_bZ",
-  "Relegation1", "Relegation2", "Relegation3",
-  "Rommy", "Thee_H1MOTHY", "Madiba Fc", "Destroy.a", "Silent Killers FC",
-  "Kaizer Chiefs XI", "NewPlayer10", "NewPlayer11", "NewPlayer12",
-  "NewPlayer13", "NewPlayer14", "NewPlayer15"
+  "Danger FC", "StreetwiseFC", "Madoda FC", "Belgium", "Notorious_bZ",
+  "THE NAPOLIANS", "Cardo", "Galatasaray",
+  "Rommy", "Invisible United", "Madiba Fc", "Destroy.a", "Silent Killers FC",
+  "Kaizer Chiefs XI","player1","player2"
 ];
 // If TEAMS.length is odd, a "BYE" is auto-added -- don't add it yourself.
 
@@ -127,7 +126,7 @@ const FIXTURES = [
       },
       {
         "home": "Danger FC",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -141,21 +140,21 @@ const FIXTURES = [
       },
       {
         "home": "Madoda FC",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Muntu19",
-        "away": "Relegation2",
+        "home": "Belgium",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Notorious_bZ",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -236,7 +235,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
@@ -250,21 +249,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
-        "away": "Muntu19",
+        "home": "Cardo",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
@@ -339,7 +338,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
@@ -353,21 +352,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
@@ -375,7 +374,7 @@ const FIXTURES = [
       },
       {
         "home": "Notorious_bZ",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -450,7 +449,7 @@ const FIXTURES = [
       },
       {
         "home": "sfundo FC",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -464,27 +463,27 @@ const FIXTURES = [
       },
       {
         "home": "Danger FC",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
@@ -553,7 +552,7 @@ const FIXTURES = [
       },
       {
         "home": "Spartanburg FC",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -567,21 +566,21 @@ const FIXTURES = [
       },
       {
         "home": "sfundo FC",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -595,7 +594,7 @@ const FIXTURES = [
       },
       {
         "home": "Madoda FC",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -662,7 +661,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
@@ -676,21 +675,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
@@ -704,7 +703,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
@@ -765,7 +764,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
@@ -779,21 +778,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
@@ -807,7 +806,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
@@ -876,7 +875,7 @@ const FIXTURES = [
       },
       {
         "home": "Busby Babes",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -890,21 +889,21 @@ const FIXTURES = [
       },
       {
         "home": "Spartanburg FC",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -918,7 +917,7 @@ const FIXTURES = [
       },
       {
         "home": "Danger FC",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -979,7 +978,7 @@ const FIXTURES = [
       },
       {
         "home": "Intra FC",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -993,21 +992,21 @@ const FIXTURES = [
       },
       {
         "home": "Busby Babes",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1021,7 +1020,7 @@ const FIXTURES = [
       },
       {
         "home": "sfundo FC",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1088,7 +1087,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
@@ -1102,21 +1101,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
@@ -1130,7 +1129,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
@@ -1191,7 +1190,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "NewPlayer15",
         "homeScore": null,
         "awayScore": null,
@@ -1205,21 +1204,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
@@ -1233,7 +1232,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
@@ -1302,7 +1301,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer15",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1316,21 +1315,21 @@ const FIXTURES = [
       },
       {
         "home": "Intra FC",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1344,7 +1343,7 @@ const FIXTURES = [
       },
       {
         "home": "Spartanburg FC",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1405,7 +1404,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer13",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1419,21 +1418,21 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer15",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1447,7 +1446,7 @@ const FIXTURES = [
       },
       {
         "home": "Busby Babes",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1514,7 +1513,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "NewPlayer13",
         "homeScore": null,
         "awayScore": null,
@@ -1528,21 +1527,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "NewPlayer15",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
@@ -1556,7 +1555,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
@@ -1617,7 +1616,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "NewPlayer11",
         "homeScore": null,
         "awayScore": null,
@@ -1631,21 +1630,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "NewPlayer13",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "NewPlayer14",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "NewPlayer15",
         "homeScore": null,
         "awayScore": null,
@@ -1659,7 +1658,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
@@ -1728,7 +1727,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer11",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1742,21 +1741,21 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer13",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer14",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer15",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1770,7 +1769,7 @@ const FIXTURES = [
       },
       {
         "home": "Intra FC",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1831,7 +1830,7 @@ const FIXTURES = [
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1845,21 +1844,21 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer11",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer12",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer13",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1873,7 +1872,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer15",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1940,7 +1939,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
@@ -1954,21 +1953,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "NewPlayer11",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "NewPlayer12",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "NewPlayer13",
         "homeScore": null,
         "awayScore": null,
@@ -1982,7 +1981,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "NewPlayer15",
         "homeScore": null,
         "awayScore": null,
@@ -2043,7 +2042,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
@@ -2057,21 +2056,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "NewPlayer10",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "NewPlayer11",
         "homeScore": null,
         "awayScore": null,
@@ -2085,7 +2084,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "NewPlayer13",
         "homeScore": null,
         "awayScore": null,
@@ -2154,7 +2153,7 @@ const FIXTURES = [
       },
       {
         "home": "Destroy.a",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2168,21 +2167,21 @@ const FIXTURES = [
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer10",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer11",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2196,7 +2195,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer13",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2257,7 +2256,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2271,21 +2270,21 @@ const FIXTURES = [
       },
       {
         "home": "Destroy.a",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Silent Killers FC",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2299,7 +2298,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer11",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2366,7 +2365,7 @@ const FIXTURES = [
     "matchday": 22,
     "matches": [
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
@@ -2380,21 +2379,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
@@ -2408,7 +2407,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "NewPlayer11",
         "homeScore": null,
         "awayScore": null,
@@ -2483,21 +2482,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation3",
-        "away": "Thee_H1MOTHY",
+        "home": "Galatasaray",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
@@ -2511,7 +2510,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
@@ -2593,22 +2592,22 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
-        "away": "Relegation3",
+        "home": "Invisible United",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madiba Fc",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Destroy.a",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2622,7 +2621,7 @@ const FIXTURES = [
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2697,21 +2696,21 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Rommy",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
-        "away": "Relegation1",
+        "home": "Invisible United",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2725,7 +2724,7 @@ const FIXTURES = [
       },
       {
         "home": "Destroy.a",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2806,22 +2805,22 @@ const FIXTURES = [
     "matchday": 26,
     "matches": [
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
-        "away": "Thee_H1MOTHY",
+        "home": "THE NAPOLIANS",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2834,7 +2833,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
@@ -2916,15 +2915,15 @@ const FIXTURES = [
     "matchday": 27,
     "matches": [
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
-        "away": "Relegation3",
+        "home": "THE NAPOLIANS",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2937,8 +2936,8 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
-        "away": "Thee_H1MOTHY",
+        "home": "Belgium",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3027,14 +3026,14 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
-        "away": "Relegation1",
+        "home": "Galatasaray",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3047,8 +3046,8 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
-        "away": "Muntu19",
+        "home": "Invisible United",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3137,21 +3136,21 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
-        "away": "Muntu19",
+        "home": "Galatasaray",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3164,7 +3163,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
@@ -3246,7 +3245,7 @@ const FIXTURES = [
     "matchday": 30,
     "matches": [
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
@@ -3254,14 +3253,14 @@ const FIXTURES = [
       },
       {
         "home": "Notorious_bZ",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Muntu19",
-        "away": "Relegation3",
+        "home": "Belgium",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3275,7 +3274,7 @@ const FIXTURES = [
       },
       {
         "home": "StreetwiseFC",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3363,22 +3362,22 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
-        "away": "Relegation1",
+        "home": "Belgium",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madoda FC",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "StreetwiseFC",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3392,7 +3391,7 @@ const FIXTURES = [
       },
       {
         "home": "Sabah FC ",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3473,21 +3472,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
-        "away": "Muntu19",
+        "home": "THE NAPOLIANS",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
@@ -3501,7 +3500,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
@@ -3577,7 +3576,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3590,21 +3589,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
@@ -3618,7 +3617,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
@@ -3686,7 +3685,7 @@ const FIXTURES = [
     "matchday": 34,
     "matches": [
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
@@ -3701,21 +3700,21 @@ const FIXTURES = [
       },
       {
         "home": "StreetwiseFC",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Danger FC",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Sabah FC ",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3729,7 +3728,7 @@ const FIXTURES = [
       },
       {
         "home": "STRZ",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3804,7 +3803,7 @@ const FIXTURES = [
       },
       {
         "home": "StreetwiseFC",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3818,21 +3817,21 @@ const FIXTURES = [
       },
       {
         "home": "Sabah FC ",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "sfundo FC",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "STRZ",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3846,7 +3845,7 @@ const FIXTURES = [
       },
       {
         "home": "ATTACKERS",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3913,7 +3912,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
@@ -3927,21 +3926,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
@@ -3955,7 +3954,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
@@ -4030,7 +4029,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
@@ -4044,21 +4043,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
@@ -4072,7 +4071,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
@@ -4141,7 +4140,7 @@ const FIXTURES = [
       },
       {
         "home": "Sabah FC ",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4155,21 +4154,21 @@ const FIXTURES = [
       },
       {
         "home": "STRZ",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Spartanburg FC",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "ATTACKERS",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4183,7 +4182,7 @@ const FIXTURES = [
       },
       {
         "home": "Manyora",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4258,7 +4257,7 @@ const FIXTURES = [
       },
       {
         "home": "STRZ",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4272,21 +4271,21 @@ const FIXTURES = [
       },
       {
         "home": "ATTACKERS",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Busby Babes",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Manyora",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4300,7 +4299,7 @@ const FIXTURES = [
       },
       {
         "home": "Heathens United",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4367,7 +4366,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
@@ -4381,21 +4380,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
@@ -4409,7 +4408,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
@@ -4484,7 +4483,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
@@ -4498,21 +4497,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
@@ -4526,7 +4525,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "NewPlayer14",
         "homeScore": null,
         "awayScore": null,
@@ -4595,7 +4594,7 @@ const FIXTURES = [
       },
       {
         "home": "ATTACKERS",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4609,21 +4608,21 @@ const FIXTURES = [
       },
       {
         "home": "Manyora",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Intra FC",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Heathens United",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4637,7 +4636,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer14",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4712,7 +4711,7 @@ const FIXTURES = [
       },
       {
         "home": "Manyora",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4726,21 +4725,21 @@ const FIXTURES = [
       },
       {
         "home": "Heathens United",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer15",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer14",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4754,7 +4753,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer12",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4821,7 +4820,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
@@ -4835,21 +4834,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "NewPlayer15",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "NewPlayer14",
         "homeScore": null,
         "awayScore": null,
@@ -4863,7 +4862,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "NewPlayer12",
         "homeScore": null,
         "awayScore": null,
@@ -4938,7 +4937,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
@@ -4952,21 +4951,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "NewPlayer14",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "NewPlayer13",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "NewPlayer12",
         "homeScore": null,
         "awayScore": null,
@@ -4980,7 +4979,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "NewPlayer10",
         "homeScore": null,
         "awayScore": null,
@@ -5049,7 +5048,7 @@ const FIXTURES = [
       },
       {
         "home": "Heathens United",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5063,21 +5062,21 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer14",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer13",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer12",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5091,7 +5090,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer10",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5166,7 +5165,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer14",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5180,21 +5179,21 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer12",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer11",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "NewPlayer10",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5208,7 +5207,7 @@ const FIXTURES = [
       },
       {
         "home": "Silent Killers FC",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5275,7 +5274,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "NewPlayer14",
         "homeScore": null,
         "awayScore": null,
@@ -5289,21 +5288,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "NewPlayer12",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "NewPlayer11",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "NewPlayer10",
         "homeScore": null,
         "awayScore": null,
@@ -5317,7 +5316,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
@@ -5392,7 +5391,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "NewPlayer12",
         "homeScore": null,
         "awayScore": null,
@@ -5406,21 +5405,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "NewPlayer10",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
@@ -5434,7 +5433,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
@@ -5503,7 +5502,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer12",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5517,21 +5516,21 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer10",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Silent Killers FC",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5545,7 +5544,7 @@ const FIXTURES = [
       },
       {
         "home": "Madiba Fc",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5620,7 +5619,7 @@ const FIXTURES = [
       },
       {
         "home": "NewPlayer10",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5634,27 +5633,27 @@ const FIXTURES = [
       },
       {
         "home": "Silent Killers FC",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Destroy.a",
-        "away": "Relegation2",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Madiba Fc",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
@@ -5729,7 +5728,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "NewPlayer10",
         "homeScore": null,
         "awayScore": null,
@@ -5743,21 +5742,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
+        "home": "Cardo",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
@@ -5765,7 +5764,7 @@ const FIXTURES = [
       },
       {
         "home": "Rommy",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5846,7 +5845,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
@@ -5860,21 +5859,21 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
-        "away": "Thee_H1MOTHY",
+        "home": "Cardo",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
@@ -5957,7 +5956,7 @@ const FIXTURES = [
       },
       {
         "home": "Silent Killers FC",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -5971,21 +5970,21 @@ const FIXTURES = [
       },
       {
         "home": "Madiba Fc",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
-        "away": "Relegation2",
+        "home": "Invisible United",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
         "home": "Rommy",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -6074,13 +6073,13 @@ const FIXTURES = [
       },
       {
         "home": "Madiba Fc",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
@@ -6088,14 +6087,14 @@ const FIXTURES = [
       },
       {
         "home": "Rommy",
-        "away": "Relegation1",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
-        "away": "Relegation2",
+        "home": "Galatasaray",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -6183,7 +6182,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
@@ -6191,21 +6190,21 @@ const FIXTURES = [
       },
       {
         "home": "Notorious_bZ",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
+        "home": "THE NAPOLIANS",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
-        "away": "Relegation3",
+        "home": "Cardo",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -6294,13 +6293,13 @@ const FIXTURES = [
       },
       {
         "home": "Madoda FC",
-        "away": "Thee_H1MOTHY",
+        "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Muntu19",
+        "home": "Belgium",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
@@ -6308,14 +6307,14 @@ const FIXTURES = [
       },
       {
         "home": "Notorious_bZ",
-        "away": "Relegation3",
+        "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation1",
-        "away": "Relegation2",
+        "home": "THE NAPOLIANS",
+        "away": "Cardo",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -6403,7 +6402,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Thee_H1MOTHY",
+        "home": "Invisible United",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
@@ -6411,21 +6410,21 @@ const FIXTURES = [
       },
       {
         "home": "Rommy",
-        "away": "Muntu19",
+        "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation3",
+        "home": "Galatasaray",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
       },
       {
-        "home": "Relegation2",
-        "away": "Relegation1",
+        "home": "Cardo",
+        "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -6472,10 +6471,18 @@ const CHAMPIONS = {
   league: [
     { season: "Season 1: Aug 2026", team: "ATTACKERS" },
   ],
-  domesticCup: [],
-  championsCup: [],
-  conferenceCup: [],
-  superCup: [],
+  domesticCup: [
+    
+  ],
+  championsCup: [
+  { season: "Season 1: Aug 2026", team: "ATTACKERS" },
+  ],
+  conferenceCup: [
+  
+  ],
+  superCup: [
+      { season: "Season 1: Aug 2026", team: "StreetwiseFC" },
+  ],
   championsSuperCup: [],
 };
 
