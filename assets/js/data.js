@@ -32,7 +32,7 @@ const TEAMS = [
   "Dont Worry", "Heathens United", "Intra FC", "Manyora", "Busby Babes",
   "ATTACKERS", "Spartanburg FC", "STRZ", "sfundo FC", "Sabah FC ",
   "Danger FC", "StreetwiseFC", "Madoda FC", "Belgium", "Notorious_bZ",
-  "THE NAPOLIANS", "Cardo", "Galatasaray",
+  "THE NAPOLIANS", "player1", "Galatasaray",
   "Rommy", "Invisible United", "Madiba Fc", "Destroy.a", "Silent Killers FC",
   "Kaizer Chiefs XI","Saints FC","player2"
 ];
@@ -119,7 +119,7 @@ const FIXTURES = [
       },
       {
         "home": "Sabah FC ",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -214,7 +214,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Sabah FC ",
         "homeScore": null,
         "awayScore": null,
@@ -303,7 +303,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "STRZ",
         "homeScore": null,
         "awayScore": null,
@@ -400,7 +400,7 @@ const FIXTURES = [
       },
       {
         "home": "STRZ",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -489,7 +489,7 @@ const FIXTURES = [
       },
       {
         "home": "ATTACKERS",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -584,7 +584,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "ATTACKERS",
         "homeScore": null,
         "awayScore": null,
@@ -673,7 +673,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Manyora",
         "homeScore": null,
         "awayScore": null,
@@ -770,7 +770,7 @@ const FIXTURES = [
       },
       {
         "home": "Manyora",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -859,7 +859,7 @@ const FIXTURES = [
       },
       {
         "home": "Heathens United",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -954,7 +954,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Heathens United",
         "homeScore": null,
         "awayScore": null,
@@ -1043,7 +1043,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Saints FC",
         "homeScore": null,
         "awayScore": null,
@@ -1140,7 +1140,7 @@ const FIXTURES = [
       },
       {
         "home": "Saints FC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1229,7 +1229,7 @@ const FIXTURES = [
       },
       {
         "home": "Silent Killers FC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1324,7 +1324,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Silent Killers FC",
         "homeScore": null,
         "awayScore": null,
@@ -1413,7 +1413,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Madiba Fc",
         "homeScore": null,
         "awayScore": null,
@@ -1510,7 +1510,7 @@ const FIXTURES = [
       },
       {
         "home": "Madiba Fc",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1599,7 +1599,7 @@ const FIXTURES = [
       },
       {
         "home": "Rommy",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1694,7 +1694,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Rommy",
         "homeScore": null,
         "awayScore": null,
@@ -1783,7 +1783,7 @@ const FIXTURES = [
     "matchday": 19,
     "matches": [
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Dont Worry",
         "homeScore": null,
         "awayScore": null,
@@ -1880,7 +1880,7 @@ const FIXTURES = [
     "matches": [
       {
         "home": "Dont Worry",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -1982,7 +1982,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Notorious_bZ",
         "homeScore": null,
         "awayScore": null,
@@ -2079,7 +2079,7 @@ const FIXTURES = [
       },
       {
         "home": "Notorious_bZ",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2182,7 +2182,7 @@ const FIXTURES = [
       },
       {
         "home": "Madoda FC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2277,7 +2277,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Madoda FC",
         "homeScore": null,
         "awayScore": null,
@@ -2380,7 +2380,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Danger FC",
         "homeScore": null,
         "awayScore": null,
@@ -2477,7 +2477,7 @@ const FIXTURES = [
       },
       {
         "home": "Danger FC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2580,7 +2580,7 @@ const FIXTURES = [
       },
       {
         "home": "sfundo FC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2675,7 +2675,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "sfundo FC",
         "homeScore": null,
         "awayScore": null,
@@ -2778,7 +2778,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Spartanburg FC",
         "homeScore": null,
         "awayScore": null,
@@ -2875,7 +2875,7 @@ const FIXTURES = [
       },
       {
         "home": "Spartanburg FC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -2978,7 +2978,7 @@ const FIXTURES = [
       },
       {
         "home": "Busby Babes",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3073,7 +3073,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Busby Babes",
         "homeScore": null,
         "awayScore": null,
@@ -3176,7 +3176,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Intra FC",
         "homeScore": null,
         "awayScore": null,
@@ -3273,7 +3273,7 @@ const FIXTURES = [
       },
       {
         "home": "Intra FC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3376,7 +3376,7 @@ const FIXTURES = [
       },
       {
         "home": "player2",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3471,7 +3471,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "player2",
         "homeScore": null,
         "awayScore": null,
@@ -3574,7 +3574,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Kaizer Chiefs XI",
         "homeScore": null,
         "awayScore": null,
@@ -3671,7 +3671,7 @@ const FIXTURES = [
       },
       {
         "home": "Kaizer Chiefs XI",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3774,7 +3774,7 @@ const FIXTURES = [
       },
       {
         "home": "Destroy.a",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -3869,7 +3869,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Destroy.a",
         "homeScore": null,
         "awayScore": null,
@@ -3972,7 +3972,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Invisible United",
         "homeScore": null,
         "awayScore": null,
@@ -4069,7 +4069,7 @@ const FIXTURES = [
       },
       {
         "home": "Invisible United",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4172,7 +4172,7 @@ const FIXTURES = [
       },
       {
         "home": "Galatasaray",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4267,7 +4267,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Galatasaray",
         "homeScore": null,
         "awayScore": null,
@@ -4364,7 +4364,7 @@ const FIXTURES = [
       },
       {
         "home": "THE NAPOLIANS",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4459,7 +4459,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "THE NAPOLIANS",
         "homeScore": null,
         "awayScore": null,
@@ -4548,7 +4548,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "Belgium",
         "homeScore": null,
         "awayScore": null,
@@ -4645,7 +4645,7 @@ const FIXTURES = [
       },
       {
         "home": "Belgium",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4734,7 +4734,7 @@ const FIXTURES = [
       },
       {
         "home": "StreetwiseFC",
-        "away": "Cardo",
+        "away": "player1",
         "homeScore": null,
         "awayScore": null,
         "forfeit": false
@@ -4829,7 +4829,7 @@ const FIXTURES = [
         "forfeit": false
       },
       {
-        "home": "Cardo",
+        "home": "player1",
         "away": "StreetwiseFC",
         "homeScore": null,
         "awayScore": null,
@@ -4957,21 +4957,21 @@ const CONFERENCE_CUP = {
    ============================================================ */
 
 const TEAM_INFO = {
-  "Dont Worry": { playstyle: "Quick Counter/ Out Wide", highestPosition: "Division 1", manager: "Xabi Alonso", user: "IceyF", titles: 0 },
-  "StreetwiseFC": { playstyle: "Quick Counter", highestPosition: "1st (Champion)", manager: "Roberto Martinez", user: "StreetwiseFC", titles: 1 },
-  "ATTACKERS": { playstyle: "Possession", highestPosition: "Division 1", manager: "Thomas Tuchel", user: "khuseloBusquets", titles: 0 },
-  "Danger FC": { playstyle: "Long Ball Counter", highestPosition: "Division 1", manager: "Frank Beckenbauer", user: "Lambo", titles: 0 },
-  "Heathens United": { playstyle: "Possession / Overload", highestPosition: "Division 1", manager: "Frank Lampard/Cesc Fasegas", user: "Don Ladino", titles: 0 },
-  "STRZ": { playstyle: "Outwide", highestPosition: "Division 1", manager: "Ruben Amorim", user: "Lueelo_lynx", titles: 0 },
-  "Intra FC": { playstyle: "", highestPosition: "Division 1", manager: "", user: "Scully03", titles: 0 },
-  "Spartanburg FC": { playstyle: "Quick Counter", highestPosition: "Division 1", manager: "Jurgen Klopp", user: "carelessk3lvin", titles: 0 },
-  "Busby Babes": { playstyle: "Quick Counter", highestPosition: "Division 1", manager: "Antonio Conte", user: "W1ZZYUCHIHA", titles: 0 },
-  "Sabah FC ": { playstyle: "", highestPosition: "Division 1", manager: "", user: "swafiscents", titles: 0 },
+  "Dont Worry": { playstyle: "Quick Counter/ Out Wide", highestPosition: "6th", manager: "Xabi Alonso", user: "IceyF", titles: 0 },
+  "StreetwiseFC": { playstyle: "Quick Counter", highestPosition: "2nd", manager: "Roberto Martinez", user: "StreetwiseFC", titles: 1 },
+  "ATTACKERS": { playstyle: "Possession", highestPosition: "1st (Current Champion)", manager: "Thomas Tuchel", user: "khuseloBusquets", titles: 2 },
+  "Danger FC": { playstyle: "Long Ball Counter", highestPosition: "4th", manager: "Frank Beckenbauer", user: "Lambo", titles: 0 },
+  "Heathens United": { playstyle: "Possession / Overload", highestPosition: "12th", manager: "Frank Lampard/Cesc Fasegas", user: "Don Ladino", titles: 0 },
+  "STRZ": { playstyle: "Outwide", highestPosition: "8th", manager: "Ruben Amorim", user: "Lueelo_lynx", titles: 0 },
+  "Intra FC": { playstyle: "", highestPosition: "13th", manager: "", user: "Scully03", titles: 0 },
+  "Spartanburg FC": { playstyle: "Quick Counter", highestPosition: "14th", manager: "Jurgen Klopp", user: "carelessk3lvin", titles: 0 },
+  "Busby Babes": { playstyle: "Quick Counter", highestPosition: "9th", manager: "Antonio Conte", user: "W1ZZYUCHIHA", titles: 0 },
+  "Sabah FC ": { playstyle: "", highestPosition: "11th", manager: "", user: "swafiscents", titles: 0 },
   // FIXED: this used to be keyed "sfundoFC" (no space), which didn't match
   // the "sfundo FC" (with space) used in TEAMS -- the info panel was
   // silently failing for this team. Key now matches exactly.
-  "sfundo FC": { playstyle: "Quick Counter", highestPosition: "Division 1", manager: "Jose Mourinho", user: "Mapholoba", titles: 0 },
-  "Madoda FC": { playstyle: "Long Ball", highestPosition: "Division 1", manager: "Didler Deschamps", user: "EmperorZoocci", titles: 0 },
+  "sfundo FC": { playstyle: "Quick Counter", highestPosition: "3rd", manager: "Jose Mourinho", user: "Mapholoba", titles: 0 },
+  "Madoda FC": { playstyle: "Long Ball", highestPosition: "5th", manager: "Didler Deschamps", user: "EmperorZoocci", titles: 0 },
   // Add the rest of your roster here as you get their info --
   // any team without an entry just won't expand, that's safe.
 };
