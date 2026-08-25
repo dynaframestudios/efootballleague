@@ -462,8 +462,8 @@ const FIXTURES = [
       {
         "home": "Heathens United",
         "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 0,
+        "awayScore": 17,
         "forfeit": false
       },
       {
@@ -558,8 +558,8 @@ const FIXTURES = [
       {
         "home": "Madiba Fc",
         "away": "Heathens United",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 6,
+        "awayScore": 0,
         "forfeit": false
       },
       {
