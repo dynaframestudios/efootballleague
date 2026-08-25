@@ -188,8 +188,8 @@ const FIXTURES = [
       {
         "home": "Madiba Fc",
         "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 4,
+        "awayScore": 3,
         "forfeit": false
       },
       {
