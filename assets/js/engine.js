@@ -172,7 +172,7 @@ function computeStandingsWithMeta(teams, fixtures, previousOrder) {
 // Position -> qualification zone class.
 //  1st            -> champion-row      (League + Super Cup + Champions Cup, gold/blue gradient)
 //  2nd - 8th       -> champs-cup-row    (Champions Cup, blue)
-//  9th - 17th      -> conference-row    (Conference Cup, orange)
+//  9th - 16th      -> conference-row    (Conference Cup, orange)
 //  18th+           -> no zone
 function zoneForPosition(position) {
   if (position === 1) return 'champion-row';
