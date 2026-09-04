@@ -490,8 +490,8 @@ const FIXTURES = [
       {
         "home": "ATTACKERS",
         "away": "Flava.AC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 6,
+        "awayScore": 0,
         "forfeit": false
       },
       {
