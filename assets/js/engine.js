@@ -177,7 +177,7 @@ function computeStandingsWithMeta(teams, fixtures, previousOrder) {
 function zoneForPosition(position) {
   if (position === 1) return 'champion-row';
   if (position >= 2 && position <= 8) return 'champs-cup-row';
-  if (position >= 9 && position <= 17) return 'conference-row';
+  if (position >= 9 && position <= 16) return 'conference-row';
   return '';
 }
 
