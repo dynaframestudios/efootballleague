@@ -256,8 +256,8 @@ const FIXTURES = [
       {
         "home": "Kaizer Chiefs XI",
         "away": "Arsenal",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 2,
+        "awayScore": 2,
         "forfeit": false
       },
       {
@@ -291,8 +291,8 @@ const FIXTURES = [
       {
         "home": "Rommy",
         "away": "ATTACKERS",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 5,
+        "awayScore": 1,
         "forfeit": false
       },
       {
@@ -333,8 +333,8 @@ const FIXTURES = [
       {
         "home": "Madoda FC",
         "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 4,
+        "awayScore": 9,
         "forfeit": false
       }
     ]
@@ -352,8 +352,8 @@ const FIXTURES = [
       {
         "home": "Arsenal",
         "away": "Kaizer Chiefs XI",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 1,
+        "awayScore": 2,
         "forfeit": false
       },
       {
@@ -387,8 +387,8 @@ const FIXTURES = [
       {
         "home": "ATTACKERS",
         "away": "Rommy",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 2,
+        "awayScore": 6,
         "forfeit": false
       },
       {
@@ -455,8 +455,8 @@ const FIXTURES = [
       {
         "home": "Arsenal",
         "away": "Destroy.a",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 0,
+        "awayScore": 1,
         "forfeit": false
       },
       {
@@ -469,8 +469,8 @@ const FIXTURES = [
       {
         "home": "Intra FC",
         "away": "Invisible United",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 4,
+        "awayScore": 2,
         "forfeit": false
       },
       {
@@ -511,8 +511,8 @@ const FIXTURES = [
       {
         "home": "sfundo FC",
         "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 4,
+        "awayScore": 2,
         "forfeit": false
       },
       {
@@ -551,8 +551,8 @@ const FIXTURES = [
       {
         "home": "Destroy.a",
         "away": "Arsenal",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 0,
+        "awayScore": 1,
         "forfeit": false
       },
       {
@@ -607,8 +607,8 @@ const FIXTURES = [
       {
         "home": "Belgium",
         "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 6,
+        "awayScore": 2,
         "forfeit": false
       },
       {
@@ -696,8 +696,8 @@ const FIXTURES = [
       {
         "home": "Belgium",
         "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 9,
+        "awayScore": 3,
         "forfeit": false
       },
       {
@@ -792,8 +792,8 @@ const FIXTURES = [
       {
         "home": "Spartanburg FC",
         "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 4,
+        "awayScore": 7,
         "forfeit": false
       },
       {
@@ -895,8 +895,8 @@ const FIXTURES = [
       {
         "home": "Spartanburg FC",
         "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 2,
+        "awayScore": 10,
         "forfeit": false
       },
       {
@@ -991,8 +991,8 @@ const FIXTURES = [
       {
         "home": "StreetwiseFC",
         "away": "Spartanburg FC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 9,
+        "awayScore": 0,
         "forfeit": false
       },
       {
@@ -1066,8 +1066,8 @@ const FIXTURES = [
       {
         "home": "Belgium",
         "away": "Intra FC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 2,
+        "awayScore": 1,
         "forfeit": false
       },
       {
@@ -1162,8 +1162,8 @@ const FIXTURES = [
       {
         "home": "Intra FC",
         "away": "Belgium",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 5,
+        "awayScore": 3,
         "forfeit": false
       },
       {
@@ -4337,8 +4337,8 @@ const FIXTURES = [
       {
         "home": "StreetwiseFC",
         "away": "Madiba Fc",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 6,
+        "awayScore": 2,
         "forfeit": false
       },
       {
@@ -4433,8 +4433,8 @@ const FIXTURES = [
       {
         "home": "Madiba Fc",
         "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 3,
+        "awayScore": 7,
         "forfeit": false
       },
       {
