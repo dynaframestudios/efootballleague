@@ -305,9 +305,9 @@ const FIXTURES = [
       {
         "home": "Flava.AC",
         "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
+        "homeScore": 3,
+        "awayScore": 0,
+        "forfeit": true
       },
       {
         "home": "THE NAPOLIANS",
@@ -401,9 +401,9 @@ const FIXTURES = [
       {
         "home": "STRZ",
         "away": "Flava.AC",
-        "homeScore": null,
-        "awayScore": null,
-        "forfeit": false
+        "homeScore": 0,
+        "awayScore": 3,
+        "forfeit": true
       },
       {
         "home": "sfundo FC",
