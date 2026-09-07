@@ -312,8 +312,8 @@ const FIXTURES = [
       {
         "home": "THE NAPOLIANS",
         "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 0,
+        "awayScore": 5,
         "forfeit": false
       },
       {
@@ -710,8 +710,8 @@ const FIXTURES = [
       {
         "home": "StreetwiseFC",
         "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 6,
+        "awayScore": 3,
         "forfeit": false
       },
       {
@@ -806,8 +806,8 @@ const FIXTURES = [
       {
         "home": "sfundo FC",
         "away": "StreetwiseFC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 5,
+        "awayScore": 3,
         "forfeit": false
       },
       {
