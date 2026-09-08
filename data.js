@@ -1450,8 +1450,8 @@ const FIXTURES = [
       {
         "home": "StreetwiseFC",
         "away": "Arsenal",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 4,
+        "awayScore": 1,
         "forfeit": false
       },
       {
