@@ -1101,8 +1101,8 @@ const FIXTURES = [
       {
         "home": "sfundo FC",
         "away": "STRZ",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 6,
+        "awayScore": 1,
         "forfeit": false
       }
     ]
@@ -1197,8 +1197,8 @@ const FIXTURES = [
       {
         "home": "STRZ",
         "away": "sfundo FC",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 6,
+        "awayScore": 3,
         "forfeit": false
       }
     ]
